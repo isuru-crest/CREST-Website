@@ -1,0 +1,75 @@
+[
+    {
+        "text": "HOME",
+        "link": "/"
+    },
+    {
+        "text": "OUR RESEARCH",
+        "link": "/research",
+        "isSubmenu": true,
+        "submenu": [
+            {
+                "text": "Secure System Engineering",
+                "link": "/area1"
+            },
+            {
+                "text": "Cyber Security Analytics",
+                "link": "/area2"
+            },
+            {
+                "text": "Infrastructure Security",
+                "link": "/area3"
+            },
+            {
+                "text": "Distributed Ledger Engineering",
+                "link": "/area4"
+            }
+        ]
+    },
+    {
+        "text": "OUR TEAM",
+        "link": "/team"
+    },
+    {
+        "text": "RESOURCES",
+        "link": "#",
+        "isSubmenu": true,
+        "submenu": [
+            {
+                "text": "Publications",
+                "link": "/publications"
+            },
+            {
+                "text": "Talks and Slides",
+                "link": "/talks-and-slides"
+            },
+            {
+                "text": "Posters and Infographics",
+                "link": "/posters-and-infographics"
+            }
+        ]
+    },
+    {
+        "text": "JOIN US",
+        "link": "#",
+        "isSubmenu": true,
+        "submenu": [
+            {
+                "text": "Recent News",
+                "link": "/news"
+            },
+            {
+                "text": "Collaboration",
+                "link": "/collaboration"
+            },
+            {
+                "text": "Supervision",
+                "link": "/supervision"
+            },
+            {
+                "text": "Positions",
+                "link": "/positions"
+            }
+        ]
+    }
+]

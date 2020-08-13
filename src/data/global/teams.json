@@ -1,0 +1,40 @@
+[
+    {
+        "id": "ali-babar",
+        "name": "M. Ali Babar",
+        "designation": "CREST Director",
+        "position": "professor",
+        "introduction":"M. Ali Babar is a Professor in the School of Computer Science, University of Adelaide. He is an honorary visiting professor at the Software Institute, Nanjing University, China. He has authored/co-authored more than 220 peer-reviewed papers in premier Software Technology journals and conferences. With an H-Index 46, the level of citations to his publications is among the leading Software Engineering researchers in Aus/NZ. At the University of Adelaide, Professor Babar has established an (https://crest-centre.net) interdisciplinary research centre, CREST - Centre for Research on Engineering Software Technologies , where he leads the research and research training of more than 20 members. He has been involved in attracting several millions of dollar worth of research resources over the last ten years. Prof Babar leads the University of Adelaide’s participation in the Cyber Security Cooperative Research Centre (https://cybersecuritycrc.org.au ), one of the largest Cyber Security initiative the Australasian region. Within the CSCRC, he leads the theme on Platforms and Architectures for Cyber Security solutions as service.",
+        "images": {
+            "large": "../images/team/ali.jpeg",
+            "medium": "../images/team/ali.jpeg"
+        },
+        "image": "../images/team/ali.jpeg",
+        "competencies": "Security by design, Cybersecurity, Softawre Architecture, Evidence-Based Software Engineering (EBSE), DevSecOps, Cloud/Fog/CloudLet/Edge Computing, Internet of Things (IoT) and Blockchain",
+        "socials": {
+            "facebook": "https://www.facebook.com",
+            "twitter": "https://www.twitter.com",
+            "instagram": "https://www.instagram.com"
+        },
+        "is_featured": true
+    },
+    {
+        "id": "mingyu-guo",
+        "name": "Mingyu Guo",
+        "designation": "Lecturer",
+        "position": "professor",
+        "introduction":"Dr Mingyu Guo is a Lecturer in the School of Computer Science, University of Adelaide. His research areas are algorithmic game theory and multiagent systems. He is interested in the application of game theory to cybersecurity domains, such as bug bounty systems, markets on blockchain, and cryptocurrencies.",
+        "images": {
+            "large": "../images/team/mingyu.jpg",
+            "medium": "../images/team/mingyu.jpg"
+        },
+        "image": "../images/team/mingyu.jpg",
+        "competencies": "Game theory, market design on blockchain, cryptocurrencies",
+        "socials": {
+            "facebook": "https://www.facebook.com",
+            "twitter": "https://www.twitter.com",
+            "instagram": "https://www.instagram.com"
+        },
+        "is_featured": true
+    }
+]

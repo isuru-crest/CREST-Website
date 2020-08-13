@@ -1,0 +1,36 @@
+[
+    {
+        "id": "careers-section-intro",
+        "title": "Become a part of our big family to <span>explore more.</span>"
+    },
+    {
+        "id": "our-open-jobs",
+        "jobs": [
+            {
+                "id": "job-1",
+                "title": "Master Opportunities",
+                "type": "Full time",
+                "description": "Several fully funded PhD positions available in the broad areas of Security of Software-intensive Systems and Services at a leading research center, Centre for Research on Engineering Software Technologies (CREST).",
+                "link": "/master-opportunities"
+            },
+            {
+                "id": "job-2",
+                "title": "PhD opportunities",
+                "type": "Full time",
+                "description": "Several fully funded PhD positions available in the broad areas of Security of Software-intensive Systems and Services at a leading research center, Centre for Research on Engineering Software Technologies (CREST).",
+                "link": "/phd-opportunities"
+            }
+        ]
+    },
+    {
+        "id": "our-office-views",
+        "title": "Pay a visit & have some coffee!",
+        "link": "/positions",
+        "images": [
+            "../images/box-image/office-1.jpg",
+            "../images/box-image/office-2.jpg",
+            "../images/box-image/office-3.jpg",
+            "../images/box-image/office-4.jpg"
+        ]
+    }
+]

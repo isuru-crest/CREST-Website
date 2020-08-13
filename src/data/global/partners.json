@@ -1,0 +1,32 @@
+[
+    {
+        "id": "Defence Industry & Innovation",
+        "image": "../images/partners/NextGenTechFund_logo.png",
+        "hover_image": "../images/partners/NextGenTechFund_logo.png",
+        "path": "https://www.innovationhub.defence.gov.au/"
+    },
+    {
+        "id": "Cyber Security CRC",
+        "image": "../images/partners/cscrc.jpg",
+        "hover_image": "../images/partners/cscrc.jpg",
+        "path": "https://www.cybersecuritycrc.org.au/"
+    },
+    {
+        "id": "CSIRO",
+        "image": "../images/partners/DATA61-CSIRO_Colour_RGB.jpg",
+        "hover_image": "../images/partners/DATA61-CSIRO_Colour_RGB.jpg",
+        "path": "https://www.csiro.au/"
+    },
+    {
+        "id": "SA",
+        "image": "../images/partners/sa.jpg",
+        "hover_image": "../images/partners/sa.jpg",
+        "path": "https://southaustralia.com/"
+    },
+    {
+        "id": "Department of Defence",
+        "image": "../images/partners/logo-defence.png",
+        "hover_image": "../images/partners/logo-defence.png",
+        "path": "https://www.defence.gov.au/"
+    }
+]
