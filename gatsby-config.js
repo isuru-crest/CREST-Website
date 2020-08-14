@@ -1,7 +1,7 @@
 // All Of Your Site Configurations
 
 module.exports = {
-  pathPrefix: `/a1677932/test-crest/`,
+  pathPrefix: `/`,
   siteMetadata: {
     title: "CREST - Centre for Research on Engineering Software Technologies",
     titleTemplate: `CREST`,
