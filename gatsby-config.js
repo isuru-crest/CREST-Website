@@ -203,6 +203,7 @@ module.exports = {
           `/blogs/*`
         ]
       }
-    }
+    },
+    'gatsby-plugin-netlify-cms'
   ]
 }

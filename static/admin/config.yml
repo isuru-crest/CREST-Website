@@ -1,0 +1,61 @@
+backend:
+  name: github
+  repo: CREST-Adelaide/CREST-Website
+
+# backend:
+#   name: test-repo
+
+site_url: https://crest.nk-tran.com
+media_folder: "static/assets"
+public_folder: "/assets"
+collections:
+  - name: "blogs"
+    label: "News"
+    folder: "src/data/global/blogs"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "string"}
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        default: ["news"]
+      - label: "Categories"
+        name: "categories"
+        widget: "list"
+        default: ["news"]
+      - label: "Content Type"
+        name: "type"
+        widget: "select"
+        options: ["blog"]
+      - {label: "Summary", name: "main_content", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "area"
+    label: "Research Area"
+    folder: "src/data/global/areas"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "string"}
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        default: ["Research-area"]
+      - label: "Categories"
+        name: "categories"
+        widget: "list"
+        default: ["research topic"]
+      - label: "Content Type"
+        name: "type"
+        widget: "select"
+        options: ["area"]
+      - label: "Research Area"
+        name: "research_area"
+        widget: "number"
+        valueType: "int"
+        min: 1
+        max: 4
+      - {label: "Summary", name: "main_content", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
