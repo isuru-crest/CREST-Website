@@ -28,7 +28,34 @@
     },
     {
         "text": "OUR TEAM",
-        "link": "/team"
+        "link": "#",
+        "isSubmenu": true,
+        "submenu": [
+            {
+                "text": "Faculty Members",
+                "link": "/team"
+            },
+            {
+                "text": "Research Fellows",
+                "link": "/researchfellows"
+            },
+            {
+                "text": "PhD Student",
+                "link": "/phdstudent"
+            },
+            {
+                "text": "Research Assistants & Engineers",
+                "link": "/assistents"
+            },
+            {
+                "text": "Project Student",
+                "link": "/projectstudent"
+            },
+            {
+                "text": "Alumni",
+                "link": "/alumni"
+            }
+        ]
     },
     {
         "text": "RESOURCES",

@@ -10,20 +10,22 @@ import ContactArea from '../containers/global/contact-area/contact-one'
 
 const TeamPage = ({ pageContext, location }) => (
     <Layout location={location}>
-        <SEO title="Our Team"/>
-        <Header/>
-        <PageHeader 
-            pageContext={pageContext} 
+        <SEO title="Our Team" />
+        <Header />
+        <PageHeader
+            pageContext={pageContext}
             location={location}
             title="Our Team"
         />
         <main className="site-wrapper-reveal">
-            <TeamArea/>
+            <TeamArea
+                position="faculty"
+            />
             {/* <TeamListArea/> */}
             {/* <ContactArea/> */}
         </main>
-        <Footer/>
+        <Footer />
     </Layout>
-  )
-   
-  export default TeamPage
+)
+
+export default TeamPage

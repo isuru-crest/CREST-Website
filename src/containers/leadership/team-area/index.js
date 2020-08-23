@@ -15,10 +15,11 @@ import {
 } from './team-area.style'
 import { TiSocialFacebook, TiSocialTwitter, TiSocialInstagram } from "react-icons/ti";
 
-const TeamArea = ({ sectionStyle, headingStyle, headTeamStyle, headTeamRowStyle, teamStyle, executiveStyle }) => {
+const TeamArea = ({ sectionStyle, headingStyle, headTeamStyle, headTeamRowStyle, teamStyle, executiveStyle, position }) => {
+    console.log(position)
     const teamData = useStaticQuery(graphql`
         query {
-            headTeamMember: allTeamsJson(filter: {is_featured: {eq: true}}) {
+            headTeamMember: allTeamsJson(filter:  {position: {eq: "faculty"}}) {
                 edges {
                     node {
                         id
@@ -52,7 +53,32 @@ const TeamArea = ({ sectionStyle, headingStyle, headTeamStyle, headTeamRowStyle,
                     }
                 }
             }
-            executiveMember: allTeamsJson(filter: {position: {eq: "executive"}}) {
+            researchfellow: allTeamsJson(filter: {position: {eq: "researchfellow"}}) {
+                edges {
+                    node {
+                        id
+                        name
+                        designation
+                        socials {
+                            facebook
+                            instagram
+                            twitter
+                        }
+                        images {
+                            large {
+                                childImageSharp {
+                                    fluid(maxWidth: 546, maxHeight: 672, quality: 100) {
+                                        ...GatsbyImageSharpFluid_withWebp
+                                        presentationWidth
+                                        presentationHeight
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            phdstudent: allTeamsJson(filter: {position: {eq: "phdstudent"}}) {
                 edges {
                     node {
                         id
@@ -80,7 +106,8 @@ const TeamArea = ({ sectionStyle, headingStyle, headTeamStyle, headTeamRowStyle,
         }
     `)
     const headMembers = teamData.headTeamMember.edges;
-    const executives = teamData.executiveMember.edges;
+    const researchfellow = teamData.researchfellow.edges;
+    const phdstudent = teamData.phdstudent.edges;
     return (
         <TeamWrapper>
             <Container>
@@ -112,13 +139,15 @@ const TeamArea = ({ sectionStyle, headingStyle, headTeamStyle, headTeamRowStyle,
                                                 </TeamMemberSocialWrap>
                                             )}
                                         </TeamMemberImage>
+                                        <br />
                                         <JobTitle>{headMember.node.name}</JobTitle>
-                                        <JobType>{headMember.node.designation}</JobType>
+                                        {/* <JobType>{headMember.node.designation}</JobType> */}
 
                                     </Col>
                                     <Col lg={9}>
                                         <JobDesc>{headMember.node.introduction}</JobDesc>
-                                        <JobDesc>Competencies: {headMember.node.competencies}</JobDesc>
+                                        {headMember.node.competencies!="" &&  <JobDesc>Competencies: {headMember.node.competencies}</JobDesc>}
+                                       
                                     </Col>
                                 </Row>
                             </JobItem>

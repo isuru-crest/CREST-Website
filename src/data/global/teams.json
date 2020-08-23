@@ -3,7 +3,7 @@
         "id": "ali-babar",
         "name": "M. Ali Babar",
         "designation": "CREST Director",
-        "position": "professor",
+        "position": "faculty",
         "introduction":"M. Ali Babar is a Professor in the School of Computer Science, University of Adelaide. He is an honorary visiting professor at the Software Institute, Nanjing University, China. He has authored/co-authored more than 220 peer-reviewed papers in premier Software Technology journals and conferences. With an H-Index 46, the level of citations to his publications is among the leading Software Engineering researchers in Aus/NZ. At the University of Adelaide, Professor Babar has established an (https://crest-centre.net) interdisciplinary research centre, CREST - Centre for Research on Engineering Software Technologies , where he leads the research and research training of more than 20 members. He has been involved in attracting several millions of dollar worth of research resources over the last ten years. Prof Babar leads the University of Adelaide’s participation in the Cyber Security Cooperative Research Centre (https://cybersecuritycrc.org.au ), one of the largest Cyber Security initiative the Australasian region. Within the CSCRC, he leads the theme on Platforms and Architectures for Cyber Security solutions as service.",
         "images": {
             "large": "../images/team/ali.jpeg",
@@ -22,7 +22,7 @@
         "id": "mingyu-guo",
         "name": "Mingyu Guo",
         "designation": "Lecturer",
-        "position": "professor",
+        "position": "faculty",
         "introduction":"Dr Mingyu Guo is a Lecturer in the School of Computer Science, University of Adelaide. His research areas are algorithmic game theory and multiagent systems. He is interested in the application of game theory to cybersecurity domains, such as bug bounty systems, markets on blockchain, and cryptocurrencies.",
         "images": {
             "large": "../images/team/mingyu.jpg",
@@ -30,6 +30,44 @@
         },
         "image": "../images/team/mingyu.jpg",
         "competencies": "Game theory, market design on blockchain, cryptocurrencies",
+        "socials": {
+            "facebook": "https://www.facebook.com",
+            "twitter": "https://www.twitter.com",
+            "instagram": "https://www.instagram.com"
+        },
+        "is_featured": true
+    },
+    {
+        "id": "mansooreh-zahedi",
+        "name": "Mansooreh Zahedi",
+        "designation": "Lecturer",
+        "position": "faculty",
+        "introduction":"My research is concentrated in the area of Software Engineering (SE). It is stimulated by the need of continuously evolving software development processes and practices to help organizations produce high-quality software intensive systems and achieve their business goals. Believing in close cooperation and alignment between industry and academia, my key research capabilities lies in the area of Empirical Software Engineering. My primary goal is to apply qualitative and quantitative research methods to investigate the role of people and processes in different software development paradigms. The key areas of my research interests include: Global Software Development (GSD), Knowledge Management, Continuous Software Engineering, Human factors in Software Engineering, Science to Technology Innovation and  Socio-Technical aspects of Cyber Security.",
+        "images": {
+            "large": "../images/team/Mansooreh.jpg",
+            "medium": "../images/team/Mansooreh.jpg"
+        },
+        "image": "../images/team/Mansooreh.jpg",
+        "competencies": "",
+        "socials": {
+            "facebook": "https://www.facebook.com",
+            "twitter": "https://www.twitter.com",
+            "instagram": "https://www.instagram.com"
+        },
+        "is_featured": true
+    },
+    {
+        "id": "minhui-xue",
+        "name": "Minhui Xue",
+        "designation": "Lecturer",
+        "position": "faculty",
+        "introduction":"Minhui Xue is (continuing) Lecturer (a.k.a. Assistant Professor) of School of Computer Science at the University of Adelaide. He is also Honorary Lecturer with Macquarie University. Previously, he was Research Fellow with Macquarie University and a visiting research scientist at CSIRO-Data61 at Sydney, Australia. His current research interests are machine learning security and privacy, system and software security, and Internet measurement. He is the recipient of the ACM SIGSOFT distinguished paper award and IEEE best paper award, and his work has been featured in the New York Times. He co-chaired the 1st IEEE AI4MOBILE workshop and the 1st IEEE MASS workshop on Smart City Security and Privacy. He currently serves on the PC committee of USENIX Security and Privacy Enhancing Technologies Symposium (PETS).",
+        "images": {
+            "large": "../images/team/Jason.jpeg",
+            "medium": "../images/team/Jason.jpeg"
+        },
+        "image": "../images/team/Jason.jpeg",
+        "competencies": "Machine Learning Security and Privacy, System and Software Security, and Internet Measurement",
         "socials": {
             "facebook": "https://www.facebook.com",
             "twitter": "https://www.twitter.com",
