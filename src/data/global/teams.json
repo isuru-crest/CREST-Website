@@ -93,5 +93,214 @@
             "instagram": "https://www.instagram.com"
         },
         "is_featured": true
+    },
+    {
+        "id": "nguyen-khoi-tran",
+        "name": "Nguyen Khoi Tran",
+        "designation": "Lecturer",
+        "position": "researchfellows",
+        "introduction":"I am a researcher at the University of Adelaide and a member of the Centre for Research on Engineering Software Technology (CREST). My research interest lies in the architectural aspect of the next-generation software-intensive systems that leverage technological advances, such as AI, IoT (Internet of Things), and Distributed Ledger. Specifically, I study how these new technologies can be designed, engineered, how they can be integrated into the existing software systems, and how we can reason about their impact and trade-offs on different system-wise qualities such as security and reliability.",
+        "images": {
+            "large": "../images/team/nguyen.png",
+            "medium": "../images/team/nguyen.png"
+        },
+        "image": "../images/team/nguyen.png",
+        "competencies": "Design, Develop, and Deploy Proof of Concept Systems based on Distributed Ledger Technologies. Architecting software platforms using microservices.",
+        "socials": {
+            "facebook": "https://www.facebook.com",
+            "twitter": "https://www.twitter.com",
+            "instagram": "https://www.instagram.com"
+        },
+        "is_featured": true
+    },
+    {
+        "id": "victor-prokhorenko",
+        "name": "Victor Prokhorenko",
+        "designation": "Lecturer",
+        "position": "researchfellows",
+        "introduction":"Victor Prokhorenko is a researcher with the Centre for Research on Engineering Software Technologies (CREST) at the University of Adelaide working on projects funded by DST and Data61. Victor has more than 14 years of experience in software engineering while evaluating and recommending emerging computing and storage technologies for mission-critical systems for the Defence industry. Victor‘s main areas of expertise include investigation of technologies related to software resilience, trust management and big data solutions hosted within OpenStack private cloud platform. Victor has deep knowledge and extensive experience with cloud computing tools such as Chef and Terraform to provision machines within the cloud in a predictable and reproducible manner. Taking automation further than low-level virtual machine preparation, Victor has also worked on the application deployment and performance benchmarking phases. Victor has obtained a PhD in Computer Science from the University of South Australia.",
+        "images": {
+            "large": "../images/team/victor.jpg",
+            "medium": "../images/team/victor.jpg"
+        },
+        "image": "../images/team/victor.jpg",
+        "competencies": "Software Security, energy efficiency, trust management, software resilience, network security, virtualization, OpenStack, hybrid cloud.",
+        "socials": {
+            "facebook": "https://www.facebook.com",
+            "twitter": "https://www.twitter.com",
+            "instagram": "https://www.instagram.com"
+        },
+        "is_featured": true
+    },
+    {
+        "id": "yaser-mansouri",
+        "name": "Yaser Mansouri",
+        "designation": "Lecturer",
+        "position": "researchfellows",
+        "introduction":"Yaser Mansouri is a Research Associate with the Centre for Research on Engineering Software Technologies (CREST) at the University of Adelaide working on a project funded by DST.  Yaser obtained his Ph.D. from Cloud Computing and Distributed Systems (CLOUDS) Laboratory, Department of Computing and Information Systems, the University of Melbourne, Australia. Yaser was awarded first-class scholarship, International Postgraduate Research Scholarship (IPRS) and Australian Postgraduate Award (APA) supporting his Ph.D. studies. He received his BSc degree from Shahid Beheshti University and his MSc degree from the Ferdowsi University of Mashhad, Iran in Computer Science and Software Engineering. Yaser has experience in data management across the well-known cloud-based storage services.  Yaser designed offline and online algorithms to replicate data across data storage as well as within tiered cloud storage services to reduce monetary cost while the required response time for users is satisfied. His research interests cover the broad area of Distributed Systems, with special emphasis on data replication and management in cloud storage. Specifically, he is interested in investigating different technologies of cloud storage and designing algorithms to provide provision for big data. Yaser published several Journal and Conference papers in these areas with rank A and A* according to CORE ranking portal.",
+        "images": {
+            "large": "../images/team/yaser.jpg",
+            "medium": "../images/team/yaser.jpg"
+        },
+        "image": "../images/team/yaser.jpg",
+        "competencies": "Cloud-based storage services, Cloud Computing, Fog Computing, Algorithm designe.",
+        "socials": {
+            "facebook": "https://www.facebook.com",
+            "twitter": "https://www.twitter.com",
+            "instagram": "https://www.instagram.com"
+        },
+        "is_featured": true
+    },
+    {
+        "id": "leonardo-horn-lwaya",
+        "name": "Leonardo Horn Iwaya",
+        "designation": "Lecturer",
+        "position": "researchfellows",
+        "introduction":"Leonardo H. Iwaya is a Postdoctoral Research Fellow in the Centre for Research on Engineering Software Technologies (CREST) at the University of Adelaide on projects funded by the Cyber Security Cooperative Research Centre (CSCRC). His work focuses on information security and privacy for new technologies, in particular mobile and ubiquitous health (mHealth/uHealth) systems. Leonardo completed his PhD in Computer Science at Karlstad University (KAU), MSc in Electrical Engineering at University of São Paulo (USP) and BSc in Computer Science at Santa Catarina State University (UDESC). During his career he already worked for Ericsson Research (Brazil and Sweden) in various projects in the areas of mobile health, cloud network security, and security APIs. During the PhD he worked in many European projects, such as the EU H2020 PAPAYA (PlAtform for PrivAcY preserving data Analytics). At CREST he has been involved in the CSCRC projects such as the Cyber Common Operating Picture for Executive Level Decision-Making, as well as research on security and privacy for mHealth/uHealth systems, and Docker technology. Most of his research intersects the areas of security, privacy, and healthcare with advanced cloud- and AI-based technologies.",
+        "images": {
+            "large": "../images/team/leonardo.jpg",
+            "medium": "../images/team/leonardo.jpg"
+        },
+        "image": "../images/team/leonardo.jpg",
+        "competencies": "Privacy engineering, cybersecurity, mobile health, health informatics, privacy impact assessment, natural language processing, human factors, mixed-method research.",
+        "socials": {
+            "facebook": "https://www.facebook.com",
+            "twitter": "https://www.twitter.com",
+            "instagram": "https://www.instagram.com"
+        },
+        "is_featured": true
+    },
+    {
+        "id": "asangi-jayatilake",
+        "name": "Asangi Jayatilaka",
+        "designation": "Lecturer",
+        "position": "researchfellows",
+        "introduction":"I’m currently working as a lecturer and a researcher at the School of Computer Science, University of Adelaide. I completed my PhD at the School fo Computer Science, the University of Adelaide and BSc. (Hons) at the University of Colombo School of Computer Science, Sri Lanka. I’m currently involved in cybersecurity projects at the Centre for Research on Engineering Software Technologies (CREST). I use a mixture of qualitative and quantitative research methods in my research. Most of my research is centred around human aspects of software development, socio-technical aspects of cybersecurity and machine learning.",
+        "images": {
+            "large": "../images/team/asangi.jpg",
+            "medium": "../images/team/asangi.jpg"
+        },
+        "image": "../images/team/asangi.jpg",
+        "competencies": "Human factors in Software Engineering, Cyber security, Mixed-method research.",
+        "socials": {
+            "facebook": "https://www.facebook.com",
+            "twitter": "https://www.twitter.com",
+            "instagram": "https://www.instagram.com"
+        },
+        "is_featured": true
+    },
+    {
+        "id": "le-ba-dung",
+        "name": "Le Ba Dung",
+        "designation": "Lecturer",
+        "position": "researchfellows",
+        "introduction":"My name is “Lê Bá Dũng” (in Vietnamese script) which can be written in English script as “Ba Dung” (first name) and “Le” (last name). My main research interests are in Data mining, Machine learning and Artificial intelligence. Currently, I am focusing on Classification and Clustering algorithms. I obtained a Ph.D. in Computer Science from the School of Computer Science of University of Adelaide, Australia. My Ph.D. thesis was on the topic “Community detection in complex networks”. During my Ph.D., I developed a novel algorithm for detecting the community structure of complex networks and a novel benchmark for evaluating community detection algorithms. Before pursuing my Ph.D., I was a lecturer at the Faculty of Information Technology of Vietnam Maritime University, Vietnam.",
+        "images": {
+            "large": "../images/team/le.png",
+            "medium": "../images/team/le.png"
+        },
+        "image": "../images/team/le.png",
+        "competencies": "",
+        "socials": {
+            "facebook": "https://www.facebook.com",
+            "twitter": "https://www.twitter.com",
+            "instagram": "https://www.instagram.com"
+        },
+        "is_featured": true
+    },
+    {
+        "id": "faheem-ullah",
+        "name": "Faheem Ullah",
+        "designation": "Lecturer",
+        "position": "researchfellows",
+        "introduction":"Faheem is a member of Centre for Research on Engineering Software Technologies (CREST) where he works on projects lying at the intersection of big data anlaytics, cyber security, and cloud computing. Faheem obtained PhD degree from the University of Adelaide, where he worked under the supervison of Prof. Ali Babar. During his PhD, Faheem worked on the quality-centric design and evaluation of big data cyber security analytics systems. Currently, Faheem's research primarily focuses on implementing and evaluating big data analytics frameworks and big data storage solutions, developing software threat models, and automaticalling tuning big data analytics systems.",
+        "images": {
+            "large": "../images/team/Faheem.jpg",
+            "medium": "../images/team/Faheem.jpg"
+        },
+        "image": "../images/team/Faheem.jpg",
+        "competencies": "Cyber Security, Sotware Architecture, Big Data Analytics, Cloud Computing, Self-Adaptive Systems, Machine Learning",
+        "socials": {
+            "facebook": "https://www.facebook.com",
+            "twitter": "https://www.twitter.com",
+            "instagram": "https://www.instagram.com"
+        },
+        "is_featured": true
+    },
+    {
+        "id": "chadni-islam",
+        "name": "Chadni Islam",
+        "designation": "Lecturer",
+        "position": "researchfellows",
+        "introduction":"Chadni Islam is a PhD student under the supervision of Professor M. Ali Babar in Centre for Research on Engineering Software Technologies (CREST), at School of Computer Science, University of Adelaide, Australia. She is co-supervised by Dr. Surya Nepal, CSIRO's Data61. Her research expertise falls at the intersection of cybersecurity and software engineering. Her PhD is focused on providing architecture support for security orchestration and automation systems using advanced software engineering technologies. Security orchestration and automation aim at integrating different types of multivendor security software used by security operation centres to automate and accelerate the security incident response process. She is leveraging existing software engineering, analytical reasoning, natural language processing and machine learning tools and techniques to develop an intelligence self-adaptive security orchestration and automation platform.Previously, she worked as a lecturer at Khulna University and Eastern University at Bangladesh. She obtained her master’s and bachelor’s degree from the School of Computer Science and Engineering, University of Dhaka, Bangladesh.",
+        "images": {
+            "large": "../images/team/chadni.png",
+            "medium": "../images/team/chadni.png"
+        },
+        "image": "../images/team/chadni.png",
+        "competencies": "Software Engineering, Cybersecurity, Software Architecture, Artificial Intelligence (Natural Language Processing, Machine Learning and Semantic Technologies), Security Orchestration and Automation, Incident response.",
+        "socials": {
+            "facebook": "https://www.facebook.com",
+            "twitter": "https://www.twitter.com",
+            "instagram": "https://www.instagram.com"
+        },
+        "is_featured": true
+    },
+    {
+        "id": "bakheet-aljedaani",
+        "name": "Bakheet Aljedaani",
+        "designation": "Lecturer",
+        "position": "phdstudents",
+        "introduction":"Bakheet Aljedaani is a PhD student in the Centre for Research on Engineering Software Technologies (CREST) at the University of Adelaide. His current research focus is on the security of mobile health applications, particularly assessing the security perception for the end-users, as well as investigating the process of developing secure apps. His research is mainly conducted empirically (e.g., interviews and surveys) and analysing quantitive and qualitative data. The key areas of his research are human aspects of developing secure mobile health applications, security and privacy of mobile health applications, and end-users’ security requirements for mobile health applications. Bakheet worked as a lecturer at Umm Alqura University, Saudi Arabia before joining CREST. He obtained a bachelor degree in Computer Science from King Abdulaziz University, Saudi Arabia and a Master’s degree in Information Security from Lewis University, USA in 2008 and 2011 respectively.",
+        "images": {
+            "large": "../images/team/Bakheet.jpg",
+            "medium": "../images/team/Bakheet.jpg"
+        },
+        "image": "../images/team/Bakheet.jpg",
+        "competencies": "Human factor. Mobile health applications. Security and privacy. Security requirements. Empirical research. Quantitative and qualitative analysis.",
+        "socials": {
+            "facebook": "https://www.facebook.com",
+            "twitter": "https://www.twitter.com",
+            "instagram": "https://www.instagram.com"
+        },
+        "is_featured": true
+    },
+    {
+        "id": "hao-chen",
+        "name": "Hao Chen",
+        "designation": "Lecturer",
+        "position": "phdstudents",
+        "introduction":"My research interest is applying deep learning algorithms to software engineering and programming language. I am a Ph.D. student of Computer Science under the Supervision of Professor Muhammad Ali Babar and Professor Chunhua Shen in Crest Centre, at University of Adelaide, Australia. My Ph.D. is focused on “Deep Learning for General Purpose Code Generation.” My goal is to devise neural network models for source code analysis and generation. Previously, I worked as a research scientist at NetEase Inc. China. I obtained my master’s and bachelor’s degree from the School of Computer Science and Engineering, Zhejiang University, China.",
+        "images": {
+            "large": "../images/team/hao.jpg",
+            "medium": "../images/team/hao.jpg"
+        },
+        "image": "../images/team/hao.jpg",
+        "competencies": " ",
+        "socials": {
+            "facebook": "https://www.facebook.com",
+            "twitter": "https://www.twitter.com",
+            "instagram": "https://www.instagram.com"
+        },
+        "is_featured": true
+    },
+    {
+        "id": "triet-huynh",
+        "name": "Triet Huynh Minh Le",
+        "designation": "Lecturer",
+        "position": "phdstudents",
+        "introduction":"Triet Huynh Minh Le (Lê Huỳnh Minh Triết) is currently a PhD student under the supervision of Professor Ali Babar at the Centre for Research on Engineering Software Technologies, the University of Adelaide. He obtained his first-class honours bachelor degree in Computer Science as a valedictorian from the International University – Vietnam National University, Ho Chi Minh City. His research interests include but are not limited to data mining and machine learning as well as their interdisciplinary applications. In his undergraduate study, Triet utilized machine learning to predict some challenging chemical properties. His PhD will expand his research works to explore how machine learning can perform security vulnerability analytics and prediction for software systems using open-source data (e.g., NVD/CVE/CWE, GitHub and Stack Overflow).",
+        "images": {
+            "large": "../images/team/triet.jpg",
+            "medium": "../images/team/triet.jpg"
+        },
+        "image": "../images/team/triet.jpg",
+        "competencies": "Security/Vulnerability analytics, Mining software repositories, Software maintenance, Machine learning, Data mining, Natural Language Processing",
+        "socials": {
+            "facebook": "https://www.facebook.com",
+            "twitter": "https://www.twitter.com",
+            "instagram": "https://www.instagram.com"
+        },
+        "is_featured": true
     }
 ]
