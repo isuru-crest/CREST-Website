@@ -276,6 +276,7 @@ const TeamArea = ({ sectionStyle, headingStyle, headTeamStyle, headTeamRowStyle,
         headMembers = teamData.alumni.edges;
     }
 
+    
     return (
         <TeamWrapper>
             <Container>
