@@ -302,5 +302,100 @@
             "instagram": "https://www.instagram.com"
         },
         "is_featured": true
+    },
+    {
+        "id": "bushra-sabir",
+        "name": "Bushra Sabir",
+        "designation": "Lecturer",
+        "position": "phdstudents",
+        "introduction":"Bushra Sabir is currently a PhD student in the school of computer science, University of Adelaide. Her area of research is adversarial Machine Learning for cybersecurity systems. She is especially interested in the area of Secure Machine learning for detecting data exfiltration attacks such as Phishing, Malicious Domains, Spam text and Insider threat. Bushra utilized Machine and Deep learning methods to create adversarial examples of cybersecurity applications (such as phishing URLs, spam emails). In her PhD, she will expand her research works to explore solutions to handle adversarial evasion attacks on Machine and Deep learning cybersecurity systems. Previously she has worked as a lecturer for six years and worked in the software industry for two years. She has achieved a gold medal in Master of Computer and Software Engineering from National University of Technology (NUST-Pakistan).",
+        "images": {
+            "large": "../images/team/busra.jpg",
+            "medium": "../images/team/busra.jpg"
+        },
+        "image": "../images/team/busra.jpg",
+        "competencies": "Secure Deep and Machine learning for security critical systems, phishing attacks, Natural Language Processing. Software engineering for Machine learning systems.",
+        "socials": {
+            "facebook": "https://www.facebook.com",
+            "twitter": "https://www.twitter.com",
+            "instagram": "https://www.instagram.com"
+        },
+        "is_featured": true
+    },
+    {
+        "id": "fangchao-tian",
+        "name": "Fangchao Tian",
+        "designation": "Lecturer",
+        "position": "phdstudents",
+        "introduction":"I am a visiting PhD student from Wuhan University under joint-supervision of Professor Muhammad Ali Babar and Professor Peng Liang. The main purpose of my research is to systematically analyze the relationships between software architecture and source code for effectively maintaining and evolving software systems. My research interest especially focuses on the relationship between architectural smells and code smells, refactoring architectural smells, and how to evaluate architecture by analyzing source code. I plan to employ empirical research methods and machine learning to address my research questions about the above topics.",
+        "images": {
+            "large": "../images/team/fangchao.jpg",
+            "medium": "../images/team/fangchao.jpg"
+        },
+        "image": "../images/team/fangchao.jpg",
+        "competencies": "Software Architecture, Architectural Smell, Empirical Study, Machine Learning, Mining Software Repositories",
+        "socials": {
+            "facebook": "https://www.facebook.com",
+            "twitter": "https://www.twitter.com",
+            "instagram": "https://www.instagram.com"
+        },
+        "is_featured": true
+    },
+    {
+        "id": "yasir-abdullah",
+        "name": "Yasir Abdullah J Althobaiti",
+        "designation": "Lecturer",
+        "position": "phdstudents",
+        "introduction":"Yasir is a PhD student in the School of Computer Science at The University of Adelaide, under the supervision of Prof. Ali Babar and Dr. Andrew Walters. He is also a member of Centre for Research on Engineering Software Technologies (CREST) research group. Yasir obtained his master’s degree in Web Applications and Services with Merit from University of Leicester and Master by research from University of Reading in the UK. He also earned a BSc in Computer Science (Excellent with Second-class honours) from King AbdulAziz University in Saudi Arabia. Yasir worked as a Service Officer at Bank Aljazira, Saudi Arabia and then he worked as a Teaching Assistant in Taif University. Currently, he works as a Lecturer at Taif University in Saudi Arabia. His currently research interest lies in the area of Software Engineering, ٍSoftware Architecture, Microservice Architecture, Cyber Physical Systems, CyberSecurity and Visualization.",
+        "images": {
+            "large": "../images/team/yasir.jpg",
+            "medium": "../images/team/yasir.jpg"
+        },
+        "image": "../images/team/yasir.jpg",
+        "competencies": "Microservice Architecture, Cyber Physical Systems, CyberSecurity, Software Architecture",
+        "socials": {
+            "facebook": "https://www.facebook.com",
+            "twitter": "https://www.twitter.com",
+            "instagram": "https://www.instagram.com"
+        },
+        "is_featured": true
+    },
+    {
+        "id": "nesara-dissanayake",
+        "name": "Nesara Dissanayake",
+        "designation": "Lecturer",
+        "position": "phdstudents",
+        "introduction":"Nesara Dissanayake is a PhD student at the Centre for Research on Engineering Software Technologies (CREST) at the University of Adelaide under the supervision of Professor Ali Babar, Dr Asangi Jayatilaka and Dr Mansooreh Zahedi. Her research lies in the intersection of computer security and software engineering with human factors. She obtained her Bachelor's degree in Software Engineering from the University of Colombo, Sri Lanka. Prior to joining the CREST, she worked as a Software Engineer at a multinational company.",
+        "images": {
+            "large": "../images/team/nesara.png",
+            "medium": "../images/team/nesara.png"
+        },
+        "image": "../images/team/nesara.png",
+        "competencies": "Software security patch management, Socio-technical aspects in cybersecurity, Human factors in Software Engineering, Qualitative research",
+        "socials": {
+            "facebook": "https://www.facebook.com",
+            "twitter": "https://www.twitter.com",
+            "instagram": "https://www.instagram.com"
+        },
+        "is_featured": true
+    },
+    {
+        "id": "roshan-Rajapakse",
+        "name": "Roshan Pajapakse",
+        "designation": "Lecturer",
+        "position": "phdstudents",
+        "introduction":"Roshan Rajapakse is a PhD student with the Centre for Research on Engineering Software Technologies (CREST) at the University of Adelaide. His studies are being supervised by Professor Muhammad Ali Babar and Dr. Mansooreh Zahedi. Prior to joining CREST, he was a junior staff member at the University of Colombo, Sri Lanka. His main research interests include security in the continuous software engineering paradigm, mining software repositories using text mining techniques and socio-technical research.",
+        "images": {
+            "large": "../images/team/roshan.jpg",
+            "medium": "../images/team/roshan.jpg"
+        },
+        "image": "../images/team/roshan.jpg",
+        "competencies": "Application of text mining techniques on mining software repositories, security automation in the continuous software engineering paradigm and human factors research in software engineering.",
+        "socials": {
+            "facebook": "https://www.facebook.com",
+            "twitter": "https://www.twitter.com",
+            "instagram": "https://www.instagram.com"
+        },
+        "is_featured": true
     }
 ]
