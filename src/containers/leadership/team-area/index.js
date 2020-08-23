@@ -53,17 +53,19 @@ const TeamArea = ({ sectionStyle, headingStyle, headTeamStyle, headTeamRowStyle,
                     }
                 }
             }
-            researchfellow: allTeamsJson(filter: {position: {eq: "researchfellow"}}) {
+            researchfellows: allTeamsJson(filter: {position: {eq: "researchfellows"}}) {
                 edges {
                     node {
                         id
                         name
                         designation
+                        introduction
                         socials {
                             facebook
                             instagram
                             twitter
                         }
+                        competencies,
                         images {
                             large {
                                 childImageSharp {
@@ -75,20 +77,29 @@ const TeamArea = ({ sectionStyle, headingStyle, headTeamStyle, headTeamRowStyle,
                                 }
                             }
                         }
+                        image {
+                            childImageSharp {
+                                fixed(width:200) {
+                                    ...GatsbyImageSharpFixed
+                                  }
+                            }
+                        }
                     }
                 }
             }
-            phdstudent: allTeamsJson(filter: {position: {eq: "phdstudent"}}) {
+            phdstudents: allTeamsJson(filter: {position: {eq: "phdstudents"}}) {
                 edges {
                     node {
                         id
                         name
                         designation
+                        introduction
                         socials {
                             facebook
                             instagram
                             twitter
                         }
+                        competencies,
                         images {
                             large {
                                 childImageSharp {
@@ -98,6 +109,149 @@ const TeamArea = ({ sectionStyle, headingStyle, headTeamStyle, headTeamRowStyle,
                                         presentationHeight
                                     }
                                 }
+                            }
+                        }
+                        image {
+                            childImageSharp {
+                                fixed(width:200) {
+                                    ...GatsbyImageSharpFixed
+                                  }
+                            }
+                        }
+                    }
+                }
+            }
+            assistants: allTeamsJson(filter: {position: {eq: "assistants"}}) {
+                edges {
+                    node {
+                        id
+                        name
+                        designation
+                        introduction
+                        socials {
+                            facebook
+                            instagram
+                            twitter
+                        }
+                        competencies,
+                        images {
+                            large {
+                                childImageSharp {
+                                    fluid(maxWidth: 546, maxHeight: 672, quality: 100) {
+                                        ...GatsbyImageSharpFluid_withWebp
+                                        presentationWidth
+                                        presentationHeight
+                                    }
+                                }
+                            }
+                        }
+                        image {
+                            childImageSharp {
+                                fixed(width:200) {
+                                    ...GatsbyImageSharpFixed
+                                  }
+                            }
+                        }
+                    }
+                }
+            }
+            projectstudents: allTeamsJson(filter: {position: {eq: "projectstudents"}}) {
+                edges {
+                    node {
+                        id
+                        name
+                        designation
+                        introduction
+                        socials {
+                            facebook
+                            instagram
+                            twitter
+                        }
+                        competencies,
+                        images {
+                            large {
+                                childImageSharp {
+                                    fluid(maxWidth: 546, maxHeight: 672, quality: 100) {
+                                        ...GatsbyImageSharpFluid_withWebp
+                                        presentationWidth
+                                        presentationHeight
+                                    }
+                                }
+                            }
+                        }
+                        image {
+                            childImageSharp {
+                                fixed(width:200) {
+                                    ...GatsbyImageSharpFixed
+                                  }
+                            }
+                        }
+                    }
+                }
+            }
+            collaborators: allTeamsJson(filter: {position: {eq: "collaborators"}}) {
+                edges {
+                    node {
+                        id
+                        name
+                        designation
+                        introduction
+                        socials {
+                            facebook
+                            instagram
+                            twitter
+                        }
+                        competencies,
+                        images {
+                            large {
+                                childImageSharp {
+                                    fluid(maxWidth: 546, maxHeight: 672, quality: 100) {
+                                        ...GatsbyImageSharpFluid_withWebp
+                                        presentationWidth
+                                        presentationHeight
+                                    }
+                                }
+                            }
+                        }
+                        image {
+                            childImageSharp {
+                                fixed(width:200) {
+                                    ...GatsbyImageSharpFixed
+                                  }
+                            }
+                        }
+                    }
+                }
+            }
+            alumni: allTeamsJson(filter: {position: {eq: "alumni"}}) {
+                edges {
+                    node {
+                        id
+                        name
+                        designation
+                        introduction
+                        socials {
+                            facebook
+                            instagram
+                            twitter
+                        }
+                        competencies,
+                        images {
+                            large {
+                                childImageSharp {
+                                    fluid(maxWidth: 546, maxHeight: 672, quality: 100) {
+                                        ...GatsbyImageSharpFluid_withWebp
+                                        presentationWidth
+                                        presentationHeight
+                                    }
+                                }
+                            }
+                        }
+                        image {
+                            childImageSharp {
+                                fixed(width:200) {
+                                    ...GatsbyImageSharpFixed
+                                  }
                             }
                         }
                     }
@@ -105,9 +259,23 @@ const TeamArea = ({ sectionStyle, headingStyle, headTeamStyle, headTeamRowStyle,
             }
         }
     `)
-    const headMembers = teamData.headTeamMember.edges;
-    const researchfellow = teamData.researchfellow.edges;
-    const phdstudent = teamData.phdstudent.edges;
+
+    var headMembers = teamData.headTeamMember.edges;
+
+    if (position == "researchfellows") {
+        headMembers = teamData.researchfellows.edges;
+    } else if (position == "phdstudents") {
+        headMembers = teamData.phdstudents.edges;
+    } else if (position == "assistants") {
+        headMembers = teamData.assistants.edges;
+    } else if (position == "projectstudents") {
+        headMembers = teamData.projectstudents.edges;
+    } else if (position == "collaborators") {
+        headMembers = teamData.collaborators.edges;
+    } else if (position == "alumni") {
+        headMembers = teamData.alumni.edges;
+    }
+
     return (
         <TeamWrapper>
             <Container>
@@ -146,8 +314,8 @@ const TeamArea = ({ sectionStyle, headingStyle, headTeamStyle, headTeamRowStyle,
                                     </Col>
                                     <Col lg={9}>
                                         <JobDesc>{headMember.node.introduction}</JobDesc>
-                                        {headMember.node.competencies!="" &&  <JobDesc>Competencies: {headMember.node.competencies}</JobDesc>}
-                                       
+                                        {headMember.node.competencies != "" && <JobDesc>Competencies: {headMember.node.competencies}</JobDesc>}
+
                                     </Col>
                                 </Row>
                             </JobItem>

@@ -74,5 +74,24 @@
             "instagram": "https://www.instagram.com"
         },
         "is_featured": true
+    },
+    {
+        "id": "aufeef-chauhan",
+        "name": "Aufeef Chauhan",
+        "designation": "Lecturer",
+        "position": "researchfellows",
+        "introduction":"I am a software engineering researcher and practitioner. I am currently affiliated with The University of Adelaide, Australia. Previously, I have worked as a postdoctoral (PostDoc) researcher at IT University of Copenhagen (ITU) and Technical University of Denmark (DTU). I hold a PhD degree in Computer Science from IT University of Copenhagen. My research focuses on architecture of software systems for cloud computing environments, Internet of Things (IoT), Confidentiality-Integrity-Availability (CIA) of the Cloud-based Systems, evolution of traditional software system into software as a service (SaaS) model and how cloud computing paradigm can help to address the challenges related to Global Software Development (GSD). I hold a master (MS) and a bachelor (BS) degrees in Computer Science. I have also been involved in software development activities in globally distributed environments. I have several years of industrial experience (in Denmark and other countries) of working on financial applications; targeting solutions for prepaid debit cards, unemployment funds and banking sector using .Net and JavaEE technologies.",
+        "images": {
+            "large": "../images/team/Aufeef.jpg",
+            "medium": "../images/team/Aufeef.jpg"
+        },
+        "image": "../images/team/Aufeef.jpg",
+        "competencies": "Distributed autonomous systems architecture and security, Cloud Computing and Software as a Service, Cloud Security, Software Reference Architectures, Requirements Engineering for Cloud and Distributed Systems.",
+        "socials": {
+            "facebook": "https://www.facebook.com",
+            "twitter": "https://www.twitter.com",
+            "instagram": "https://www.instagram.com"
+        },
+        "is_featured": true
     }
 ]

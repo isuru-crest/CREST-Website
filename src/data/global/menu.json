@@ -33,23 +33,27 @@
         "submenu": [
             {
                 "text": "Faculty Members",
-                "link": "/team"
+                "link": "/faculty-members"
             },
             {
                 "text": "Research Fellows",
-                "link": "/researchfellows"
+                "link": "/research-fellows"
             },
             {
-                "text": "PhD Student",
-                "link": "/phdstudent"
+                "text": "PhD Students",
+                "link": "/phd-students"
             },
             {
                 "text": "Research Assistants & Engineers",
-                "link": "/assistents"
+                "link": "/research-assistants-and-engineers"
             },
             {
-                "text": "Project Student",
-                "link": "/projectstudent"
+                "text": "Project Students",
+                "link": "/project-students"
+            },
+            {
+                "text": "Collaborators & Associates",
+                "link": "/collaborators-and-associates"
             },
             {
                 "text": "Alumni",
