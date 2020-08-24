@@ -1,7 +1,7 @@
 ---
 title: "Master Opportunities"
 date: "2020-07-01 15:02:00"
-author: "William"
+author: "Owen Christ"
 featured_image: "../../images/blog/blog-03-1170x600.jpg"
 video_link: "null"
 quote_author: "null"
