@@ -17,6 +17,7 @@ const JobsArea = () => {
                     title
                     type
                     description
+                    link
                 }
             }
         }      
@@ -48,7 +49,7 @@ const JobsArea = () => {
                                             </Col>
                                             <Col lg={3}>
                                                 <JobButton>
-                                                    <Button varient="outlined" bordercolor="#ddd">Get Started</Button>
+                                                    <Button to={job.link} varient="outlined" bordercolor="#ddd">Get Started</Button>
                                                 </JobButton>
                                             </Col>
                                         </Row>

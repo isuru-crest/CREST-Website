@@ -118,7 +118,7 @@ const BlogTemplate = ({ data, pageContext, location, ...restProps }) => {
                                                 imageSrc={author.image.childImageSharp}
                                             />
                                         )} */}
-                                        {(post.date && (post.type !== "area" && post.type !== "resources")) && (
+                                        {(post.date && (post.type !== "area" && post.type !== "resources" && post.type !== "pages")) && (
                                             <BlogMeta
                                                 {...headerMetaStyle}
                                                 path={`/date/${dateSlug}`}
@@ -135,6 +135,8 @@ const BlogTemplate = ({ data, pageContext, location, ...restProps }) => {
                                     </HeaderMetaWrap>
                                 </BlogInfo>
                                 <div className="post-content" dangerouslySetInnerHTML={{ __html: html }} />
+                                <br />
+                                <br />
                                 <Box as="footer">
                                     <FooterMetaWrap>
                                         <Row alignitems="center">
