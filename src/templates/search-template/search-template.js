@@ -85,7 +85,7 @@ const SearchTemplate = ({ data, pageContext, location, ...restProps }) => {
                         </Row>
                     </Container>
                 </BlogListWrapper>
-                <CTA />
+                {/* <CTA /> */}
             </main>
             <Footer />
         </Layout>
