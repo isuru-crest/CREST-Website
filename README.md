@@ -18,18 +18,23 @@ git clone https://github.com/CREST-Adelaide/CREST-Website
 
 ### Install the dependencis by yarn
 Please use yarn install of npm.
+
 Cd into the folder and run:
+
 ``` html
 yarn install
 ```
 
 ### Run the website by npm
 Run the command below to start the development mode:
+
 ``` html
 npm run start
 ```
 ### Broswer
+
 Open the broser
+
 ``` html
 http://localhost:8000/
 ```
@@ -38,12 +43,15 @@ http://localhost:8000/
 
 ### Personal introduction
 All of our information is stored in a JSON file, if there's some mistake of your information or you want to edit your personal information. Please find the folder:
+
 ``` html
 /src/data/global/teams.json
 ```
+
 Edit your detail, as for "socials", please fill them if you have them, we will do further development later.
 
 ### Portrait
+
 If you want to change your photo, please upload a photo to the folder below:
 ``` html
 /src/data/global/images/team/
@@ -63,6 +71,7 @@ If you'd like to add a brand new page for our website, it's super simple, just w
 
 ### File header
 Make sure you have the correct header in the file.
+
 
 ``` html
 ---
@@ -86,6 +95,7 @@ is_featured: true
 ```
 
 Please note, some of the parameters are not effective but necessary.
+
 For example: "featured_image" is not effective at the moment but must have.
 
 
@@ -100,4 +110,5 @@ You are able to make this page as your personal page as well.
 ### Layout issue
 
 If you are not satisfied with current layout, please feel free to contact with William or Leo to discuss what kind of layout you'd like to have.
+
 If you have any idea about improving our website, please feel free to contact with Nguyen, or anyone of us.
