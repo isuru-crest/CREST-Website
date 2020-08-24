@@ -17,7 +17,7 @@ git clone https://github.com/CREST-Adelaide/CREST-Website
 ```
 
 ### Install the dependencis by yarn
-Please use yarn install of npm.
+Please use yarn instead of npm.
 
 Cd into the folder and run:
 
@@ -113,3 +113,5 @@ You are able to make this page as your personal page as well.
 If you are not satisfied with current layout, please feel free to contact with William or Leo to discuss what kind of layout you'd like to have.
 
 If you have any idea about improving our website, please feel free to contact with Nguyen, or anyone of us.
+
+If you find any BUG, please do not hesitate to contact us or open a new issue on GitHub.
