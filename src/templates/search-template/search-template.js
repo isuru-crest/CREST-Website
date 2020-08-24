@@ -21,7 +21,7 @@ const SearchTemplate = ({ data, pageContext, location, ...restProps }) => {
     let filteredBlogs = [];
     if (state) {
         filteredBlogs = blogs.filter(post => {
-            const { title, quote_text, quote_author, categories, tags, author: { name: authorName } } = post.node.frontmatter
+            const { title, quote_text, quote_author, categories, tags } = post.node.frontmatter
             const { html } = post.node
 
             return (
@@ -29,7 +29,7 @@ const SearchTemplate = ({ data, pageContext, location, ...restProps }) => {
                 (quote_text && quote_text.toLowerCase().includes(query)) ||
                 (quote_author && quote_author.toLowerCase().includes(query)) ||
                 (html && html.toLowerCase().includes(query)) ||
-                (authorName && authorName.toLowerCase().includes(query)) ||
+                // (authorName && authorName.toLowerCase().includes(query)) ||
                 (tags &&
                     tags
                         .join("")
@@ -100,32 +100,16 @@ export const query = graphql`
             edges {
                 node {
                     frontmatter {
-                        categories
                         title
-                        author {
-                            name
-                            image {
-                                childImageSharp {
-                                    fixed(width: 32, height: 32, quality: 100) {
-                                        ...GatsbyImageSharpFixed_withWebp
-                                    }
-                                }
-                            }
-                        }
-                        format
+                        categories
+                        date(formatString: "LL")
+                        tags
+                        type
+                        video_link
                         quote_text
                         quote_author
-                        video_link
+                        format
                         date(formatString: "LL")
-                        featured_image {
-                            childImageSharp {
-                                fluid(maxWidth: 770, maxHeight: 420, quality: 100) {
-                                    ...GatsbyImageSharpFluid_withWebp
-                                    presentationHeight
-                                    presentationWidth
-                                }
-                            }
-                        }
                     }
                     fields {
                         slug
