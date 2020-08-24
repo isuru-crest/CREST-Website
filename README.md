@@ -50,3 +50,54 @@ If you want to change your photo, please upload a photo to the folder below:
 ```
 
 And edit your personal introduction in the previous step.
+
+
+## Add new pages
+
+### Directory
+If you'd like to add a brand new page for our website, it's super simple, just write a markdown file and upload it to the folder below:
+``` html
+/src/data/global/pages/
+```
+
+
+### File header
+Make sure you have the correct header in the file.
+
+``` html
+---
+title: "Collaboration"
+date: "2020-07-01 15:03:00"
+author: "Owen Christ"
+featured_image: "../../images/blog/blog-03-1170x600.jpg"
+video_link: "null"
+quote_author: "null"
+quote_text: "null"
+categories: 
+    - Positions
+    - cyber security
+tags: 
+    - Cyber Security
+    - IT Services
+format: "null"
+type: "pages"
+is_featured: true
+---
+```
+
+Please note, some of the parameters are not effective but necessary.
+For example: "featured_image" is not effective at the moment but must have.
+
+
+### How to use the new page
+The page url will be http://www.crest-centre.net/yourfilename.
+
+You are able to use this url in other pages, such as in your research area, you could have a link, linking to this new page.
+
+You are able to make this page as your personal page as well.
+
+
+### Layout issue
+
+If you are not satisfied with current layout, please feel free to contact with William or Leo to discuss what kind of layout you'd like to have.
+If you have any idea about improving our website, please feel free to contact with Nguyen, or anyone of us.

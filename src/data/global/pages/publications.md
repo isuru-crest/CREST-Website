@@ -7,7 +7,7 @@ video_link: "null"
 quote_author: "null"
 quote_text: "null"
 categories: 
-    - Positions
+    - Publication
     - cyber security
 tags: 
     - Cyber Security
