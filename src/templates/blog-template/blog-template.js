@@ -101,13 +101,13 @@ const BlogTemplate = ({ data, pageContext, location, ...restProps }) => {
                         </Col>
                     </Row>
                     <Row>
-                        <Col lg={8} ml="auto" mr="auto">
+                        <Col lg={11} ml="auto" mr="auto">
                             <SingleBlogWrap>
                                 <BlogInfo>
-                                    <CategoryBox>
+                                    {/* <CategoryBox>
                                         <Categories categories={categories} />
                                     </CategoryBox>
-                                    {post.type !== "area" && <Heading {...titleStyle}>{post.title}</Heading>}
+                                    {post.type !== "area" && <Heading {...titleStyle}>{post.title}</Heading>} */}
 
                                     <HeaderMetaWrap>
                                         {/* {author && (
