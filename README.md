@@ -2,16 +2,24 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/efcf2069-6f69-4ea1-a805-22e7e2fd2d8a/deploy-status)](https://app.netlify.com/sites/elastic-nobel-53ea85/deploys)
 
-CREST Website
+## Editing the Website Content
+
+Most of the content editing can be done directly in the Web-based CMS, accessible at one of the following URLs:
+- https://crest.nk-tran.com/admin/
+- https://crest-centre.net/admin/
+
+In order to access the CMS, you need to be added to the GitHub organization ``CREST-Adelaide`` and granted write access to the ``CREST-Website`` repository. Contact Nguyen or William in case you have not received your GitHub invitation. 
+
+The CMS has already been configured to edit most relevant types of content, primarily research areas and news articles. If you need to make more substantial edit to the structure of the Website, follow the instructions below.
 
 
-## Debug the websit on a local machine
+## Debug the website on a local machine
 
 
 ### Clone the repository
 
 Run the command in the terminal
-``` html
+``` sh
 git clone https://github.com/CREST-Adelaide/CREST-Website
 
 ```
@@ -21,21 +29,21 @@ Please use yarn instead of npm.
 
 Cd into the folder and run:
 
-``` html
+``` sh
 yarn install
 ```
 
 ### Run the website by npm
 Run the command below to start the development mode:
 
-``` html
+``` sh
 npm run start
 ```
-### Broswer
+### Browser
 
 Open the broser
 
-``` html
+``` sh
 http://localhost:8000/
 ```
 
@@ -44,7 +52,7 @@ http://localhost:8000/
 ### Personal introduction
 All of our information is stored in a JSON file, if there's some mistake of your information or you want to edit your personal information. Please find the folder:
 
-``` html
+``` sh
 /src/data/global/teams.json
 ```
 
@@ -53,7 +61,7 @@ Edit your detail, as for "socials", please fill them if you have them, we will d
 ### Portrait
 
 If you want to change your photo, please upload a photo to the folder below:
-``` html
+``` sh
 /src/data/global/images/team/
 ```
 
@@ -64,7 +72,7 @@ And edit your personal introduction in the previous step.
 
 ### Directory
 If you'd like to add a brand new page for our website, it's super simple, just write a markdown file and upload it to the folder below:
-``` html
+``` sh
 /src/data/global/pages/
 ```
 
@@ -73,7 +81,7 @@ If you'd like to add a brand new page for our website, it's super simple, just w
 Make sure you have the correct header in the file.
 
 
-``` html
+``` yaml
 ---
 title: "Collaboration"
 date: "2020-07-01 15:03:00"
