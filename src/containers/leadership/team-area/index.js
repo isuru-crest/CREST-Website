@@ -11,7 +11,8 @@ import {
     TeamMemberSocialWrap,
     TeamMemberInfo,
     TeamMemberName,
-    TeamMemberDesignation
+    TeamMemberDesignation,
+    Avator
 } from './team-area.style'
 import { TiSocialFacebook, TiSocialTwitter, TiSocialInstagram } from "react-icons/ti";
 

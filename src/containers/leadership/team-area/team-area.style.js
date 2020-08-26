@@ -1,7 +1,7 @@
 import styled, { css } from "styled-components";
-import {device} from '../../../theme'
+import { device } from '../../../theme'
 
-export const TeamWrapper = styled.section `
+export const TeamWrapper = styled.section`
     padding-top: 90px;
     padding-bottom: 65px;
     @media ${device.medium}{
@@ -12,6 +12,11 @@ export const TeamWrapper = styled.section `
         padding-top: 52px;
         padding-bottom: 20px;  
     }
+`;
+
+export const Avator = styled.div`
+    width: 200px;
+
 `;
 export const JobList = styled.div``;
 
@@ -39,7 +44,7 @@ export const JobType = styled.p`
 
 export const JobDesc = styled.p``;
 
-export const TeamMemberInner = styled.div `
+export const TeamMemberInner = styled.div`
     margin-left: auto;
     margin-right: auto;
     @media ${device.small}{
@@ -49,11 +54,12 @@ export const TeamMemberInner = styled.div `
     }
 `;
 
-export const TeamMemberImage = styled.div `
+export const TeamMemberImage = styled.div`
+    width: 100px;
     position: relative;
 `;
 
-export const TeamMemberSocialWrap = styled.div `
+export const TeamMemberSocialWrap = styled.div`
     position: absolute;
     bottom: 20px;
     left: 20px;
@@ -66,28 +72,28 @@ export const TeamMemberSocialWrap = styled.div `
     transition: ${props => props.theme.transition};
 `;
 
-export const TeamMemberInfo = styled.div `
+export const TeamMemberInfo = styled.div`
     margin-top: 20px;
     text-align: ${props => props.textalign};
 `;
 
-export const TeamMemberName = styled.h5 `
+export const TeamMemberName = styled.h5`
     font-size: ${props => props.fontSize};
     line-height: ${props => props.lineHeight};
 `;
 
-export const TeamMemberDesignation = styled.p ``;
+export const TeamMemberDesignation = styled.p``;
 
-export const TeamMemberWrap = styled.div `
-    ${props => props.layout === 1 && css `
+export const TeamMemberWrap = styled.div`
+    ${props => props.layout === 1 && css`
         ${TeamMemberInner}{
             max-width: 310px;
         }
     `}
     ${TeamMemberInner}{
         margin-bottom: ${props => props.mb};
-        ${props => props.responsive && css `
-            ${props => props.responsive.small && css `
+        ${props => props.responsive && css`
+            ${props => props.responsive.small && css`
                 @media ${device.small}{
                     margin-bottom: ${props => props.responsive.small.mb};
                 }
