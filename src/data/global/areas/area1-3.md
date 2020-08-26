@@ -1,7 +1,7 @@
 ---
 title: "Security, Architecture and Platforms for Distributed Autonomous Systems"
 date: "2020-07-01 15:01:00"
-author: "Aufeef Chauhan"
+author: "Owen Christ"
 featured_image: "../../images/blog/blog-03-1170x600.jpg"
 video_link: "null"
 quote_author: "null"
