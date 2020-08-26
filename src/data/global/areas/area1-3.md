@@ -22,4 +22,4 @@ main_content: "TBA."
 
 # Security, Architecture and Platforms for Distributed Autonomous Systems
 
-TBA
+In this area of research, we devise and implement (i) security protocols for distributed architectures and platforms for autonous systems, (ii) data and information fusion for autonomous systems, (iii) task distribution/allocation algorithms and frameworks for distributed autonomous systems, and (iv) ontogloies and data structurs for storing and semantically relating information from multiple sources.
