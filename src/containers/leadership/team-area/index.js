@@ -20,6 +20,40 @@ const TeamArea = ({ sectionStyle, headingStyle, headTeamStyle, headTeamRowStyle,
     console.log(position)
     const teamData = useStaticQuery(graphql`
         query {
+            allTeamMember: allTeamsJson(filter:  {is_featured: {eq: true}}) {
+                edges {
+                    node {
+                        id
+                        name
+                        designation
+                        introduction
+                        socials {
+                            facebook
+                            instagram
+                            twitter
+                        }
+                        competencies,
+                        images {
+                            large {
+                                childImageSharp {
+                                    fluid(maxWidth: 546, maxHeight: 672, quality: 100) {
+                                        ...GatsbyImageSharpFluid_withWebp
+                                        presentationWidth
+                                        presentationHeight
+                                    }
+                                }
+                            }
+                        }
+                        image {
+                            childImageSharp {
+                                fixed(width:200) {
+                                    ...GatsbyImageSharpFixed
+                                  }
+                            }
+                        }
+                    }
+                }
+            }
             headTeamMember: allTeamsJson(filter:  {position: {eq: "faculty"}}) {
                 edges {
                     node {
@@ -275,6 +309,8 @@ const TeamArea = ({ sectionStyle, headingStyle, headTeamStyle, headTeamRowStyle,
         headMembers = teamData.collaborators.edges;
     } else if (position == "alumni") {
         headMembers = teamData.alumni.edges;
+    } else if (position == "all"){
+        headMembers = teamData.allTeamMember.edges;
     }
 
     

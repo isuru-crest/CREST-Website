@@ -38,7 +38,7 @@ module.exports = {
     }
   },
   mapping: {
-    "MarkdownRemark.frontmatter.author": `AuthorsJson.name`,
+    "MarkdownRemark.frontmatter.author": `TeamsJson.name`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

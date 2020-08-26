@@ -240,7 +240,7 @@ exports.createPages = async ({ graphql, actions }) => {
             component: singleBlogPage,
             context: {
                 slug: node.fields.slug,
-                authorId: node.fields.authorId,
+                // authorId: node.fields.authorId,
                 next,
                 previous
             }

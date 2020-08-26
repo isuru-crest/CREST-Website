@@ -103,37 +103,7 @@ const BlogTemplate = ({ data, pageContext, location, ...restProps }) => {
                     <Row>
                         <Col lg={11} ml="auto" mr="auto">
                             <SingleBlogWrap>
-                                <BlogInfo>
-                                    {/* <CategoryBox>
-                                        <Categories categories={categories} />
-                                    </CategoryBox>
-                                    {post.type !== "area" && <Heading {...titleStyle}>{post.title}</Heading>} */}
 
-                                    <HeaderMetaWrap>
-                                        {/* {author && (
-                                            <AuthorMeta
-                                                {...headerMetaStyle}
-                                                slug={authorId}
-                                                name={author.name}
-                                                imageSrc={author.image.childImageSharp}
-                                            />
-                                        )} */}
-                                        {(post.date && (post.type !== "area" && post.type !== "resources" && post.type !== "pages")) && (
-                                            <BlogMeta
-                                                {...headerMetaStyle}
-                                                path={`/date/${dateSlug}`}
-                                                text={post.date}
-                                                icon={<FaCalendarAlt />}
-                                            />
-                                        )}
-                                        {/* <BlogMeta
-                                            {...headerMetaStyle}
-                                            path={`/`}
-                                            text={`4 Comments`}
-                                            icon={<FaCommentDots />}
-                                        /> */}
-                                    </HeaderMetaWrap>
-                                </BlogInfo>
                                 <div className="post-content" dangerouslySetInnerHTML={{ __html: html }} />
                                 <br />
                                 <br />
@@ -152,36 +122,36 @@ const BlogTemplate = ({ data, pageContext, location, ...restProps }) => {
                                         </Row>
                                     </FooterMetaWrap>
 
-                                    {/* {(post.type !== "area" && post.type !== "resources") && <AuthorWrap>
+                                    {/* {(post.type !== "area" && post.type !== "resources" && post.type !== "pages") && <AuthorWrap>
                                         <AuthorInfo>
                                             <AuthorAvatar>
                                                 <Image fluid={author.image.childImageSharp.fluid} alt={author.name} />
-                                                {author.social && (
+                                                {author.socials && (
                                                     <Social {...authorSocial}>
-                                                        {author.social.twitter && (
+                                                        {author.socials.twitter && (
                                                             <SocialLink
-                                                                path={author.social.twitter}
+                                                                path={author.socials.twitter}
                                                                 label="Twitter">
                                                                 <TiSocialTwitter />
                                                             </SocialLink>
                                                         )}
-                                                        {author.social.facebook && (
+                                                        {author.socials.facebook && (
                                                             <SocialLink
-                                                                path={author.social.facebook}
+                                                                path={author.socials.facebook}
                                                                 label="Facebook">
                                                                 <TiSocialFacebook />
                                                             </SocialLink>
                                                         )}
-                                                        {author.social.linkedin && (
+                                                        {author.socials.linkedin && (
                                                             <SocialLink
-                                                                path={author.social.linkedin}
+                                                                path={author.socials.linkedin}
                                                                 label="Linkedin">
                                                                 <TiSocialLinkedin />
                                                             </SocialLink>
                                                         )}
-                                                        {author.social.instagram && (
+                                                        {author.socials.instagram && (
                                                             <SocialLink
-                                                                path={author.social.instagram}
+                                                                path={author.socials.instagram}
                                                                 label="Instagram">
                                                                 <TiSocialInstagram />
                                                             </SocialLink>
@@ -195,6 +165,38 @@ const BlogTemplate = ({ data, pageContext, location, ...restProps }) => {
                                             </AuthorDesc>
                                         </AuthorInfo>
                                     </AuthorWrap>} */}
+
+                                    <BlogInfo>
+                                    {/* <CategoryBox>
+                                        <Categories categories={categories} />
+                                    </CategoryBox>
+                                    {post.type !== "area" && <Heading {...titleStyle}>{post.title}</Heading>} */}
+
+                                    <HeaderMetaWrap>
+                                        {(post.date && (post.type !== "area" && post.type !== "resources" && post.type !== "pages")) && (
+                                            <AuthorMeta
+                                                {...headerMetaStyle}
+                                                slug={authorId}
+                                                name={author.name}
+                                                imageSrc={author.image.childImageSharp}
+                                            />
+                                        )}
+                                        {(post.date && (post.type !== "area" && post.type !== "resources" && post.type !== "pages")) && (
+                                            <BlogMeta
+                                                {...headerMetaStyle}
+                                                path={`/date/${dateSlug}`}
+                                                text={post.date}
+                                                icon={<FaCalendarAlt />}
+                                            />
+                                        )}
+                                        {/* <BlogMeta
+                                            {...headerMetaStyle}
+                                            path={`/`}
+                                            text={`4 Comments`}
+                                            icon={<FaCommentDots />}
+                                        /> */}
+                                    </HeaderMetaWrap>
+                                </BlogInfo>
 
                                     {/* {(post.type !== "area" && post.type !== "resources") && <BlogNavigation>
                                         {previous && (
@@ -313,6 +315,24 @@ export const postQuery = graphql`
                 date(formatString: "LL")
                 tags
                 type
+                author{
+                    name
+                    image {
+                        childImageSharp {
+                          fluid(maxWidth: 100, maxHeight: 100, quality: 100) {
+                            ...GatsbyImageSharpFluid_withWebp
+                            presentationWidth
+                            presentationHeight
+                          }
+                        }
+                    }
+                    socials {
+                        facebook
+                        instagram
+                        linkedin
+                        twitter
+                    }
+                }
                 video_link
                 quote_text
                 quote_author

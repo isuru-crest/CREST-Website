@@ -28,7 +28,7 @@
     },
     {
         "text": "OUR TEAM",
-        "link": "#",
+        "link": "/team",
         "isSubmenu": true,
         "submenu": [
             {
@@ -49,7 +49,7 @@
             },
             {
                 "text": "Project Students",
-                "link": "/project-students"
+                "link": "/student-projects"
             },
             {
                 "text": "Collaborators & Associates",

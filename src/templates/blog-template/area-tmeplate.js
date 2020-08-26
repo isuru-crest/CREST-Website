@@ -305,7 +305,6 @@ export const postQuery = graphql`
                 categories
                 author{
                     name
-                    bio
                     image {
                         childImageSharp {
                           fluid(maxWidth: 100, maxHeight: 100, quality: 100) {
@@ -315,7 +314,7 @@ export const postQuery = graphql`
                           }
                         }
                     }
-                    social {
+                    socials {
                         facebook
                         instagram
                         linkedin

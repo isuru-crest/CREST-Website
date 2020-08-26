@@ -1,7 +1,7 @@
 ---
 title: "A paper accepted in Mining Software Repositories (MSR) 2020"
 date: "2020-03-10 15:01:00"
-author: ""
+author: "Nguyen Khoi Tran"
 featured_image: ""
 video_link: "null"
 quote_author: "null"

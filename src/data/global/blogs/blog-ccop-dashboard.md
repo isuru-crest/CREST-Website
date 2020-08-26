@@ -1,7 +1,7 @@
 ---
 title: "CCOP Dashboard"
 date: "2020-07-01 15:01:00"
-author: ""
+author: "Nguyen Khoi Tran"
 featured_image: ""
 video_link: "null"
 quote_author: "null"
