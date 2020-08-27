@@ -31,7 +31,7 @@ const TeamPage = ({ pageContext, location }) => (
             </TabHeader>
             <TabHeader>
 
-                <NavItem><Link to="/team/project-students">Project Students</Link></NavItem>
+                <NavItem><Link to="/student-projects">Project Students</Link></NavItem>
                 <NavItem><Link to="/team/research-assistants-and-engineers">Research Assistants and Engineers</Link></NavItem>
                 <NavItem><Link to="/team/collaborators-and-associates">Collaborators and Associates</Link></NavItem>
                 <NavItem><Link to="/team/alumni">Alumni</Link></NavItem>
