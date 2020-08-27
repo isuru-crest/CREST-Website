@@ -21,6 +21,8 @@
             "googlescholar": ""
         },
         "projecturl": "",
+        "researchtopic": "",
+        "researchlink": "",
         "is_featured": true
     },
     {
@@ -45,6 +47,8 @@
             "googlescholar": ""
         },
         "projecturl": "",
+        "researchtopic": "",
+        "researchlink": "",
         "is_featured": true
     },
     {
@@ -69,6 +73,8 @@
             "googlescholar": ""
         },
         "projecturl": "",
+        "researchtopic": "",
+        "researchlink": "",
         "is_featured": true
     },
     {
@@ -93,6 +99,8 @@
             "googlescholar": ""
         },
         "projecturl": "",
+        "researchtopic": "",
+        "researchlink": "",
         "is_featured": true
     },
     {
@@ -117,6 +125,8 @@
             "googlescholar": ""
         },
         "projecturl": "",
+        "researchtopic": "",
+        "researchlink": "",
         "is_featured": true
     },
     {
@@ -141,6 +151,8 @@
             "googlescholar": ""
         },
         "projecturl": "",
+        "researchtopic": "",
+        "researchlink": "",
         "is_featured": true
     },
     {
@@ -165,6 +177,8 @@
             "googlescholar": ""
         },
         "projecturl": "",
+        "researchtopic": "",
+        "researchlink": "",
         "is_featured": true
     },
     {
@@ -189,6 +203,8 @@
             "googlescholar": ""
         },
         "projecturl": "",
+        "researchtopic": "",
+        "researchlink": "",
         "is_featured": true
     },
     {
@@ -213,6 +229,8 @@
             "googlescholar": ""
         },
         "projecturl": "",
+        "researchtopic": "",
+        "researchlink": "",
         "is_featured": true
     },
     {
@@ -237,6 +255,8 @@
             "googlescholar": ""
         },
         "projecturl": "",
+        "researchtopic": "",
+        "researchlink": "",
         "is_featured": true
     },
     {
@@ -261,6 +281,8 @@
             "googlescholar": ""
         },
         "projecturl": "",
+        "researchtopic": "",
+        "researchlink": "",
         "is_featured": true
     },
     {
@@ -285,6 +307,8 @@
             "googlescholar": ""
         },
         "projecturl": "",
+        "researchtopic": "Real-time Big Data Analytics",
+        "researchlink": "/real-time-big-data-analytics",
         "is_featured": true
     },
     {
@@ -309,6 +333,8 @@
             "googlescholar": ""
         },
         "projecturl": "",
+        "researchtopic": "",
+        "researchlink": "",
         "is_featured": true
     },
     {
@@ -333,6 +359,8 @@
             "googlescholar": ""
         },
         "projecturl": "",
+        "researchtopic": "Secure Mobile Health Application Engineering",
+        "researchlink": "/secure-mobile-health-application-engineering",
         "is_featured": true
     },
     {
@@ -357,6 +385,8 @@
             "googlescholar": ""
         },
         "projecturl": "",
+        "researchtopic": "",
+        "researchlink": "",
         "is_featured": true
     },
     {
@@ -381,6 +411,8 @@
             "googlescholar": ""
         },
         "projecturl": "",
+        "researchtopic": "",
+        "researchlink": "",
         "is_featured": true
     },
     {
@@ -405,6 +437,8 @@
             "googlescholar": ""
         },
         "projecturl": "",
+        "researchtopic": "",
+        "researchlink": "",
         "is_featured": true
     },
     {
@@ -429,6 +463,8 @@
             "googlescholar": ""
         },
         "projecturl": "",
+        "researchtopic": "",
+        "researchlink": "",
         "is_featured": true
     },
     {
@@ -453,6 +489,8 @@
             "googlescholar": ""
         },
         "projecturl": "",
+        "researchtopic": "",
+        "researchlink": "",
         "is_featured": true
     },
     {
@@ -477,6 +515,8 @@
             "googlescholar": ""
         },
         "projecturl": "",
+        "researchtopic": "",
+        "researchlink": "",
         "is_featured": true
     },
     {
@@ -501,6 +541,8 @@
             "googlescholar": ""
         },
         "projecturl": "",
+        "researchtopic": "",
+        "researchlink": "",
         "is_featured": true
     },
     {
@@ -525,6 +567,8 @@
             "googlescholar": ""
         },
         "projecturl": "",
+        "researchtopic": "",
+        "researchlink": "",
         "is_featured": true
     },
     {
@@ -549,6 +593,8 @@
             "googlescholar": ""
         },
         "projecturl": "",
+        "researchtopic": "Security, Architecture and Platforms for Distributed Autonomous Systems",
+        "researchlink": "/security-architecture-and-platforms-for-distributed-autonomous-systems",
         "is_featured": true
     },
     {
@@ -573,6 +619,8 @@
             "googlescholar": ""
         },
         "projecturl": "",
+        "researchtopic": "Automated Container Security",
+        "researchlink": "/automated-container-security",
         "is_featured": true
     },
     {
@@ -597,6 +645,8 @@
             "googlescholar": ""
         },
         "projecturl": "",
+        "researchtopic": "",
+        "researchlink": "",
         "is_featured": true
     },
     {
@@ -621,10 +671,10 @@
             "googlescholar": ""
         },
         "projecturl": "",
+        "researchtopic": "",
+        "researchlink": "",
         "is_featured": true
     },
-
-
     {
         "id": "yongzheng-xie",
         "name": "Yongzheng Xie",
@@ -647,6 +697,8 @@
             "googlescholar": ""
         },
         "projecturl": "",
+        "researchtopic": "",
+        "researchlink": "",
         "is_featured": true
     },
     {
@@ -671,6 +723,8 @@
             "googlescholar": ""
         },
         "projecturl": "",
+        "researchtopic": "",
+        "researchlink": "",
         "is_featured": true
     },
     {
@@ -695,6 +749,8 @@
             "googlescholar": ""
         },
         "projecturl": "",
+        "researchtopic": "Cyber Common Operating Pictures",
+        "researchlink": "/cyber-common-operating-pictures-ccop",
         "is_featured": true
     },
     {
@@ -719,6 +775,8 @@
             "googlescholar": ""
         },
         "projecturl": "",
+        "researchtopic": "",
+        "researchlink": "",
         "is_featured": true
     },
     {
@@ -743,6 +801,8 @@
             "googlescholar": ""
         },
         "projecturl": "",
+        "researchtopic": "",
+        "researchlink": "",
         "is_featured": true
     },
     {
@@ -767,6 +827,8 @@
             "googlescholar": ""
         },
         "projecturl": "",
+        "researchtopic": "",
+        "researchlink": "",
         "is_featured": true
     },
     {
@@ -791,6 +853,8 @@
             "googlescholar": ""
         },
         "projecturl": "",
+        "researchtopic": "",
+        "researchlink": "",
         "is_featured": true
     },
     {
@@ -815,6 +879,8 @@
             "googlescholar": ""
         },
         "projecturl": "",
+        "researchtopic": "",
+        "researchlink": "",
         "is_featured": true
     }
 ]

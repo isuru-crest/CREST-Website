@@ -7,6 +7,8 @@ import PageHeader from '../components/pageheader'
 import TeamArea from '../containers/leadership/team-area'
 import TeamListArea from '../containers/leadership/team-list-area'
 import ContactArea from '../containers/global/contact-area/contact-one'
+import Tabs, { TabHeader, NavItem, TabContent, TabPane } from '../components/ui/tabs/layout-two'
+import { Link } from "gatsby"
 
 const TeamPage = ({ pageContext, location }) => (
     <Layout location={location}>
@@ -18,6 +20,22 @@ const TeamPage = ({ pageContext, location }) => (
             title="Our Team"
         />
         <main className="site-wrapper-reveal">
+            <br />
+            <br />
+            <TabHeader>
+                <NavItem><Link to="/team/faculty-members">Faculty Members</Link></NavItem>
+                <NavItem><Link to="/team/research-fellows">Research Fellows</Link></NavItem>
+                <NavItem><Link to="/team/phd-students">PhD Students</Link></NavItem>
+                <NavItem><Link to="/team/research-assistants-and-engineers">Research Assistants and Engineers</Link></NavItem>
+
+            </TabHeader>
+            <TabHeader>
+
+                <NavItem><Link to="/team/project-students">Project Students</Link></NavItem>
+                <NavItem><Link to="/team/research-assistants-and-engineers">Research Assistants and Engineers</Link></NavItem>
+                <NavItem><Link to="/team/collaborators-and-associates">Collaborators and Associates</Link></NavItem>
+                <NavItem><Link to="/team/alumni">Alumni</Link></NavItem>
+            </TabHeader>
             <TeamArea
                 position="all"
             />

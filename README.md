@@ -104,8 +104,10 @@ is_featured: true
 
 Please note, some of the parameters are not effective but necessary.
 
-For example: "featured_image" is not effective at the moment but must have. "author" is not effective but we must make is as "Owen Christ" at the moment because we didn't direct our team members in the search list, we will deal with this later.
+For example: "featured_image" is not effective at the moment but must have. 
 
+
+"author" is effective at the moment but we must make it as the same as the name listed on the team page.
 
 
 ### How to use the new page

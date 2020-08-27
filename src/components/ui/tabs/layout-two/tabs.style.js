@@ -5,7 +5,7 @@ import Nav from 'react-bootstrap/Nav'
 export const TabHeader = styled(Nav)`
     width: 100%;
     justify-content: center;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
 `;
 
 export const NavItem = styled(Nav.Link)`

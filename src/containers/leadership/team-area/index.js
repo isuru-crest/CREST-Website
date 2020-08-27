@@ -15,6 +15,7 @@ import {
     Avator
 } from './team-area.style'
 import { TiSocialFacebook, TiSocialTwitter, TiSocialInstagram } from "react-icons/ti";
+import { Link } from "gatsby"
 
 const TeamArea = ({ sectionStyle, headingStyle, headTeamStyle, headTeamRowStyle, teamStyle, executiveStyle, position }) => {
     console.log(position)
@@ -27,12 +28,15 @@ const TeamArea = ({ sectionStyle, headingStyle, headTeamStyle, headTeamRowStyle,
                         name
                         designation
                         introduction
+                        projecturl
                         socials {
                             facebook
                             instagram
                             twitter
                         }
                         competencies,
+researchtopic,
+researchlink,
                         images {
                             large {
                                 childImageSharp {
@@ -67,6 +71,8 @@ const TeamArea = ({ sectionStyle, headingStyle, headTeamStyle, headTeamRowStyle,
                             twitter
                         }
                         competencies,
+researchtopic,
+researchlink,
                         images {
                             large {
                                 childImageSharp {
@@ -101,6 +107,8 @@ const TeamArea = ({ sectionStyle, headingStyle, headTeamStyle, headTeamRowStyle,
                             twitter
                         }
                         competencies,
+researchtopic,
+researchlink,
                         images {
                             large {
                                 childImageSharp {
@@ -135,6 +143,8 @@ const TeamArea = ({ sectionStyle, headingStyle, headTeamStyle, headTeamRowStyle,
                             twitter
                         }
                         competencies,
+researchtopic,
+researchlink,
                         images {
                             large {
                                 childImageSharp {
@@ -169,6 +179,8 @@ const TeamArea = ({ sectionStyle, headingStyle, headTeamStyle, headTeamRowStyle,
                             twitter
                         }
                         competencies,
+researchtopic,
+researchlink,
                         images {
                             large {
                                 childImageSharp {
@@ -203,6 +215,8 @@ const TeamArea = ({ sectionStyle, headingStyle, headTeamStyle, headTeamRowStyle,
                             twitter
                         }
                         competencies,
+researchtopic,
+researchlink,
                         images {
                             large {
                                 childImageSharp {
@@ -237,6 +251,8 @@ const TeamArea = ({ sectionStyle, headingStyle, headTeamStyle, headTeamRowStyle,
                             twitter
                         }
                         competencies,
+researchtopic,
+researchlink,
                         images {
                             large {
                                 childImageSharp {
@@ -271,6 +287,8 @@ const TeamArea = ({ sectionStyle, headingStyle, headTeamStyle, headTeamRowStyle,
                             twitter
                         }
                         competencies,
+researchtopic,
+researchlink,
                         images {
                             large {
                                 childImageSharp {
@@ -309,11 +327,11 @@ const TeamArea = ({ sectionStyle, headingStyle, headTeamStyle, headTeamRowStyle,
         headMembers = teamData.collaborators.edges;
     } else if (position == "alumni") {
         headMembers = teamData.alumni.edges;
-    } else if (position == "all"){
+    } else if (position == "all") {
         headMembers = teamData.allTeamMember.edges;
     }
 
-    
+
     return (
         <TeamWrapper>
             <Container>
@@ -347,6 +365,12 @@ const TeamArea = ({ sectionStyle, headingStyle, headTeamStyle, headTeamRowStyle,
                                         </TeamMemberImage>
                                         <br />
                                         <JobTitle>{headMember.node.name}</JobTitle>
+                                        {headMember.node.researchtopic != "" &&
+                                            <Link to={headMember.node.researchlink}>
+
+                                                <JobDesc>{headMember.node.researchtopic}</JobDesc>
+                                            </Link>
+                                        }
                                         {/* <JobType>{headMember.node.designation}</JobType> */}
 
                                     </Col>
