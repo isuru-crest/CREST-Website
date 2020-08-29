@@ -14,6 +14,8 @@ export const TeamMemberInner = styled.div `
 
 export const TeamMemberImage = styled.div `
     position: relative;
+    text-align: center;
+    justify-content: center;
 `;
 
 export const TeamMemberSocialWrap = styled.div `
@@ -44,10 +46,14 @@ export const TeamMemberDesignation = styled.p ``;
 export const TeamMemberWrap = styled.div `
     ${props => props.layout === 1 && css `
         ${TeamMemberInner}{
+            text-align: center;
+            justify-content: center;
             max-width: 310px;
         }
     `}
     ${TeamMemberInner}{
+        text-align: center;
+        justify-content: center;
         margin-bottom: ${props => props.mb};
         ${props => props.responsive && css `
             ${props => props.responsive.small && css `

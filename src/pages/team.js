@@ -4,7 +4,8 @@ import Layout from '../containers/layout/layout'
 import Header from '../containers/layout/header/header-three'
 import Footer from '../containers/layout/footer/footer-one'
 import PageHeader from '../components/pageheader'
-import TeamArea from '../containers/leadership/team-area'
+// import TeamArea from '../containers/leadership/team-area'
+import TeamIndex from '../containers/leadership/team-area/TeamIndex'
 import TeamListArea from '../containers/leadership/team-list-area'
 import ContactArea from '../containers/global/contact-area/contact-one'
 import Tabs, { TabHeader, NavItem, TabContent, TabPane } from '../components/ui/tabs/layout-two'
@@ -36,7 +37,7 @@ const TeamPage = ({ pageContext, location }) => (
                 <NavItem><Link to="/team/collaborators-and-associates">Collaborators and Associates</Link></NavItem>
                 <NavItem><Link to="/team/alumni">Alumni</Link></NavItem>
             </TabHeader>
-            <TeamArea
+            <TeamIndex
                 position="all"
             />
             {/* <TeamListArea/> */}
