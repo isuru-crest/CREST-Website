@@ -31,7 +31,9 @@ export const JobItem = styled.div`
     `}
 `;
 
-export const JobTitle = styled.h5``;
+export const JobTitle = styled.h6`
+    padding-bottom: 15px;
+`;
 
 export const JobType = styled.p`
     font-size: 18px;
@@ -55,8 +57,14 @@ export const TeamMemberInner = styled.div`
 `;
 
 export const TeamMemberImage = styled.div`
-    width: 100px;
     position: relative;
+    justify-content: center;
+    text-align: center;
+`;
+
+export const TeamMemberImageAndName = styled.div`
+    text-align: center;
+    justify-content: center;
 `;
 
 export const TeamMemberSocialWrap = styled.div`

@@ -9,6 +9,7 @@ import Social, { SocialLink } from '../../../components/ui/social'
 import {
     TeamWrapper, JobDesc, JobItem, JobTitle, JobType, TeamMemberImage,
     TeamMemberSocialWrap,
+    TeamMemberImageAndName,
     TeamMemberInfo,
     TeamMemberName,
     TeamMemberDesignation,
@@ -50,7 +51,7 @@ researchlink,
                         }
                         image {
                             childImageSharp {
-                                fixed(width:200) {
+                                fixed(width:150) {
                                     ...GatsbyImageSharpFixed
                                   }
                             }
@@ -86,7 +87,7 @@ researchlink,
                         }
                         image {
                             childImageSharp {
-                                fixed(width:200) {
+                                fixed(width:150) {
                                     ...GatsbyImageSharpFixed
                                   }
                             }
@@ -122,7 +123,7 @@ researchlink,
                         }
                         image {
                             childImageSharp {
-                                fixed(width:200) {
+                                fixed(width:150) {
                                     ...GatsbyImageSharpFixed
                                   }
                             }
@@ -158,7 +159,7 @@ researchlink,
                         }
                         image {
                             childImageSharp {
-                                fixed(width:200) {
+                                fixed(width:150) {
                                     ...GatsbyImageSharpFixed
                                   }
                             }
@@ -194,7 +195,7 @@ researchlink,
                         }
                         image {
                             childImageSharp {
-                                fixed(width:200) {
+                                fixed(width:150) {
                                     ...GatsbyImageSharpFixed
                                   }
                             }
@@ -230,7 +231,7 @@ researchlink,
                         }
                         image {
                             childImageSharp {
-                                fixed(width:200) {
+                                fixed(width:150) {
                                     ...GatsbyImageSharpFixed
                                   }
                             }
@@ -266,7 +267,7 @@ researchlink,
                         }
                         image {
                             childImageSharp {
-                                fixed(width:200) {
+                                fixed(width:150) {
                                     ...GatsbyImageSharpFixed
                                   }
                             }
@@ -302,7 +303,7 @@ researchlink,
                         }
                         image {
                             childImageSharp {
-                                fixed(width:200) {
+                                fixed(width:150) {
                                     ...GatsbyImageSharpFixed
                                   }
                             }
@@ -347,6 +348,7 @@ researchlink,
                             <JobItem key={headMember.id} isEven={isEven}>
                                 <Row>
                                     <Col lg={3}>
+                                        <TeamMemberImageAndName>
 
 
                                         <TeamMemberImage>
@@ -372,7 +374,7 @@ researchlink,
                                             </Link>
                                         }
                                         {/* <JobType>{headMember.node.designation}</JobType> */}
-
+                                        </TeamMemberImageAndName>
                                     </Col>
                                     <Col lg={9}>
                                         <JobDesc>{headMember.node.introduction}</JobDesc>

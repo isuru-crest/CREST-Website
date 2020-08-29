@@ -64,7 +64,7 @@ researchlink,
                             large {
                                 childImageSharp {
                                     fluid(maxWidth: 546, maxHeight: 672, quality: 100) {
-                                        ...GatsbyImageSharpFluid_withWebp
+                                        ...GatsbyImageSharpFluid
                                         presentationWidth
                                         presentationHeight
                                     }
@@ -73,7 +73,7 @@ researchlink,
                         }
                         image {
                             childImageSharp {
-                                fixed(width:200) {
+                                fixed(height:150) {
                                     ...GatsbyImageSharpFixed
                                   }
                             }
@@ -109,7 +109,7 @@ researchlink,
                         }
                         image {
                             childImageSharp {
-                                fixed(width:200) {
+                                fixed(height:150) {
                                     ...GatsbyImageSharpFixed
                                   }
                             }
@@ -145,7 +145,7 @@ researchlink,
                         }
                         image {
                             childImageSharp {
-                                fixed(width:200) {
+                                fixed(height:150) {
                                     ...GatsbyImageSharpFixed
                                   }
                             }
@@ -181,7 +181,7 @@ researchlink,
                         }
                         image {
                             childImageSharp {
-                                fixed(width:200) {
+                                fixed(height:150) {
                                     ...GatsbyImageSharpFixed
                                   }
                             }
@@ -302,6 +302,8 @@ researchlink,
 
     var headMembers = teamData.headTeamMember.edges;
     var researchfellows = teamData.researchfellows.edges;
+    var phdstudents = teamData.phdstudents.edges;
+    var assistants = teamData.assistants.edges;
 
     // if (position == "researchfellows") {
     //     headMembers = teamData.researchfellows.edges;
@@ -350,7 +352,7 @@ researchlink,
                 </Row>
                 <Row {...headTeamRowStyle}>
                     {researchfellows && researchfellows.map(headMember => (
-                        <Col md={3} key={headMember.node.id}>
+                        <Col md={4} key={headMember.node.id}>
                             <TeamMember
                                 {...teamStyle}
                                 {...headTeamStyle}
@@ -364,6 +366,48 @@ researchlink,
                     ))}
                 </Row>
 
+                <Row>
+                    <Col lg={12}>
+                        <Heading {...headingStyle}><span>PhD Students</span></Heading>
+                    </Col>
+                </Row>
+                <Row {...headTeamRowStyle}>
+                    {phdstudents && phdstudents.map(headMember => (
+                        <Col md={3} key={headMember.node.id}>
+                            <TeamMember
+                                {...teamStyle}
+                                {...headTeamStyle}
+                                imageSrc={headMember.node.image.childImageSharp}
+                                name={headMember.node.name}
+                                designation={headMember.node.designation}
+                                social={headMember.node.socials}
+                                link={"/team/phd-students"}
+                            />
+                        </Col>
+                    ))}
+                </Row>
+
+
+                <Row>
+                    <Col lg={12}>
+                        <Heading {...headingStyle}><span>Research Assistants and Engineers</span></Heading>
+                    </Col>
+                </Row>
+                <Row {...headTeamRowStyle}>
+                    {assistants && assistants.map(headMember => (
+                        <Col md={4} key={headMember.node.id}>
+                            <TeamMember
+                                {...teamStyle}
+                                {...headTeamStyle}
+                                imageSrc={headMember.node.image.childImageSharp}
+                                name={headMember.node.name}
+                                designation={headMember.node.designation}
+                                social={headMember.node.socials}
+                                link={"/team/research-assistants-and-engineers"}
+                            />
+                        </Col>
+                    ))}
+                </Row>
             </Container>
         </TeamWrapper>
     )
