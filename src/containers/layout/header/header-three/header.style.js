@@ -7,6 +7,9 @@ export const HeaderTop = styled.div `
     @media ${device.medium}{
         display: none;
     }
+    svg{
+        fill: white;
+    }
 `;
 
 export const HeaderBottom = styled.div `

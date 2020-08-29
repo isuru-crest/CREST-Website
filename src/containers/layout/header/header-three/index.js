@@ -13,6 +13,8 @@ import OffCanvas, { OffCanvasHeader, OffCanvasBody } from '../../../../component
 import SearchForm from '../../../../components/forms/search-form/layout-three'
 import CloseButton from '../../../../components/ui/close-button'
 import BurgerButton from '../../../../components/ui/burger-button'
+import Social, { SocialLink } from '../../../../components/ui/social'
+import { TiSocialFacebook, TiSocialTwitter, TiSocialInstagram, TiSocialLinkedin } from "react-icons/ti";
 import {
     HeaderWrap,
     HeaderTop,
@@ -40,6 +42,16 @@ const Header = ({ props, ...styles }) => {
                             link
                             text
                         }
+                    }
+                }
+            }
+            site {
+                siteMetadata {
+                    social {
+                        facebook
+                        twitter
+                        instagram
+                        linkedin
                     }
                 }
             }
@@ -83,7 +95,7 @@ const Header = ({ props, ...styles }) => {
 
     const { noticeStyle, phoneElStyle, searchElStyle, logoStyle, burgerBtnElStyle, transparent } = styles;
     const menuArr = headerData.allMenuJson.edges;
-
+    const { facebook, twitter, instagram, linkedin } = headerData.site.siteMetadata.social;
     return (
         <Fragment>
             <HeaderWrap ref={headerRef} isSticky={sticky} transparent={transparent}>
@@ -94,6 +106,36 @@ const Header = ({ props, ...styles }) => {
                                 <HeaderMain top>
                                     <HeaderCol left>
                                         <Text color={transparent ? '#fff' : 'textColor'} {...noticeStyle}><strong>Now Hiring:</strong> Several Fully Funded PhD Positions are Available.</Text>
+                                    </HeaderCol>
+                                    <HeaderCol right>
+                                        <Social space="8px" tooltip={true}>
+                                            {twitter && (
+                                                <SocialLink
+                                                    path={twitter}>
+                                                    <TiSocialTwitter />
+                                                </SocialLink>
+                                            )}
+                                            {/* {facebook && (
+                                                <SocialLink
+                                                    path={facebook}
+                                                    title="Facebook">
+                                                    <TiSocialFacebook />
+                                                </SocialLink>
+                                            )}
+                                            {instagram && (
+                                                <SocialLink
+                                                    path={instagram}
+                                                    title="Instagram">
+                                                    <TiSocialInstagram />
+                                                </SocialLink>
+                                            )} */}
+                                            {linkedin && (
+                                                <SocialLink
+                                                    path={linkedin}>
+                                                    <TiSocialLinkedin />
+                                                </SocialLink>
+                                            )}
+                                        </Social>
                                     </HeaderCol>
                                     {/* <HeaderCol right>
                                         <HeaderElement {...phoneElStyle}>
