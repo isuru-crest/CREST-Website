@@ -447,7 +447,7 @@ researchlink,
                                 name={headMember.node.name}
                                 designation={headMember.node.designation}
                                 social={headMember.node.socials}
-                                link={"/team/collaborators-and-associates"}
+                                link={"/team/alumni"}
                             />
                         </Col>
                     ))}
