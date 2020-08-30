@@ -1,12 +1,12 @@
 export const theme = {
     colors: {
-        themeColor: '#086AD8',
+        themeColor: '#1258bb',
         themeColorBlack: '#333333',
         themeColorGreen: '#38cb89',
         textColor: '#696969',
         headingColor: '#333333',
         headingColorTwo: '#d2a98e',
-        headingColorDefault: '#086AD8',
+        headingColorDefault: '#1258bb',
         subHeadingColor: '#6d70a6',
         borderColor: '#ededed',
         borderColorTwo: '#f8f8f8',

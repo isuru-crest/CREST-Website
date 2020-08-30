@@ -26,7 +26,7 @@ export const HeroSeparator = styled.div `
     line-height: 0;
     bottom: 0;
     svg{
-        fill: #F8F8F8;
+        fill: #fff;
         height: 100px;
         width: 100%;
     }
