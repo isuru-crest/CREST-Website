@@ -857,7 +857,6 @@
         "researchlink": "",
         "is_featured": true
     },
-
     {
         "id": "shagun-dhingra",
         "name": "Shagun Dhingra",
@@ -878,6 +877,32 @@
             "linkedin": "",
             "github": "",
             "googlescholar": ""
+        },
+        "projecturl": "",
+        "researchtopic": "",
+        "researchlink": "",
+        "is_featured": true
+    },
+    {
+        "id": "mojtaba-shahin",
+        "name": "Mojtaba Shahin",
+        "designation": "Research Fellow",
+        "position": "alumni",
+        "introduction": "I am a Research Fellow in the Faculty of Information Technology, Monash University, Australia. I completed my Ph.D. in Computer Science with a major in Software Engineering in 2018 at The University of Adelaide, Australia. I am passionate about research on Software Engineering. My research goal is to develop a deep understanding of how software-intensive systems are developed, designed, and evaluated in the industry. Based on this deep understanding, I then develop and evaluate theories, techniques, processes, and tools to increase software organizations' ability to develop and deploy high-quality software-intensive systems. My research interests reside in Empirical Software Engineering, Human and Social Aspects of Software Engineering, Software Architecture, DevOps, Secure Software Engineering, and Qualitative Research. I am currently working with OVIS Lab and HumaniSE Lab to understand how to embed human values (e.g., equality, diversity) in software. I also develop techniques to help build the next generation of software that better meets the needs of diverse and unique people (e.g., aging people).",
+        "images": {
+            "large": "../images/team/mojtaba.webp",
+            "medium": "../images/team/mojtaba.webp"
+        },
+        "image": "../images/team/mojtaba.webp",
+        "competencies": "Empirical Software Engineering, Human and Social Aspects of Software Engineering, Software Architecture, DevOps, Secure Software Engineering, and Qualitative Research.",
+        "socials": {
+            "facebook": "https://www.facebook.com",
+            "twitter": "https://www.twitter.com",
+            "instagram": "https://www.instagram.com",
+            "personalwebsite": "http://mojtabashahin.wordpress.com/",
+            "linkedin": "",
+            "github": "",
+            "googlescholar": "https://scholar.google.com.au/citations?user=Aml0q7sAAAAJ&hl=en"
         },
         "projecturl": "",
         "researchtopic": "",

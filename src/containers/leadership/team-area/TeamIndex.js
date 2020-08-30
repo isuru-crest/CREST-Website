@@ -305,7 +305,7 @@ researchlink,
     var phdstudents = teamData.phdstudents.edges;
     var assistants = teamData.assistants.edges;
     var collaborators = teamData.collaborators.edges;
-
+    var alumni = teamData.alumni.edges;
     // if (position == "researchfellows") {
     //     headMembers = teamData.researchfellows.edges;
     // } else if (position == "phdstudents") {
@@ -418,7 +418,28 @@ researchlink,
                 </Row>
                 <Row {...headTeamRowStyle}>
                     {collaborators && collaborators.map(headMember => (
-                        <Col md={4} key={headMember.node.id}>
+                        <Col md={12} key={headMember.node.id}>
+                            <TeamMember
+                                {...teamStyle}
+                                {...headTeamStyle}
+                                imageSrc={headMember.node.image.childImageSharp}
+                                name={headMember.node.name}
+                                designation={headMember.node.designation}
+                                social={headMember.node.socials}
+                                link={"/team/collaborators-and-associates"}
+                            />
+                        </Col>
+                    ))}
+                </Row>
+
+                <Row>
+                    <Col lg={12}>
+                        <Heading {...headingStyle}><span>Alumni</span></Heading>
+                    </Col>
+                </Row>
+                <Row {...headTeamRowStyle}>
+                    {alumni && alumni.map(headMember => (
+                        <Col md={12} key={headMember.node.id}>
                             <TeamMember
                                 {...teamStyle}
                                 {...headTeamStyle}
