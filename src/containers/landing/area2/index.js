@@ -19,7 +19,7 @@ const Area2 = ({titleStyle, textStyle}) => {
                 id
                 image {
                     childImageSharp {
-                        fluid(maxWidth: 726, maxHeight: 435, quality: 100) {
+                        fluid(maxWidth: 700, maxHeight: 500, quality: 100) {
                             presentationWidth
                             presentationHeight
                             ...GatsbyImageSharpFluid_tracedSVG
@@ -58,6 +58,7 @@ const Area2 = ({titleStyle, textStyle}) => {
                             <Image
                                 alt={data.title}
                                 fluid={imageFluid}
+                                align="left"
                             />
                         </ImageWrap>
                     </Col>

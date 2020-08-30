@@ -19,7 +19,7 @@ const Area3 = ({titleStyle, textStyle}) => {
                 id
                 image {
                     childImageSharp {
-                        fluid(maxWidth: 922, maxHeight: 760, quality: 100){
+                        fluid(maxWidth: 700, maxHeight: 500, quality: 100) {
                             presentationWidth
                             presentationHeight
                             ...GatsbyImageSharpFluid_withWebp
