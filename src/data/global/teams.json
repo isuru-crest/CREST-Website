@@ -908,5 +908,57 @@
         "researchtopic": "",
         "researchlink": "",
         "is_featured": true
+    },
+    {
+        "id": "fengyi-yang",
+        "name": "Fengyi Yang",
+        "designation": "Research Assistants or Research Engineers",
+        "position": "assistants",
+        "introduction": "Fengyi (Frances) Yang is a research assistant of the Centre for Research on Engineering Software Technology (CREST). Frances has had experience in fields of machine learning, data mining, control and robotics. Frances’ Honours Project is on Adversarial Machine Learning in Network Intrusion Detection. Frances’ research interest is in machine learning and natural language processing. The current research project Frances is working on is Defence against Adversarial Machine Learning in Sentiment Classification.",
+        "images": {
+            "large": "../images/team/Fengyi.jpg",
+            "medium": "../images/team/Fengyi.jpg"
+        },
+        "image": "../images/team/Fengyi.jpg",
+        "competencies": "Machine learning, adversarial machine learning.",
+        "socials": {
+            "facebook": "https://www.facebook.com",
+            "twitter": "https://www.twitter.com",
+            "instagram": "https://www.instagram.com",
+            "personalwebsite": "",
+            "linkedin": "",
+            "github": "",
+            "googlescholar": ""
+        },
+        "projecturl": "",
+        "researchtopic": "",
+        "researchlink": "",
+        "is_featured": true
+    },
+    {
+        "id": "anupam",
+        "name": "Anupam",
+        "designation": "Research Assistants or Research Engineers",
+        "position": "assistants",
+        "introduction": "I am currently pursuing a Master of Computer Science degree at the University of Adelaide. Before that, I worked as a Software Engineer at Ford Motor Company for four years, where I performed activities related to design, development, integration, and testing of complex Information Systems using Agile methodology. My interest lies in analyzing and solving complex problems in the field of Software Engineering and Cyber Security.",
+        "images": {
+            "large": "../images/team/anupam.jpg",
+            "medium": "../images/team/anupam.jpg"
+        },
+        "image": "../images/team/anupam.jpg",
+        "competencies": "",
+        "socials": {
+            "facebook": "https://www.facebook.com",
+            "twitter": "https://www.twitter.com",
+            "instagram": "https://www.instagram.com",
+            "personalwebsite": "",
+            "linkedin": "",
+            "github": "",
+            "googlescholar": ""
+        },
+        "projecturl": "",
+        "researchtopic": "",
+        "researchlink": "",
+        "is_featured": true
     }
 ]
