@@ -109,8 +109,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        "name": "Mitech",
-        "short_name": "mitech",
+        "name": "Centre for Research on Engineering Software Technologies",
+        "short_name": "CREST",
         "theme_color": "#086ad8",
         "background_color": "#ffffff",
         "display": "standalone",
