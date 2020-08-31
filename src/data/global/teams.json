@@ -782,7 +782,7 @@
     {
         "id": "anying-xiang",
         "name": "Anying Xiang",
-        "designation": "Research Assistants or Research Engineers",
+        "designation": "Research Engineer",
         "position": "assistants",
         "introduction": "Anying is doing the Software Engineering activity under the supervision of Professor Muhammad Ali Babar at Crest, the University of Adelaide. She completed the Master of Software Engineering at the University of Adelaide.",
         "images": {
@@ -808,7 +808,7 @@
     {
         "id": "hussain-ahmad",
         "name": "Hussain Ahmad",
-        "designation": "Research Assistants or Research Engineers",
+        "designation": "Research Assistant",
         "position": "assistants",
         "introduction": "Hussain Ahmad is a Research Engineer at the School of Computer Science, University of Adelaide. He is currently working on the cybersecurity of the Command, Control, Communication and Intelligence (C3I) Systems under the supervision of Professor Ali Babar and Dr Faheem Ullah. With the aim of providing Information Assurance and Superiority, his research focuses on the development of the efficacious countervailing measures for the potential attack vectors that could deteriorate the security characteristics of the C3I systems. Hussain is also enthusiastic about Machine Learning, Robotics and Data Security. He holds a bachelor degree in Electronic Engineering from GIK Institute, Pakistan.",
         "images": {
@@ -834,7 +834,7 @@
     {
         "id": "isuru-dharmadasa",
         "name": "Isuru Dharmadasa",
-        "designation": "Research Assistants or Research Engineers",
+        "designation": "Research Assistant",
         "position": "assistants",
         "introduction": "Isuru Dharmadasa graduated from the University of Colombo School of Computing with a first-class honours degree. He was able to secure three gold medals including best performance in four-year degree program and best final year undergraduate research project. During his undergraduate life and later as a junior academic member of the University of Colombo, he has contributed to multiple research projects. His research interest lies in software engineering, machine learning, data security and privacy.",
         "images": {
@@ -860,7 +860,7 @@
     {
         "id": "shagun-dhingra",
         "name": "Shagun Dhingra",
-        "designation": "Research Assistants or Research Engineers",
+        "designation": "Research Assistant",
         "position": "assistants",
         "introduction": "I am Shagun Dhingra, final year postgraduate student, studying Master of Data Science at University of Adelaide. Currently, I am working on Research Project “The Impact of cloud models on the performance of big data frameworks” under the supervision of Prof. M. Ali Babar & Dr. Faheem Ullah. My Master’s degree and work focuses on learning different algorithmic structures, Statistical Modelling, Software Architecture, Machine learning, Big Data Analytics with Cloud Computing, Distributed Databases & Data Mining. I completed my BSc degree and Master’s in mathematics from India.",
         "images": {
@@ -912,7 +912,7 @@
     {
         "id": "fengyi-yang",
         "name": "Fengyi Yang",
-        "designation": "Research Assistants or Research Engineers",
+        "designation": "Research Assistant",
         "position": "assistants",
         "introduction": "Fengyi (Frances) Yang is a research assistant of the Centre for Research on Engineering Software Technology (CREST). Frances has had experience in fields of machine learning, data mining, control and robotics. Frances’ Honours Project is on Adversarial Machine Learning in Network Intrusion Detection. Frances’ research interest is in machine learning and natural language processing. The current research project Frances is working on is Defence against Adversarial Machine Learning in Sentiment Classification.",
         "images": {
@@ -938,7 +938,7 @@
     {
         "id": "anupam",
         "name": "Anupam",
-        "designation": "Research Assistants or Research Engineers",
+        "designation": "Research Engineer",
         "position": "assistants",
         "introduction": "I am currently pursuing a Master of Computer Science degree at the University of Adelaide. Before that, I worked as a Software Engineer at Ford Motor Company for four years, where I performed activities related to design, development, integration, and testing of complex Information Systems using Agile methodology. My interest lies in analyzing and solving complex problems in the field of Software Engineering and Cyber Security.",
         "images": {
