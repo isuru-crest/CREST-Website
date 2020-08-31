@@ -960,5 +960,31 @@
         "researchtopic": "",
         "researchlink": "",
         "is_featured": true
+    },
+    {
+        "id": "khoa-nguyen",
+        "name": "Mai Anh Khoa Nguyen",
+        "designation": "Research Engineer",
+        "position": "assistants",
+        "introduction": "Mai Anh Khoa Nguyen is a research engineer of the Centre for Research on Engineering Software Technology (CREST). He obtained his Master's degree in Software Engineering from The University of Adelaide. He is currently working on the security modelling of the Command, Control, Communication and Intelligence (C3I) Systems under the supervision of Professor Ali Babar. His research focuses on the application of model-driven engineering, text mining, agent-based modelling and simulation to discover the security vulnerabilities and cascading attacks of the System of Systems (SoS).",
+        "images": {
+            "large": "../images/team/leo.jpg",
+            "medium": "../images/team/leo.jpg"
+        },
+        "image": "../images/team/leo.jpg",
+        "competencies": "Cyber Security, Security Modelling, Model Driven Engineering, Text Mining, Web Technologies.",
+        "socials": {
+            "facebook": "https://www.facebook.com",
+            "twitter": "https://www.twitter.com",
+            "instagram": "https://www.instagram.com",
+            "personalwebsite": "",
+            "linkedin": "",
+            "github": "",
+            "googlescholar": ""
+        },
+        "projecturl": "",
+        "researchtopic": "",
+        "researchlink": "",
+        "is_featured": true
     }
 ]
