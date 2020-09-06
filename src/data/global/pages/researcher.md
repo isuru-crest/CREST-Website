@@ -1,7 +1,7 @@
 ---
 title: "Grant-Funded Researcher A"
 date: "2020-09-06 09:02:00"
-author: "Liuyue Jiang"
+author: "Owen Christ"
 featured_image: "../../images/blog/blog-03-1170x600.jpg"
 video_link: "null"
 quote_author: "null"
