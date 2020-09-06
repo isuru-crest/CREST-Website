@@ -8,13 +8,20 @@
         "jobs": [
             {
                 "id": "job-1",
-                "title": "Master Opportunities",
+                "title": "Grant-Funded Researcher (A)",
                 "type": "Full time",
-                "description": "Several fully funded PhD positions available in the broad areas of Security of Software-intensive Systems and Services at a leading research center, Centre for Research on Engineering Software Technologies (CREST).",
-                "link": "/master-opportunities"
+                "description": "Fixed term position available for 18 months. Level A Full Time position.",
+                "link": "/grant-funded-researcher-a"
             },
             {
-                "id": "job-2",
+                "id": "job-3",
+                "title": "Grant-Funded Researcher (B)",
+                "type": "Full time",
+                "description": "Fixed term contract for 18 months available from October 2020, Level B Full Time position.",
+                "link": "/grant-funded-researcher-b"
+            },
+            {
+                "id": "job-4",
                 "title": "PhD opportunities",
                 "type": "Full time",
                 "description": "Several fully funded PhD positions available in the broad areas of Security of Software-intensive Systems and Services at a leading research center, Centre for Research on Engineering Software Technologies (CREST).",
