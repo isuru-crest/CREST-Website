@@ -104,6 +104,32 @@
         "is_featured": true
     },
     {
+        "id": "Jamal",
+        "name": "Jamal EL HACHEM",
+        "designation": "Assistant Professor",
+        "position": "faculty",
+        "introduction": "Jamal EL HACHEM is an Assistant Professor at ENSIBS engineering school, University of South Brittany. Her research activities fall under the theme of Software Engineering, focusing on cybersecurity engineering for software-intensive systems. They aim to investigate Model Driven Engineering approaches to guide modeling and automate cybersecurity analysis of softwareintensive systems. She obtained her Ph.D. title at the University of Pau in December 2017 defending her thesis entitled “A Model Driven Method to Design and Analyze Secure System-of-Systems Architectures. Application to Predict Cascading Attacks in Smart Buildings”. She then worked two years as a temporary research assistant at the University of Pau. She collaborated on software engineering projects with international research labs (CREST-University of Adelaide, School of Innovation design and Engineering-Mälardalen University).",
+        "images": {
+            "large": "../images/team/Jamal.jpg",
+            "medium": "../images/team/Jamal.jpg"
+        },
+        "image": "../images/team/Jamal.jpg",
+        "competencies": "Cybersecurity engineering for software-intensive systems, guide modeling and automate cybersecurity analysis of softwareintensive systems",
+        "socials": {
+            "facebook": "https://www.facebook.com",
+            "twitter": "https://www.twitter.com",
+            "instagram": "https://www.instagram.com",
+            "personalwebsite": "",
+            "linkedin": "",
+            "github": "",
+            "googlescholar": ""
+        },
+        "projecturl": "",
+        "researchtopic": "",
+        "researchlink": "",
+        "is_featured": true
+    },
+    {
         "id": "aufeef-chauhan",
         "name": "Aufeef Chauhan",
         "designation": "Post Doc",
