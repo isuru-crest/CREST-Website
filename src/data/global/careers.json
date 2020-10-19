@@ -7,6 +7,13 @@
         "id": "our-open-jobs",
         "jobs": [
             {
+                "id": "summer-scholarship",
+                "title": "Summer Scholarship",
+                "type": "Full time",
+                "description": "Timeframe and duration – Nov 2020 – Feb 2021, 10-12 weeks, full time. Scholarship amount – various with minimum $300 per week.",
+                "link": "/summer-scholarship"
+            },
+            {
                 "id": "job-1",
                 "title": "Grant-Funded Researcher (A)",
                 "type": "Full time",
