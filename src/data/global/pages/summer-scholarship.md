@@ -29,6 +29,31 @@ is_featured: true
 
 **Expected years of student: completed year 3 or entering in year 3. Limited scholarships for students doing Masters degree are also available.**
 
+###### Challenges Overview and Internal co-supervisors
+
+| Challenge ID | Project name                                                                                     | Project | Supervisor Name      |
+|--------------|--------------------------------------------------------------------------------------------------|---------|----------------------|
+| **1**            | **Collaboration and Teamwork for CCOP**                                                              | **CCOP**    | **Asangi and Mansooreh** |
+| **2**            | **AI-based Assistant for Executive Cyber Awareness**                                                 | **CCOP**    | **Ngyuen**               |
+| **3**           | **Metric recommendation based on organizational needs**                                             | **CCOP**    | **Ngyuen and Chandi**        |
+| 4            | Containerized application live updating with network-level services                              | Pokaps  | Mobin                |
+| 5            | Towards Configurable Vulnerability Assessment in Docker Containers                               | Pokaps  | Victor and Mobin         |
+| 6            | Automatic coordination of software security patch management                                     | Pokaps  | Nesara               |
+| 7            | Dependency analytics in software security patch management                                       | Pokaps  | Nesara               |
+| 8            | Blockchain-based Tool for Security Patching Lifecycle Management                                 | Pokaps  | Auffef               |
+| 9            | Automated security assessment for interconnected systems                                         | C3i     | Faheem               |
+| 10           | Log file analysis and visual feedback generator                                                  | C3i     | Faheem               |
+| 11           | Security database mapping for meaningful mitigation                                              | C3i     | Faheem               |
+| 12           | Modelling Security Operations Activities for Securing C3I Systems                                | C3i     | Ali                  |
+| 13           | Evaluation of Tool Support for Security by Design of C3i Software Systems                        | C3i     | Ali                  |
+| 14           | Resilience and Security of Command and Control infrastructure for C3i Systems                    | C3i     | Faheem and Nguyen    |
+| 15           | Protecting software-deﬁned enterprise networks  of a C3I system from packet injection Attacks    | C3i     | Faheem and Nguyen        |
+
+**All the project are supervised by Ali, Asangi, and Mansooreh.**
+
+
+
+
 **Challenge #1: Collaboration and Teamwork for CCOP**
 
 Common Operational Pictures (COPs) have been used in the military domain as a powerful tool for gaining Situational Awareness (SA) and thus enabling appropriate decision-making in moments of crisis or attacks. Today, SA is also an essential part of the cybersecurity operations of many organisations, but particularly for Critical Infrastructures (CIs) and national agencies. A number of solutions have been proposed to enhance Cyber Situational Awareness (CSA) by means of Cyber Common Operational Pictures (Cyber COPs). A COP is defined as &quot;a single identical display of relevant information shared by more than one command that facilitates collaborative planning and assists all echelons to achieve situational awareness&quot;.
@@ -174,3 +199,20 @@ The networking architecture of the software-deﬁned network (SDN) employed in a
 In this project, we will design and implement a packet injection attack&#39;s mitigation technique that will detect and immediately block the malicious data packet ﬂow at the gateway switch of the software-deﬁned enterprise network of a C3I infrastructure. In our project, we want to guarantee that the core network does not stop functioning due to the packet injection attack. We want to shift the computational functionality of the controller to the edge switch, using the P4 based implementation, to thoroughly reduce the workload of mitigating the edge controller&#39;s packet injection attack.
 
 The outcomes of this project will be a software/tool and research paper that will protect software-defined enterprise network from the packet injection attack.
+
+
+##### For further information
+
+For a confidential discussion regarding to the positions, contact:
+
+Professor Ali Babar
+
+Email:<ali.babar@adelaide.edu.au> 
+
+Dr. Asangi Jayatilaka
+
+Email:<asangi.jayatilaka@adelaide.edu.au> 
+
+Dr. Mansooreh Zahedi
+
+Email:<mansooreh.zahedi@adelaide.edu.au>
