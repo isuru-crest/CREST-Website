@@ -5,6 +5,7 @@ import { MdPhone, MdPlace, MdSearch } from "react-icons/md";
 import { Container, Row, Col } from '../../../../components/ui/wrapper'
 import Text from '../../../../components/ui/text'
 import Anchor from '../../../../components/ui/anchor'
+import { Link } from "gatsby"
 import Logo from '../../../../components/logo'
 import Clickable from '../../../../components/ui/clickable'
 import { MainMenu, MobileMenu } from '../../../../components/menu'
@@ -105,7 +106,7 @@ const Header = ({ props, ...styles }) => {
                             <Col lg={12}>
                                 <HeaderMain top>
                                     <HeaderCol left>
-                                        <Text color={transparent ? '#fff' : 'textColor'} {...noticeStyle}><strong>Now Hiring:</strong> Several Fully Funded PhD Positions are Available.</Text>
+                                        <Link to="/summer-scholarship"><Text color={transparent ? '#fff' : 'textColor'} {...noticeStyle}><strong>Now Hiring: CREST Summer Internships - Nov 2020 – Feb 2021, 10-12 weeks, full time.</strong></Text></Link>
                                     </HeaderCol>
                                     <HeaderCol right>
                                         <Social space="8px" tooltip={true}>
