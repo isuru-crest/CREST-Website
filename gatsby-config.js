@@ -48,6 +48,24 @@ module.exports = {
     `gatsby-plugin-playground`,
     `gatsby-plugin-styled-components`,
     'gatsby-plugin-loadable-components-ssr',
+    
+    {
+      resolve: 'gatsby-transformer-json',
+      options: {
+        name:'index-widget',
+        path:'${__dirname}/src/data}'
+      }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path : `${__dirname}/src/data`,
+        name: 'index-widget',
+        plugins: [
+          `gatsby-transformer-json`
+        ]
+      }
+    },
     {
       resolve: `gatsby-plugin-layout`,
       options: {

@@ -14,6 +14,7 @@ const CTASection = ({
     ButtonTwo,
     ...props
 }) => {
+
     const ctaData = useStaticQuery(graphql `
         query CtaTwoImgQuery {
             file(relativePath: {eq: "images/bg/cta-bg.png"}) {
@@ -23,34 +24,45 @@ const CTASection = ({
                     }
                 }
             }
+            allIndexWidgetJson {
+                nodes {
+                    title
+                    butt1
+                    butt2
+                    link1
+                    link2
+                }
+            }
         } 
     `);
-    const imageData = ctaData.file.childImageSharp.fluid;
+    console.log("TEST"+ctaData.allIndexWidgetJson.nodes[0].title);
+    const {imageData} = ctaData.file.childImageSharp.fluid;
+
     return ( 
         <Section {...sectionStyle} bgImage={imageData}>
             <Container>
                 <Row className="align-items-center text-lg-left text-center">
                     <Col xl={8} lg={7}>
-                        <Heading {...heading}>Assess your business potentials and find opportunities <span>for bigger success </span> </Heading> 
+                        <Heading {...heading}> {ctaData.allIndexWidgetJson.nodes[0].title} <span> Test </span> </Heading> 
                     </Col> 
                     <Col xl ={4} lg={5} className="text-center">
-                        <Button 
-                            to="/" 
+                        <Button
+                            to={ctaData.allIndexWidgetJson.nodes[0].link1}
                             {...ButtonOne} 
                             icon={<MdComment/>}
                             iconposition="left"
                             icondistance="4px"
                             iconsize="16px">
-                            Let 's talk 
+                            {ctaData.allIndexWidgetJson.nodes[0].butt1}
                         </Button> 
                         <Button 
-                            to="/" 
+                            to={ctaData.allIndexWidgetJson.nodes[0].link2}
                             {...ButtonTwo} 
                             icon={<MdInfoOutline/>}
                             iconposition="left"
                             icondistance="4px"
                             iconsize="16px">
-                            Get Info 
+                            {ctaData.allIndexWidgetJson.nodes[0].butt2}
                         </Button> 
                     </Col> 
                 </Row> 
