@@ -1,8 +1,9 @@
 
 [{
-  "title": "Test Title",
-  "butt1": "Button 1 Name",
-  "butt2": "Buttone 2 Name",
-  "link1": "/contact-us",
+  "title": "Position Available! ",
+  "title2": "Join Us Now!",
+  "butt1": "More",
+  "butt2": "",
+  "link1": "/positions",
   "link2": "/contact-us"
 }]
