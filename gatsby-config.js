@@ -48,6 +48,41 @@ module.exports = {
     `gatsby-plugin-playground`,
     `gatsby-plugin-styled-components`,
     'gatsby-plugin-loadable-components-ssr',
+    
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `test`,
+        path: `${__dirname}/src/data/global/pages`,
+      },
+    },
+    
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/data/global/pages`,
+        name: `test`,
+      },
+    },
+    `gatsby-transformer-remark`,
+
+    {
+      resolve: 'gatsby-transformer-json',
+      options: {
+        name:'index-widget',
+        path:'${__dirname}/src/data}'
+      }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path : `${__dirname}/src/data`,
+        name: 'index-widget',
+        plugins: [
+          `gatsby-transformer-json`
+        ]
+      }
+    },
     {
       resolve: `gatsby-plugin-layout`,
       options: {
@@ -205,5 +240,6 @@ module.exports = {
       }
     },
     'gatsby-plugin-netlify-cms'
+    
   ]
 }

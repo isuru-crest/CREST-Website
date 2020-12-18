@@ -15,7 +15,7 @@ tags:
 format: "null"
 type: "blog"
 is_featured: true
-main_content: "This is main content."
+main_content: "CCOP Dashboard visualizes security metrics to provide executives a concise view of their organizations' security status. It shows high-level compound metrics to provide a quick overview and allows executives to inspect the components of these metrics should the requirement arises."
 ---
 
 

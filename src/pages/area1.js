@@ -6,10 +6,7 @@ import Header from '../containers/layout/header/header-three'
 import Footer from '../containers/layout/footer/footer-one'
 import PageHeader from '../components/pageheader'
 import Section, { Row, Col } from '../components/ui/wrapper'
-import Heading from '../components/ui/heading'
-import Sidebar from '../containers/blog/sidebar'
 import AreaArea from '../containers/blog/area-area/area1'
-import CTA from '../containers/global/cta-area/section-one'
 
 const AreaListLargeImage = ({ pageContext, location, ...restProps }) => {
     const { sectionStyle, headingStyle } = restProps;

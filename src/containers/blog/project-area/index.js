@@ -1,14 +1,16 @@
 import React, { Fragment } from 'react';
 import { useStaticQuery, graphql } from "gatsby"
 import Blog from '../../../components/blog/area'
+import Pagination from '../../../components/blog/pagination'
 import { BlogWrapper, BlogBox } from './blog-area.style'
 
-const AreaArea1 = ({ blogBoxStyle }) => {
-    const AreaQuery = useStaticQuery(graphql`
-        query ListArea1Query {
+const BlogArea = ({ blogBoxStyle }) => {
+    const BlogQuery = useStaticQuery(graphql`
+        query ListProjectQuery {
             allMarkdownRemark(
-                sort: {fields: frontmatter___date, order: DESC}
-                filter: {frontmatter: {research_area: {eq: 1}}}
+                sort: {fields: frontmatter___date, order: DESC}, 
+                filter: {frontmatter: {type: {eq: "blog"}}},
+                limit: 6,
                 ) {
                 totalCount
                 edges {
@@ -30,8 +32,8 @@ const AreaArea1 = ({ blogBoxStyle }) => {
                             quote_text
                             quote_author
                             video_link
-                            research_area
                             main_content
+                            type
                             date(formatString: "LL")
                             featured_image {
                                 childImageSharp {
@@ -54,29 +56,27 @@ const AreaArea1 = ({ blogBoxStyle }) => {
             }
         }      
     `)
-    const blogs = AreaQuery.allMarkdownRemark.edges;
-    console.log(blogs[0].node.title);
-    const { totalCount } = AreaQuery.allMarkdownRemark;
+    const blogs = BlogQuery.allMarkdownRemark.edges;
+    const { totalCount } = BlogQuery.allMarkdownRemark;
     const postsPerPage = 6;
     const numberOfPages = Math.ceil(totalCount / postsPerPage);
     return (
         <Fragment>
             <BlogWrapper>
                 {blogs.map(blog => (
-
                     <BlogBox key={blog.node.fields.slug}>
                         <Blog content={blog.node} />
                     </BlogBox>
                 ))}
             </BlogWrapper>
-            {/* <Pagination
+            <Pagination
                 rootPage="/blog"
                 currentPage={1}
                 numberOfPages={numberOfPages}
-            /> */}
+            />
         </Fragment>
     )
 }
 
 
-export default AreaArea1;
+export default BlogArea;
