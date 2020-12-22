@@ -121,7 +121,7 @@ const CaseStudySection = ({
                                         // title={markdowndata.edges.title}
                                         category={caseStudy.node.category}
                                         desc={caseStudy.node.excerpt}
-                                        path={`/case-study/${caseStudy.node.fields.slug}`}
+                                        path={`/${caseStudy.node.fields.slug}`}
                                         btnText="View case study"
                                     />
                                 </div>
