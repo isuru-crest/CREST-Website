@@ -24,9 +24,7 @@ main_content: "At CREST researchers are leveraging existing software engineering
 This is the introduction.
 
 ## Team Involved
-
 **Name 1**
-
 - profile details
 
 **name 2**

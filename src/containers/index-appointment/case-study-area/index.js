@@ -122,7 +122,7 @@ const CaseStudySection = ({
                                         category={caseStudy.node.category}
                                         desc={caseStudy.node.excerpt}
                                         path={`/${caseStudy.node.fields.slug}`}
-                                        btnText="View case study"
+                                        btnText="View project"
                                     />
                                 </div>
                             ))}
