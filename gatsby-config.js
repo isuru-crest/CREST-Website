@@ -48,7 +48,14 @@ module.exports = {
     `gatsby-plugin-playground`,
     `gatsby-plugin-styled-components`,
     'gatsby-plugin-loadable-components-ssr',
-    
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/src/data/images/team`,
+        name: 'images',
+      },
+    },
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {

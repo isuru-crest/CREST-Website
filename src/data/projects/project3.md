@@ -2,6 +2,8 @@
 title: "proj 3"
 is_shown: true
 date: "2020-07-01 15:01:00"
+author1: "M. Ali Babar"
+author1_image: "../images/team/ali.jpeg"
 image: "../images/pics/test.jpg"
 bgImage: "./images/bg/case-study-section-bg.png"
 video_link: "null"
