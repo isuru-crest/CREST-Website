@@ -112,10 +112,10 @@ const BlogTemplate = ({ data, pageContext, location, ...restProps }) => {
                                 <br />
                                 <br />
                                 <Box as="footer">
-                                    <FooterMetaWrap>
+                                    {post.type != 'project' && <FooterMetaWrap>
                                         <Row alignitems="center">
                                             <Col sm={6}>
-                                                <Tags tags={tags} />
+                                                {/* <Tags tags={tags} /> */}
                                             </Col>
                                             <Col sm={6}>
                                                 <SocialShare
@@ -124,7 +124,8 @@ const BlogTemplate = ({ data, pageContext, location, ...restProps }) => {
                                                 />
                                             </Col>
                                         </Row>
-                                    </FooterMetaWrap>
+                                    </FooterMetaWrap>}
+
 
                                     {post.type == 'project' && <AuthorWrap>
                                         <h4>Project Member</h4>

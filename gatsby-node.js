@@ -271,23 +271,23 @@ exports.createPages = async ({ graphql, actions }) => {
 
     // Create Tags Page
 
-    let tags = []
-    _.each(posts, edge => {
-        if (_.get(edge, 'node.frontmatter.tags')) {
-            tags = tags.concat(edge.node.frontmatter.tags)
-        }
-    })
+    // let tags = []
+    // _.each(posts, edge => {
+    //     if (_.get(edge, 'node.frontmatter.tags')) {
+    //         tags = tags.concat(edge.node.frontmatter.tags)
+    //     }
+    // })
 
-    tags = _.uniq(tags)
-    tags.forEach(tag => {
-        createPage({
-            path: `/tag/${slugify(tag)}`,
-            component: tagPage,
-            context: {
-                tag
-            }
-        })
-    })
+    // tags = _.uniq(tags)
+    // tags.forEach(tag => {
+    //     createPage({
+    //         path: `/tag/${slugify(tag)}`,
+    //         component: tagPage,
+    //         context: {
+    //             tag
+    //         }
+    //     })
+    // })
 
     // Create Categories Page
 

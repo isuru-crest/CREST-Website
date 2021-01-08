@@ -16,7 +16,7 @@ tags:
     - Cyber Security
     - IT Services
 format: "null"
-is_featured: false
+is_featured: true
 type: "project"
 main_content: "At CREST researchers are leveraging existing software engineering, analytical reasoning, natural language processing and machine learning tools and techniques to develop a secure and integrated platform. Our aim is to help build a secure and integrated platform that is easy to use and evolve with the changing threat landscape and increase the operation efficiency of the cybersecurity team."
 ---
