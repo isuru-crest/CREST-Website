@@ -63,7 +63,10 @@ const BlogTemplate = ({ data, pageContext, location, ...restProps }) => {
     const modalVideoClose = () => {
         setVideoOpen(false)
     }
-
+    console.log(post.title);
+    console.log(post.date);
+    console.log(post.author1);
+    console.log(post.author1_image);
     return (
         <Layout location={location}>
             <Header />
@@ -121,7 +124,14 @@ const BlogTemplate = ({ data, pageContext, location, ...restProps }) => {
                                             </Col>
                                         </Row>
                                     </FooterMetaWrap>
-
+                                    <AuthorWrap>
+                                        <AuthorInfo>
+                                            <AuthorAvatar>
+                                                <Image fluid={post.author1_image.childImageSharp.fluid} alt={post.author1} />
+                                                {post.author1 && <Heading as="h6">{post.author1}</Heading>}
+                                            </AuthorAvatar>
+                                        </AuthorInfo>
+                                    </AuthorWrap>
                                     {/* {(post.type !== "area" && post.type !== "resources" && post.type !== "pages") && <AuthorWrap>
                                         <AuthorInfo>
                                             <AuthorAvatar>
@@ -173,14 +183,14 @@ const BlogTemplate = ({ data, pageContext, location, ...restProps }) => {
                                     {post.type !== "area" && <Heading {...titleStyle}>{post.title}</Heading>} */}
 
                                     <HeaderMetaWrap>
-                                        {(post.date && (post.type !== "area" && post.type !== "resources" && post.type !== "pages")) && (
+                                        {/* {(post.date && (post.type !== "area" && post.type !== "resources" && post.type !== "pages")) && (
                                             <AuthorMeta
                                                 {...headerMetaStyle}
                                                 slug={authorId}
                                                 name={author.name}
                                                 imageSrc={author.image.childImageSharp}
                                             />
-                                        )}
+                                        )} */}
                                         {(post.date && (post.type !== "area" && post.type !== "resources" && post.type !== "pages")) && (
                                             <BlogMeta
                                                 {...headerMetaStyle}
@@ -243,7 +253,6 @@ const BlogTemplate = ({ data, pageContext, location, ...restProps }) => {
         </Layout>
     )
 }
-
 
 BlogTemplate.propTypes = {
     sectionStyle: PropTypes.object
@@ -315,6 +324,16 @@ export const postQuery = graphql`
                 date(formatString: "LL")
                 tags
                 type
+                author1
+                author1_image {
+                    childImageSharp {
+                      fluid(maxWidth: 100, maxHeight: 100, quality: 100) {
+                        ...GatsbyImageSharpFluid_withWebp
+                        presentationWidth
+                        presentationHeight
+                      }
+                    }
+                }
                 author{
                     name
                     image {
