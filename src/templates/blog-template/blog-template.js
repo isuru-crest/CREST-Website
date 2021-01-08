@@ -124,14 +124,18 @@ const BlogTemplate = ({ data, pageContext, location, ...restProps }) => {
                                             </Col>
                                         </Row>
                                     </FooterMetaWrap>
-                                    <AuthorWrap>
+
+                                    {post.type == 'project' && <AuthorWrap>
+                                        <h4>Project Member</h4>
+                                        <br />
                                         <AuthorInfo>
                                             <AuthorAvatar>
                                                 <Image fluid={post.author1_image.childImageSharp.fluid} alt={post.author1} />
                                                 {post.author1 && <Heading as="h6">{post.author1}</Heading>}
                                             </AuthorAvatar>
                                         </AuthorInfo>
-                                    </AuthorWrap>
+                                    </AuthorWrap>}
+
                                     {/* {(post.type !== "area" && post.type !== "resources" && post.type !== "pages") && <AuthorWrap>
                                         <AuthorInfo>
                                             <AuthorAvatar>
@@ -177,13 +181,13 @@ const BlogTemplate = ({ data, pageContext, location, ...restProps }) => {
                                     </AuthorWrap>} */}
 
                                     <BlogInfo>
-                                    {/* <CategoryBox>
+                                        {/* <CategoryBox>
                                         <Categories categories={categories} />
                                     </CategoryBox>
                                     {post.type !== "area" && <Heading {...titleStyle}>{post.title}</Heading>} */}
 
-                                    <HeaderMetaWrap>
-                                        {/* {(post.date && (post.type !== "area" && post.type !== "resources" && post.type !== "pages")) && (
+                                        <HeaderMetaWrap>
+                                            {/* {(post.date && (post.type !== "area" && post.type !== "resources" && post.type !== "pages")) && (
                                             <AuthorMeta
                                                 {...headerMetaStyle}
                                                 slug={authorId}
@@ -191,22 +195,22 @@ const BlogTemplate = ({ data, pageContext, location, ...restProps }) => {
                                                 imageSrc={author.image.childImageSharp}
                                             />
                                         )} */}
-                                        {(post.date && (post.type !== "area" && post.type !== "resources" && post.type !== "pages")) && (
-                                            <BlogMeta
-                                                {...headerMetaStyle}
-                                                path={`/date/${dateSlug}`}
-                                                text={post.date}
-                                                icon={<FaCalendarAlt />}
-                                            />
-                                        )}
-                                        {/* <BlogMeta
+                                            {(post.date && (post.type !== "area" && post.type !== "resources" && post.type !== "pages")) && (
+                                                <BlogMeta
+                                                    {...headerMetaStyle}
+                                                    path={`/date/${dateSlug}`}
+                                                    text={post.date}
+                                                    icon={<FaCalendarAlt />}
+                                                />
+                                            )}
+                                            {/* <BlogMeta
                                             {...headerMetaStyle}
                                             path={`/`}
                                             text={`4 Comments`}
                                             icon={<FaCommentDots />}
                                         /> */}
-                                    </HeaderMetaWrap>
-                                </BlogInfo>
+                                        </HeaderMetaWrap>
+                                    </BlogInfo>
 
                                     {/* {(post.type !== "area" && post.type !== "resources") && <BlogNavigation>
                                         {previous && (
