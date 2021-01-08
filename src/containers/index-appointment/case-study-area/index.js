@@ -129,14 +129,14 @@ const CaseStudySection = ({
                         </SwiperSlider>
                     </Col>
                 </Row>
-                <Row {...bottomRowStyle}>
+                {/* <Row {...bottomRowStyle}>
                     <Col lg={12}>
                         <Text {...bottomTextStyle}>
                             {caseStudySecData.bottom_text}
                             <Anchor {...bottoTextLinkStyle} path={caseStudySecData.bottom_link}>{caseStudySecData.bottom_link_text}</Anchor>
                         </Text>
                     </Col>
-                </Row>
+                </Row> */}
             </Container>
         </CaseStudyWrapper>
     )
