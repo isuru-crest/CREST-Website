@@ -63,11 +63,11 @@ const BlogTemplate = ({ data, pageContext, location, ...restProps }) => {
     const modalVideoClose = () => {
         setVideoOpen(false)
     }
-    
-    console.log(post.title);
-    console.log(post.date);
-    console.log(post.author1);
-    console.log(post.author1_image);
+
+    // console.log(post.title);
+    // console.log(post.date);
+    // console.log(post.author1);
+    // console.log(post.author1_image);
     return (
         <Layout location={location}>
             <Header />
