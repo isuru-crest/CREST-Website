@@ -291,43 +291,43 @@ exports.createPages = async ({ graphql, actions }) => {
 
     // Create Categories Page
 
-    let categories = []
-    _.each(posts, edge => {
-        if (_.get(edge, 'node.frontmatter.categories')) {
-            categories = categories.concat(edge.node.frontmatter.categories)
-        }
-    })
+    // let categories = []
+    // _.each(posts, edge => {
+    //     if (_.get(edge, 'node.frontmatter.categories')) {
+    //         categories = categories.concat(edge.node.frontmatter.categories)
+    //     }
+    // })
 
-    categories = _.uniq(categories)
-    categories.forEach(category => {
-        createPage({
-            path: `/category/${slugify(category)}`,
-            component: categoryPage,
-            context: {
-                category
-            }
-        })
-    })
+    // categories = _.uniq(categories)
+    // categories.forEach(category => {
+    //     createPage({
+    //         path: `/category/${slugify(category)}`,
+    //         component: categoryPage,
+    //         context: {
+    //             category
+    //         }
+    //     })
+    // })
 
     // Create Authors Page
 
-    let authors = []
-    _.each(posts, edge => {
-        if (_.get(edge, 'node.fields.authorId')) {
-            authors = authors.concat(edge.node.fields.authorId)
-        }
-    })
+    // let authors = []
+    // _.each(posts, edge => {
+    //     if (_.get(edge, 'node.fields.authorId')) {
+    //         authors = authors.concat(edge.node.fields.authorId)
+    //     }
+    // })
 
-    authors = _.uniq(authors)
-    authors.forEach(author => {
-        createPage({
-            path: `/profile/${author}`,
-            component: authorPage,
-            context: {
-                author
-            }
-        })
-    })
+    // authors = _.uniq(authors)
+    // authors.forEach(author => {
+    //     createPage({
+    //         path: `/profile/${author}`,
+    //         component: authorPage,
+    //         context: {
+    //             author
+    //         }
+    //     })
+    // })
 
     // Create Date Page
 
