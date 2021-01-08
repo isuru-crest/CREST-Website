@@ -250,24 +250,24 @@ exports.createPages = async ({ graphql, actions }) => {
     // Create Blog List Page
     // Pagination
 
-    const postsPerPage = 10;
-    const numberOfPages = Math.ceil(posts.length / postsPerPage);
+    // const postsPerPage = 10;
+    // const numberOfPages = Math.ceil(posts.length / postsPerPage);
 
-    Array.from({ length: numberOfPages }).forEach((_, index) => {
-        const isFirstPage = index === 0;
-        const currentPage = index + 1;
-        if (isFirstPage) return;
-        createPage({
-            path: `blog/page/${currentPage}`,
-            component: blogList,
-            context: {
-                limit: postsPerPage,
-                skip: index * postsPerPage,
-                currentPage,
-                numberOfPages
-            }
-        })
-    })
+    // Array.from({ length: numberOfPages }).forEach((_, index) => {
+    //     const isFirstPage = index === 0;
+    //     const currentPage = index + 1;
+    //     if (isFirstPage) return;
+    //     createPage({
+    //         path: `blog/page/${currentPage}`,
+    //         component: blogList,
+    //         context: {
+    //             limit: postsPerPage,
+    //             skip: index * postsPerPage,
+    //             currentPage,
+    //             numberOfPages
+    //         }
+    //     })
+    // })
 
     // Create Tags Page
 
