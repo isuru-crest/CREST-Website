@@ -396,10 +396,10 @@
         "position": "researchfellows",
         "introduction": "Dr Ranran Bian received her PhD from The University of Auckland (New Zealand) and is currently working as a Postdoc researcher at The University of Adelaide. Her PhD focused on heterogeneous network mining and analysis, where novel algorithms for community discovery, ranking, dynamic embedding and change modeling in different heterogeneous networks were developed. The key areas of her research interests include: network embedding for dynamic heterogeneous networks, social network analysis, applying network analysis techniques in different cybersecurity domains.",
         "images": {
-            "large": "../images/team/monica.png",
-            "medium": "../images/team/monica.png"
+            "large": "../images/team/monica.jpg",
+            "medium": "../images/team/monica.jpg"
         },
-        "image": "../images/team/monica.png",
+        "image": "../images/team/monica.jpg",
         "competencies": "",
         "socials": {
             "facebook": "https://www.facebook.com",
