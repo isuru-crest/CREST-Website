@@ -63,10 +63,11 @@ const BlogTemplate = ({ data, pageContext, location, ...restProps }) => {
     const modalVideoClose = () => {
         setVideoOpen(false)
     }
-    console.log(post.title);
-    console.log(post.date);
-    console.log(post.author1);
-    console.log(post.author1_image);
+
+    // console.log(post.title);
+    // console.log(post.date);
+    // console.log(post.author1);
+    // console.log(post.author1_image);
     return (
         <Layout location={location}>
             <Header />
@@ -111,7 +112,7 @@ const BlogTemplate = ({ data, pageContext, location, ...restProps }) => {
                                 <br />
                                 <br />
                                 <Box as="footer">
-                                    <FooterMetaWrap>
+                                    {post.type == 'project' && <FooterMetaWrap>
                                         <Row alignitems="center">
                                             <Col sm={6}>
                                                 <Tags tags={tags} />
@@ -123,15 +124,20 @@ const BlogTemplate = ({ data, pageContext, location, ...restProps }) => {
                                                 />
                                             </Col>
                                         </Row>
-                                    </FooterMetaWrap>
-                                    <AuthorWrap>
+                                    </FooterMetaWrap>}
+
+
+                                    {post.type == 'project' && <AuthorWrap>
+                                        <h4>Project Member</h4>
+                                        <br />
                                         <AuthorInfo>
                                             <AuthorAvatar>
                                                 <Image fluid={post.author1_image.childImageSharp.fluid} alt={post.author1} />
                                                 {post.author1 && <Heading as="h6">{post.author1}</Heading>}
                                             </AuthorAvatar>
                                         </AuthorInfo>
-                                    </AuthorWrap>
+                                    </AuthorWrap>}
+
                                     {/* {(post.type !== "area" && post.type !== "resources" && post.type !== "pages") && <AuthorWrap>
                                         <AuthorInfo>
                                             <AuthorAvatar>
@@ -177,13 +183,13 @@ const BlogTemplate = ({ data, pageContext, location, ...restProps }) => {
                                     </AuthorWrap>} */}
 
                                     <BlogInfo>
-                                    {/* <CategoryBox>
+                                        {/* <CategoryBox>
                                         <Categories categories={categories} />
                                     </CategoryBox>
                                     {post.type !== "area" && <Heading {...titleStyle}>{post.title}</Heading>} */}
 
-                                    <HeaderMetaWrap>
-                                        {/* {(post.date && (post.type !== "area" && post.type !== "resources" && post.type !== "pages")) && (
+                                        <HeaderMetaWrap>
+                                            {/* {(post.date && (post.type !== "area" && post.type !== "resources" && post.type !== "pages")) && (
                                             <AuthorMeta
                                                 {...headerMetaStyle}
                                                 slug={authorId}
@@ -191,22 +197,22 @@ const BlogTemplate = ({ data, pageContext, location, ...restProps }) => {
                                                 imageSrc={author.image.childImageSharp}
                                             />
                                         )} */}
-                                        {(post.date && (post.type !== "area" && post.type !== "resources" && post.type !== "pages")) && (
-                                            <BlogMeta
-                                                {...headerMetaStyle}
-                                                path={`/date/${dateSlug}`}
-                                                text={post.date}
-                                                icon={<FaCalendarAlt />}
-                                            />
-                                        )}
-                                        {/* <BlogMeta
+                                            {(post.date && (post.type !== "area" && post.type !== "resources" && post.type !== "pages")) && (
+                                                <BlogMeta
+                                                    {...headerMetaStyle}
+                                                    path={`/date/${dateSlug}`}
+                                                    text={post.date}
+                                                    icon={<FaCalendarAlt />}
+                                                />
+                                            )}
+                                            {/* <BlogMeta
                                             {...headerMetaStyle}
                                             path={`/`}
                                             text={`4 Comments`}
                                             icon={<FaCommentDots />}
                                         /> */}
-                                    </HeaderMetaWrap>
-                                </BlogInfo>
+                                        </HeaderMetaWrap>
+                                    </BlogInfo>
 
                                     {/* {(post.type !== "area" && post.type !== "resources") && <BlogNavigation>
                                         {previous && (
@@ -334,28 +340,6 @@ export const postQuery = graphql`
                       }
                     }
                 }
-                author{
-                    name
-                    image {
-                        childImageSharp {
-                          fluid(maxWidth: 100, maxHeight: 100, quality: 100) {
-                            ...GatsbyImageSharpFluid_withWebp
-                            presentationWidth
-                            presentationHeight
-                          }
-                        }
-                    }
-                    socials {
-                        facebook
-                        instagram
-                        linkedin
-                        twitter
-                    }
-                }
-                video_link
-                quote_text
-                quote_author
-                format
             }
             html
         }

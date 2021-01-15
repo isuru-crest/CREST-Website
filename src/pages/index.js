@@ -12,7 +12,6 @@ import Area3 from '../containers/landing/area3'
 import ClientsArea from '../containers/global/clients-area'
 import CTAArea from '../containers/global/cta-area/section-two'
 import CaseStudyArea from '../containers/index-appointment/case-study-area'
-// import CaseStudyArea from '../containers/index-appointment/case-study-area'
 // console.log("hasdasdsa")
 const IndexPage = ({ location }) => (
   <Layout location={location}>
@@ -24,9 +23,7 @@ const IndexPage = ({ location }) => (
     <Area2/>
     <Area3/>
     <Area4/>
-    <BlogArea />
-    <CaseStudyArea />
-    
+    <CaseStudyArea/>
     <BlogArea />
     <CTAArea/>
     <ClientsArea />

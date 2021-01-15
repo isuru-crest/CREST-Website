@@ -91,7 +91,7 @@ const CaseStudySection = ({
     // const caseStudies = caseStudyData.allCaseStudiesJson.edges;
     const caseStudies = caseStudyData.allMarkdownRemark.edges;
     const imageData = caseStudySecData.bgImage.childImageSharp.fluid;
-    
+    console.log("IDHAR")
     // console.log("test20"+markdowndata.edges[0].node.frontmatter.title);
     // console.log("test20"+markdowndata.edges[1].node.frontmatter.title);
     // console.log("test20"+markdowndata.edges[2].node.frontmatter.title);
@@ -129,14 +129,14 @@ const CaseStudySection = ({
                         </SwiperSlider>
                     </Col>
                 </Row>
-                <Row {...bottomRowStyle}>
+                {/* <Row {...bottomRowStyle}>
                     <Col lg={12}>
                         <Text {...bottomTextStyle}>
                             {caseStudySecData.bottom_text}
                             <Anchor {...bottoTextLinkStyle} path={caseStudySecData.bottom_link}>{caseStudySecData.bottom_link_text}</Anchor>
                         </Text>
                     </Col>
-                </Row>
+                </Row> */}
             </Container>
         </CaseStudyWrapper>
     )

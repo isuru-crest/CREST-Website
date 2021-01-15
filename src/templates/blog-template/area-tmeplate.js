@@ -34,6 +34,7 @@ import {
     AuthorWrap,
     AuthorInfo,
     AuthorAvatar,
+    AuthorDesc,
     BlogNavigation
 } from './blog-template.stc'
 
@@ -62,7 +63,7 @@ const BlogTemplate = ({ data, pageContext, location, ...restProps }) => {
     const modalVideoClose = () => {
         setVideoOpen(false)
     }
-    console.log(post);
+
     return (
         <Layout location={location}>
             <Header />
@@ -80,7 +81,6 @@ const BlogTemplate = ({ data, pageContext, location, ...restProps }) => {
                                 {post.format === 'image' && (
                                     <Thumbnail>
                                         <Image fluid={post.featured_image.childImageSharp.fluid} alt={post.title} />
-                                        
                                     </Thumbnail>
                                 )}
                                 {post.format === 'quote' && (
@@ -148,16 +148,49 @@ const BlogTemplate = ({ data, pageContext, location, ...restProps }) => {
                                             </Col>
                                         </Row>
                                     </FooterMetaWrap>
-                                    <AuthorWrap>
+                                    {/* <AuthorWrap>
                                         <AuthorInfo>
                                             <AuthorAvatar>
                                                 <Image fluid={author.image.childImageSharp.fluid} alt={author.name} />
-                                                {author.name && <Heading as="h6">{author.name}</Heading>}
+                                                {author.social && (
+                                                    <Social {...authorSocial}>
+                                                        {author.social.twitter && (
+                                                            <SocialLink
+                                                                path={author.social.twitter}
+                                                                label="Twitter">
+                                                                <TiSocialTwitter />
+                                                            </SocialLink>
+                                                        )}
+                                                        {author.social.facebook && (
+                                                            <SocialLink
+                                                                path={author.social.facebook}
+                                                                label="Facebook">
+                                                                <TiSocialFacebook />
+                                                            </SocialLink>
+                                                        )}
+                                                        {author.social.linkedin && (
+                                                            <SocialLink
+                                                                path={author.social.linkedin}
+                                                                label="Linkedin">
+                                                                <TiSocialLinkedin />
+                                                            </SocialLink>
+                                                        )}
+                                                        {author.social.instagram && (
+                                                            <SocialLink
+                                                                path={author.social.instagram}
+                                                                label="Instagram">
+                                                                <TiSocialInstagram />
+                                                            </SocialLink>
+                                                        )}
+                                                    </Social>
+                                                )}
                                             </AuthorAvatar>
+                                            <AuthorDesc>
+                                                {author.name && <Heading as="h6">{author.name}</Heading>}
+                                                {author.bio && <Text {...authorDesc}>{author.bio}</Text>}
+                                            </AuthorDesc>
                                         </AuthorInfo>
-                                    </AuthorWrap>
-                                    
-                                    
+                                    </AuthorWrap> */}
                                     {/* <BlogNavigation>
                                         {previous && (
                                             <PostNav

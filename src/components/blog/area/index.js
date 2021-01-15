@@ -1,8 +1,13 @@
 import React, { Fragment, useState } from 'react'
 import PropTypes from 'prop-types';
+import { FaCalendarAlt } from "react-icons/fa";
 import Button from '../../ui/button'
 import Text from '../../ui/text'
 import Anchor from '../../ui/anchor'
+import SocialShare from '../social-share'
+import AuthorMeta from '../author-meta'
+import BlogMeta from '../blog-meta'
+import Categories from '../categories'
 import VideoThumb from '../video-thumb'
 import Image from '../../image'
 import ModalVideo from '../../ui/modal-video'
@@ -15,10 +20,10 @@ import {
     BlogInfo,
     BlogHeader,
     BlogTitle,
+    BlogHeaderMeta,
     BlogExcerpt,
     BlogFooter,
     BlogFooterLeft,
-    
     BlogFooterRight
 } from './blog.style'
 
@@ -98,6 +103,8 @@ const Blog = ({ content, ...restProps }) => {
                     <BlogFooter>
                         <BlogFooterLeft>
                             <Button to={`/${slug}`} hover="2">View More</Button>
+
+
                         </BlogFooterLeft>
                     </BlogFooter>
                 </BlogInfo>

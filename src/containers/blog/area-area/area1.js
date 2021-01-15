@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
 import { useStaticQuery, graphql } from "gatsby"
 import Blog from '../../../components/blog/area'
+import Pagination from '../../../components/blog/pagination'
 import { BlogWrapper, BlogBox } from './blog-area.style'
 
 const AreaArea1 = ({ blogBoxStyle }) => {
@@ -55,7 +56,6 @@ const AreaArea1 = ({ blogBoxStyle }) => {
         }      
     `)
     const blogs = AreaQuery.allMarkdownRemark.edges;
-    console.log(blogs[0].node.title);
     const { totalCount } = AreaQuery.allMarkdownRemark;
     const postsPerPage = 6;
     const numberOfPages = Math.ceil(totalCount / postsPerPage);
