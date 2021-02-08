@@ -24,22 +24,6 @@ import ModalVideo from '../../components/ui/modal-video'
 import Comment from '../../components/blog/comment'
 import { TwitterTimelineEmbed, TwitterTweetEmbed, TwitterOnAirButton } from "react-twitter-embed";
 
-import {
-  SingleBlogWrap,
-  BlogMedia,
-  Thumbnail,
-  Blockquote,
-  CategoryBox,
-  BlogInfo,
-  HeaderMetaWrap,
-  FooterMetaWrap,
-  AuthorWrap,
-  AuthorInfo,
-  AuthorAvatar,
-  AuthorDesc,
-  BlogNavigation
-} from './blog-template1.stc'
-
 
 const TwitterContainer = ({ data, pageContext, location, ...restProps }) => {
     return (
