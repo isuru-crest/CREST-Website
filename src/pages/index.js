@@ -12,6 +12,9 @@ import Area3 from '../containers/landing/area3'
 import ClientsArea from '../containers/global/clients-area'
 import CTAArea from '../containers/global/cta-area/section-two'
 import CaseStudyArea from '../containers/index-appointment/case-study-area'
+import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed';
+import TwitterContainer from '../containers/twitter/TwitterContainer'
+import { Helmet } from "react-helmet"
 // console.log("hasdasdsa")
 const IndexPage = ({ location }) => (
   <Layout location={location}>
@@ -24,6 +27,7 @@ const IndexPage = ({ location }) => (
     <Area3/>
     <Area4/>
     <CaseStudyArea/>
+    <TwitterContainer/>
     <BlogArea />
     <CTAArea/>
     <ClientsArea />

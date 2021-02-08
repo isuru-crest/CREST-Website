@@ -22,6 +22,7 @@ import SocialShare from '../../components/blog/social-share'
 import VideoThumb from '../../components/blog/video-thumb'
 import ModalVideo from '../../components/ui/modal-video'
 import Comment from '../../components/blog/comment'
+
 import {
     SingleBlogWrap,
     BlogMedia,
@@ -136,6 +137,8 @@ const BlogTemplate = ({ data, pageContext, location, ...restProps }) => {
                                                 {post.author1 && <Heading as="h6">{post.author1}</Heading>}
                                             </AuthorAvatar>
                                         </AuthorInfo>
+                                        
+
                                     </AuthorWrap>}
 
                                     {/* {(post.type !== "area" && post.type !== "resources" && post.type !== "pages") && <AuthorWrap>
@@ -236,6 +239,7 @@ const BlogTemplate = ({ data, pageContext, location, ...restProps }) => {
                                 </Box>
                             </SingleBlogWrap>
                         </Col>
+                        
                     </Row>
                     {/* {(post.type !== "area" && post.type !== "resources") && <Row>
                         <Col lg={8} ml="auto" mr="auto">

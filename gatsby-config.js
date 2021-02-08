@@ -48,6 +48,27 @@ module.exports = {
     `gatsby-plugin-playground`,
     `gatsby-plugin-styled-components`,
     'gatsby-plugin-loadable-components-ssr',
+    
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-twitter-cards`,
+            options: {
+              title: "hoshki.me",
+              separator: "|",
+              author: "Hosh'ki Tsunoda",
+              background: require.resolve("./src/data/images/pics/test.jpg"),
+              fontColor: "#011a27",
+              titleFontSize: 96,
+              subtitleFontSize: 60,
+              fontStyle: "monospace",
+            },
+          },
+        ],
+      },
+    },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -246,7 +267,6 @@ module.exports = {
         ]
       }
     },
-    'gatsby-plugin-netlify-cms'
-    
+    'gatsby-plugin-netlify-cms'    
   ]
 }
