@@ -32,16 +32,16 @@ const TwitterContainer = ({ data, pageContext, location, ...restProps }) => {
                 <Row>
                         <Col >
                           <TwitterTweetEmbed 
-                            tweetId={'1357423506015723522'}/>
+                            tweetId={'1358416861176549376'}/>
 
                         </Col>
                         <Col>
                           <TwitterTweetEmbed 
-                            tweetId={'1355039140320960515'}/>
+                            tweetId={'1358745614234779648'}/>
                         </Col>
                         <Col>
                           <TwitterTweetEmbed 
-                            tweetId={'1356776636327157762'}/>
+                            tweetId={'1357592932069515264'}/>
                         </Col>
                     </Row>
                 </Section>
