@@ -54,6 +54,14 @@ module.exports = {
       options: {
         plugins: [
           {
+            resolve: `gatsby-plugin-google-analytics`,
+            options: {
+              // The property ID; the tracking code won't be generated without it
+              trackingId: "UA-189371416-1",
+            },
+          },
+          {
+            
             resolve: `gatsby-remark-twitter-cards`,
             options: {
               title: "hoshki.me",
@@ -69,6 +77,7 @@ module.exports = {
         ],
       },
     },
+    
     {
       resolve: 'gatsby-source-filesystem',
       options: {
