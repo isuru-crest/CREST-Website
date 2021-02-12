@@ -27,7 +27,7 @@ video_link: "null"
 ---
 # Socio-technical factors in secure software engineering methodologies and practices
 
-Software development is a highly cognitive process, requiring the intellectual work of individuals and groups. And the development of secure software systems is highly dependent on the decisions of the software developers and other relevant stakeholders. Due to this reason, it is a field that is affected by errors in human judgment and a range of other socio-technical factors. Therefore, how do we account for this “human factor”, which plays a major role in this process?
+Software development is a highly cognitive process, requiring the intellectual work of individuals and groups. And the development of secure software systems is highly dependent on the decisions of the software developers and other relevant stakeholders. Due to this reason, it is a field that is affected by errors in human judgment and a range of other socio-technical factors. Therefore, how do we account for this “human factor”, which plays a major role in this process
 
 At CREST, researchers are leveraging empirical data sources to study the effect of human factors in secure software development methodologies, processes, and practices. In this regard, the CREST centre aims to collaborate with its industry partners to develop and rigorously evaluate novel technologies (methods, approaches, and tools) that are ultimately deployed in the organizational setting.
 
