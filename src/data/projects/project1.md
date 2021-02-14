@@ -1,75 +1,29 @@
 ---
-title: "proj 1"
+title: "Blockchain Network Prototyping Framework"
 is_shown: true
 date: "2020-07-01 15:01:00"
-authors: "Nguyen Khoi Tran"
+author1: "Nguyen Khoi Tran"
 author1_image: "../images/team/nguyen.png"
-image: "../images/pics/test.jpg"
+image: "../images/pics/proj_blockchain_framework.jpg"
 bgImage: "./images/bg/case-study-section-bg.png"
 video_link: "null"
 quote_author: "null"
 quote_text: "null"
 categories: 
-    - research topic
-    - cyber security
+    - project
 tags: 
-    - Cyber Security
-    - IT Services
+    - project
+    - distributed_ledger
 format: "null"
 is_featured: true
 type: "project"
 main_content: "At CREST researchers are leveraging existing software engineering, analytical reasoning, natural language processing and machine learning tools and techniques to develop a secure and integrated platform. Our aim is to help build a secure and integrated platform that is easy to use and evolve with the changing threat landscape and increase the operation efficiency of the cybersecurity team."
 ---
 
-# Project 1 Title
 
-This is the introduction.
+As blockchain technology mature, private blockchain network deployment has become increasingly feasible and desirable, especially for enterprise and Internet of Things use cases. Deploying private blockchain networks allows organizations to assert finer control over how these networks perform and behave. Such a degree of control, however, presents architects with a barrage of new design decisions that determine important network qualities such as performance, security, and governance. Moreover, network qualities play a dominating role in how the software deployed on a blockchain network (i.e., smart contracts) performs and behaves. Thus, it is beneficial to be able to quickly deploy and benchmark prototype networks to gather empirical evidence about the quality of network design for further refinement. In this paper, we propose an automation framework called NVAL that takes a representation of a blockchain network as an input, assesses it for consistency and feasibility, plans, and executes a sequence of actions that deploy the prescribed blockchain network on a designated hardware infrastructure and, optionally, evaluate it. In order to carry out this task, NVAL employs a novel graph-based blockchain model to describe the architecture of blockchain networks, a two-phase search mechanism for planning, and a system architecture that facilitates the extensibility of the capabilities making up the framework. We have developed and employed a proof-of-concept of NVAL to test a network design hypothesis and share the findings and experiences as parts of a demonstrative case study.
 
-## Team Involved
-**Name 1**
-- profile details
+## Project Team
 
-**name 2**
-
-- profile details
-
-**Name 3**
-
-- profile details
-
-## Project Milestones 
-
-### Phase - I
-
-**Date: XXX**
-
-The Mock-up is a XXX on mock-up data. It should be able to function as the provided specification. It is desirable that the mockup is available online to help our industry collaborators in understanding the idea and giving feedback for improvement. 
-
-Next milestones are based on future discussions and feedback. 
-
-## Technical Aspects
-
-Specific details repated to the project - delivery, parameters, scope, scalability and etc.
-
-
-## Project background information
-### Resources
-some link to related project workings
-
-### Set up system environment
-Follow the offical instrustion to install plugins from XXX link.
-
-Note: Mention any system prerequisites before installation.
-
-```html
-
-sudo apt install xxx
-
-```
-
-### Data source required
-Add a new data source link
-
-### Link to any database 
-Import JSON file when adding panel, and choose the TestData DB data source.
-
+- Nguyen Khoi Tran
+- Liuyue (William) Jiang
