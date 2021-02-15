@@ -59,3 +59,30 @@ collections:
         max: 4
       - {label: "Summary", name: "main_content", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "project"
+    label: "Research Project"
+    folder: "src/data/projects"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "string"}
+      - {label: "Project Member", name: "author1", widget: "string"}
+      - {label: "Project Member Image", name: "author1_image", widget: "string"}
+      - {label: "Project Image", name: "image", widget: "string"}
+      - {label: "Background Image", name: "bgImage", widget: "string"}
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+       default: ["project"]
+      - label: "Categories"
+        name: "categories"
+        widget: "list"
+        default: ["project"]
+      - label: "Content Type"
+        name: "type"
+        widget: "select"
+        options: ["project"]
+        default: ["project"]
+      - {label: "Summary", name: "main_content", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
