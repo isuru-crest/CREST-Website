@@ -1,7 +1,11 @@
 import styled from 'styled-components'
+import BackgroundImage from 'gatsby-background-image'
 import {device} from '../../../theme'
 
-export const BlogWrapper = styled.section `
+export const BlogWrapper = styled(BackgroundImage) `
+    background-color: #f6f2ed;
+    background-size: auto !important;
+    background-position: bottom right !important;
     padding-top: 100px;
     padding-bottom: 70px;
     @media ${device.medium}{

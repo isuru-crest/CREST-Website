@@ -41,13 +41,20 @@ const BlogArea = props => {
                   }
                 }
             }
+            file(relativePath: {eq: "images/bg/mitech-landing-header-preview-bg.png"}) {
+                childImageSharp {
+                    fluid(maxWidth: 656, maxHeight: 595, quality: 100) {
+                        ...GatsbyImageSharpFluid_tracedSVG
+                    }
+                }
+            }
         }
     `)
     const blogSecData = blogData.sectionData;
     const featuredBlogs = blogData.featuredBlog.edges;
-
+    const bgImage = blogData.file.childImageSharp.fluid
     return (
-        <BlogWrapper>
+        <BlogWrapper  fluid={bgImage}>
             <Container>
                 <Row>
                     <Col lg={4}>

@@ -129,7 +129,7 @@ const BlogTemplate = ({ data, pageContext, location, ...restProps }) => {
 
 
                                     {post.type == 'project' && <AuthorWrap>
-                                        <h4>Project Member</h4>
+                                        <h4>Project Coordinator</h4>
                                         <br />
                                         <AuthorInfo>
                                             <AuthorAvatar>
@@ -200,7 +200,7 @@ const BlogTemplate = ({ data, pageContext, location, ...restProps }) => {
                                                 imageSrc={author.image.childImageSharp}
                                             />
                                         )} */}
-                                            {(post.date && (post.type !== "area" && post.type !== "resources" && post.type !== "pages")) && (
+                                            {(post.date && (post.type !== "area" && post.type !== "project" && post.type !== "resources" && post.type !== "pages")) && (
                                                 <BlogMeta
                                                     {...headerMetaStyle}
                                                     path={`/date/${dateSlug}`}
