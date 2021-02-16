@@ -4,7 +4,7 @@ is_shown: true
 date: "2021-11-01 15:01:00"
 author1: "Chadni Islam"
 author1_image: "../images/team/chadni.png"
-image: "../images/pics/proj_blockchain_framework.jpg"
+image: "../images/pics/proj_c3i.jpg"
 bgImage: "./images/bg/case-study-section-bg.png"
 video_link: "null"
 quote_author: "null"
