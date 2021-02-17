@@ -275,4 +275,4 @@ Dr. Mansooreh Zahedi
 
 Email:<mansooreh.zahedi@adelaide.edu.au>
 
-[**Download the file**](https://github.com/CREST-Adelaide/CREST-Website/blob/master/src/data/file/CREST_Summer_Scholarships_2020-21_Projects_Topics.pdf?raw=true)
+[**Download the document**](https://github.com/CREST-Adelaide/CREST-Website/raw/master/src/data/files/CREST_Summer_Scholarships_2020-21_Projects_Topics.pdf)
