@@ -7,6 +7,18 @@
         "id": "our-open-jobs",
         "jobs": [
             {
+                "id": "null",
+                "title": "Postdoc Position",
+                "type": "Full time",
+                "description": "Experimental and Applied in close collaboration with industry/government partners. (Level A) $88,286 - $94,588 per annum plus an employer contribution of 9.5%. Fixed term position for 24 months.",
+                "link": "/postdoc-position-software-security-security-analytics"
+            }
+        ]
+    },
+    {
+        "id": "our-closed-jobs",
+        "closedjobs": [
+            {
                 "id": "postdoc-position",
                 "title": "Postdoc Position",
                 "type": "Full time",
