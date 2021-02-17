@@ -21,13 +21,7 @@ is_featured: true
 
 [**http://crest-centre.net**](http://crest-centre.net/)
 
-**Timeframe and duration – Nov 2020 – Feb 2021, 10-12 weeks, full time.**
 
-**Scholarship amount – various with minimum $300 per week.**
-
-**Contact persons: Dr Asangi Jayatilaka or Dr Mansooreh Zahedi**
-
-**Expected years of student: completed year 3 or entering in year 3. Limited scholarships for students doing Masters degree are also available.**
 
 ###### Challenges Overview and Internal co-supervisors
 
