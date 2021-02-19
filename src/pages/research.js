@@ -22,19 +22,8 @@ const AreaListLargeImage = ({ pageContext, location, ...restProps }) => {
                 location={location}
                 title="Our Research"
             />
-            <main className="site-wrapper-reveal">
-                <Section {...sectionStyle}>
-                    <Row>
-                        {/* <Col lg={{ span: 4, order: 1 }} xs={{ span: 12, order: 2 }}>
-                            <Sidebar />
-                        </Col> */}
-                        <Col >
-                            {/* <Heading {...headingStyle}>Interesting articles <span>updated daily</span></Heading> */}
-                            <AreaArea />
-                        </Col>
-                    </Row>
-                </Section>
-            </main>
+
+            <AreaArea />
             <Footer />
         </Layout>
     )

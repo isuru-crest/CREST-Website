@@ -1,6 +1,7 @@
 ---
 is_featured: false
 featured_image: ../../images/blog/blog-03-1170x600.jpg
+bg_image: "../../images/pics/proj_blockchain_framework.jpg"
 author: Owen Christ
 quote_author: "null"
 date: 2020-07-01 15:01:00

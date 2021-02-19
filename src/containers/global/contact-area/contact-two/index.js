@@ -2,17 +2,18 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { useStaticQuery, graphql } from "gatsby"
 import { MdPhone, MdEmail } from "react-icons/md";
-import {Container, Row, Col, Box} from '../../../../components/ui/wrapper'
+import { Container, Row, Col, Box } from '../../../../components/ui/wrapper'
 import Heading from '../../../../components/ui/heading'
+import Button from '../../../../components/ui/button'
 import Text from '../../../../components/ui/text'
 import Image from '../../../../components/image'
 import Ratings from '../../../../components/ratings'
 import BoxIcon from '../../../../components/box-icon/layout-four'
 import Anchor from '../../../../components/ui/anchor'
-import {SectionWrap, ImageBox, ContactInfoBox} from './contact.style'
+import { SectionWrap, ImageBox, ContactInfoBox } from './contact.style'
 
-const ContactArea = ({sectionStyle, imgBoxStyle, rightBoxStyle, boxIconStyle, ratingStyle, textStyle}) => {
-    const contactData = useStaticQuery(graphql `
+const ContactArea = ({ content, sectionStyle, imgBoxStyle, rightBoxStyle, boxIconStyle, ratingStyle, textStyle }) => {
+    const contactData = useStaticQuery(graphql`
         query AboutContactQuery {
             info: site {
                 siteMetadata {
@@ -43,43 +44,25 @@ const ContactArea = ({sectionStyle, imgBoxStyle, rightBoxStyle, boxIconStyle, ra
             }
         }
     `)
-    const {phone, email, rating, customers, clients} = contactData.info.siteMetadata.contact;
-    const bg_image = contactData.bgImage.childImageSharp.fluid;
-    const contact_image = contactData.contactImg.childImageSharp.fluid;
-    
+    const { phone, email, rating, customers, clients } = contactData.info.siteMetadata.contact;
+    const bg_image2 = contactData.bgImage.childImageSharp.fluid;
+    const {
+        frontmatter: { title, author, date, bg_image, format, featured_image, quote_text, quote_author, video_link, categories, research_area, main_content, type },
+        excerpt,
+        fields: { slug, authorId, dateSlug } } = content;
     return (
-        <SectionWrap fluid={bg_image}>
+        <SectionWrap fluid={bg_image.childImageSharp.fluid}>
             <Container>
                 <Row alignitems="center">
-                    <Col lg={7}>
-                        <ImageBox>
-                            <Image fluid={contact_image} alt="Contact Us"/>
-                        </ImageBox>
+                    <Col lg={3}>
+
                     </Col>
-                    <Col lg={4} ml="auto">
+                    <Col lg={9} ml="auto">
                         <ContactInfoBox>
                             <Box textalign="center">
-                                {rating && <Heading as="h3">{`${rating}/5.0`}</Heading>}
-                                <Ratings {...ratingStyle} rating={+rating}/>
-                                <Text {...textStyle}>by {customers}+ customers for {clients}+ clients</Text>
-                            </Box>
-                            <Box>
-                                <Anchor display="block" path={`tel:${phone}`}>
-                                    <BoxIcon
-                                        {...boxIconStyle}
-                                        icon={<MdPhone/>}
-                                        heading="Call for advice now!"
-                                        title={phone}
-                                    />
-                                </Anchor>
-                                <Anchor display="block" path={`mailto:${email}`}>
-                                    <BoxIcon
-                                        {...boxIconStyle}
-                                        icon={<MdEmail/>}
-                                        heading="Say hello"
-                                        title={email}
-                                    />
-                                </Anchor>
+                                {title && <Heading as="h3">{title}</Heading>}
+                                <Ratings {...ratingStyle} rating={+rating} />
+                                <Button to={`/${slug}`} hover="2">View More</Button>
                             </Box>
                         </ContactInfoBox>
                     </Col>
@@ -92,7 +75,7 @@ const ContactArea = ({sectionStyle, imgBoxStyle, rightBoxStyle, boxIconStyle, ra
 ContactArea.propTypes = {
     sectionStyle: PropTypes.object
 }
- 
+
 ContactArea.defaultProps = {
     boxIconStyle: {
         wrapperStyle: {

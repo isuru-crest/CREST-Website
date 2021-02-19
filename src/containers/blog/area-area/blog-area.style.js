@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-
+import BackgroundImage from 'gatsby-background-image'
 export const BlogWrapper = styled.div ``;
 
 export const BlogBox = styled.div `
