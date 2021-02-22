@@ -60,9 +60,20 @@ const ContactArea = ({ content, sectionStyle, imgBoxStyle, rightBoxStyle, boxIco
                     <Col lg={9} ml="auto">
                         <ContactInfoBox>
                             <Box textalign="center">
-                                {title && <Heading as="h3">{title}</Heading>}
-                                <Ratings {...ratingStyle} rating={+rating} />
-                                <Button to={`/${slug}`} hover="2">View More</Button>
+                                <br />
+                                <br />
+                                {title && <Heading color='white' as="h4">{title}</Heading>}
+                                <br />
+                                {<Text color='white' as="h6">{main_content}</Text>}
+                                {/* <Ratings {...ratingStyle} rating={+rating} /> */}
+                                <br />
+                                
+                                <Button size="large" skin='primary' shape='bullet' to={`/${slug}`} hover="2">View More</Button>
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
                             </Box>
                         </ContactInfoBox>
                     </Col>
@@ -89,12 +100,13 @@ ContactArea.defaultProps = {
         },
         titleStyle: {
             fontSize: '34px',
+            color: 'white',
             mb: "0",
             fontweight: 700,
             lineHeight: 1.17,
             responsive: {
                 large: {
-                    fontSize: "24px"
+                    fontSize: "34px"
                 }
             }
         }
@@ -105,6 +117,7 @@ ContactArea.defaultProps = {
     },
     textStyle: {
         fontSize: '18px'
+        
     }
 }
 

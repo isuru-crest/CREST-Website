@@ -3,7 +3,7 @@ title: "Mining Open-source Repositories for Predictive Security Analytics"
 date: "2020-07-01 15:01:00"
 author: "Owen Christ"
 featured_image: "../../images/blog/blog-03-1170x600.jpg"
-bg_image: "../../images/pics/proj_blockchain_framework.jpg"
+bg_image: "../../images/pics/OpenSource.jpg"
 video_link: "null"
 quote_author: "null"
 quote_text: "null"
@@ -17,7 +17,7 @@ format: "null"
 is_featured: false
 type: "area"
 research_area: 2
-main_content: "The focus of CREST researchers is to utilize data available in open-source repositories to develop high-performing and robust AI-enabled prediction models to automate the detection, characterization, and fixing prioritization of vulnerabilities in time. We also study the security discussions of developers on open-source repositories (e.g., GitHub) and/or Q&A websites (e.g, Stack Overflow and Security StackExchange) to understand the current security challenges/risks and give suggestions on how researchers, educators and practitioners can maximally leverage and contribute to developing more secure software."
+main_content: "The focus of CREST researchers is to utilize data available in open-source repositories to develop high-performing and robust AI-enabled prediction models to automate the detection, characterization, and fixing prioritization of vulnerabilities in time."
 ---
 
 

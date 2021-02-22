@@ -3,7 +3,7 @@ title: "Automated Container Security"
 date: "2020-07-01 15:01:00"
 author: "Owen Christ"
 featured_image: "../../images/blog/blog-03-1170x600.jpg"
-bg_image: "../../images/pics/proj_blockchain_framework.jpg"
+bg_image: "../../images/pics/ContainerSecurity.jpg"
 video_link: "null"
 quote_author: "null"
 quote_text: "null"
@@ -17,7 +17,7 @@ format: "null"
 is_featured: false
 type: "area"
 research_area: 3
-main_content: "Researchers at CREST leverage various artificial intelligence approaches to develop tools and techniques to better understand the developers’ viewpoint on security while adopting container technologies in industry. We study a large volume of container-related data in open source software repositories (GitHub), Question/Answering Platforms (Stack Overflow, Docker Forum)  as well as container image repositories (Docker Hub) to find and analyse the security issues. This research will help container developers and researchers to understand container security requirements and provide a broad view of possible security attacks and risks."
+main_content: "Researchers at CREST leverage various artificial intelligence approaches to develop tools and techniques to better understand the developers’ viewpoint on security while adopting container technologies in industry. We study a large volume of container-related data in open source software repositories (GitHub), Question/Answering Platforms (Stack Overflow, Docker Forum)  as well as container image repositories (Docker Hub) to find and analyse the security issues."
 ---
 
 

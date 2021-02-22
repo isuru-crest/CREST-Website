@@ -3,7 +3,7 @@ title: "Real-time Big Data Analytics"
 date: "2020-07-01 15:01:00"
 author: "Owen Christ"
 featured_image: "../../images/blog/blog-03-1170x600.jpg"
-bg_image: "../../images/pics/proj_blockchain_framework.jpg"
+bg_image: "../../images/pics/BigData.jpg"
 video_link: "null"
 quote_author: "null"
 quote_text: "null"
@@ -17,7 +17,7 @@ format: "null"
 is_featured: false
 type: "area"
 research_area: 2
-main_content: "CREST researchers leverage state-of-the-art techniques (e.g., AI and search-based optimization) to design, implement, deploy, and evaluate big data systems for optimally collecting, storing, analyzing, and visualizing a large volume of data in real-time. CREST research particularly focuses on the evaluation of big data storage solutions (e.g., Cassandra and MongDB) and big data analytical solutions (e.g., Spark and Flink) as deployed on private, public, and hybrid clouds. The application domains of our research on real-time big data analytics include but not limited to cyber security, oil and gas, and healthcare."
+main_content: "CREST researchers leverage state-of-the-art techniques (e.g., AI and search-based optimization) to design, implement, deploy, and evaluate big data systems for optimally collecting, storing, analyzing, and visualizing a large volume of data in real-time. CREST research particularly focuses on the evaluation of big data storage solutions (e.g., Cassandra and MongDB) and big data analytical solutions (e.g., Spark and Flink) as deployed on private, public, and hybrid clouds."
 ---
 
 
