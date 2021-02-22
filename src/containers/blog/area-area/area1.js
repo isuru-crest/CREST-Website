@@ -3,6 +3,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Blog from '../../../components/blog/area'
 import Pagination from '../../../components/blog/pagination'
 import { BlogWrapper, BlogBox } from './blog-area.style'
+import ContactArea from '../../global/contact-area/contact-two'
 
 const AreaArea1 = ({ blogBoxStyle }) => {
     const AreaQuery = useStaticQuery(graphql`
@@ -24,6 +25,13 @@ const AreaArea1 = ({ blogBoxStyle }) => {
                                         fixed(width: 32, height: 32, quality: 100) {
                                             ...GatsbyImageSharpFixed_withWebp
                                         }
+                                    }
+                                }
+                            }
+                            bg_image {
+                                childImageSharp {
+                                    fluid(maxHeight: 720, maxWidth: 1920, quality: 100) {
+                                        ...GatsbyImageSharpFluid_tracedSVG
                                     }
                                 }
                             }
@@ -60,21 +68,15 @@ const AreaArea1 = ({ blogBoxStyle }) => {
     const postsPerPage = 6;
     const numberOfPages = Math.ceil(totalCount / postsPerPage);
     return (
-        <Fragment>
-            <BlogWrapper>
-                {blogs.map(blog => (
 
-                    <BlogBox key={blog.node.fields.slug}>
-                        <Blog content={blog.node} />
-                    </BlogBox>
-                ))}
-            </BlogWrapper>
-            {/* <Pagination
-                rootPage="/blog"
-                currentPage={1}
-                numberOfPages={numberOfPages}
-            /> */}
-        </Fragment>
+
+        blogs.map(blog => (
+
+            <ContactArea content={blog.node} />
+        ))
+
+
+
     )
 }
 

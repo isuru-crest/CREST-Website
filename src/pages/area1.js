@@ -22,19 +22,10 @@ const AreaListLargeImage = ({ pageContext, location, ...restProps }) => {
                 location={location}
                 title="Engineering Secure Software-intensive Systems: Principles and Practices"
             />
-            <main className="site-wrapper-reveal">
-                <Section {...sectionStyle}>
-                    <Row>
-                        {/* <Col lg={{ span: 4, order: 1 }} xs={{ span: 12, order: 2 }}>
-                            <Sidebar />
-                        </Col> */}
-                        <Col >
-                            {/* <Heading {...headingStyle}>Interesting articles <span>updated daily</span></Heading> */}
-                            <AreaArea />
-                        </Col>
-                    </Row>
-                </Section>
-            </main>
+
+            {/* <Heading {...headingStyle}>Interesting articles <span>updated daily</span></Heading> */}
+            <AreaArea />
+
             <Footer />
         </Layout>
     )

@@ -35,12 +35,15 @@ const AreaListLargeImage = ({ pageContext, location, ...restProps }) => {
                             </p>
                         </Col>
                     </Row>
-                    <Row style={{paddingTop: "50px"}}>
+                    {/* <Row style={{paddingTop: "50px"}}>
                         <Col>
                             <h2>Topic Areas</h2>
                         </Col>
-                    </Row>
-                    <Row>
+                    </Row> */}
+
+                </Section>
+            </main>
+            <Row>
                         {/* <Col lg={{ span: 4, order: 1 }} xs={{ span: 12, order: 2 }}>
                             <Sidebar />
                         </Col> */}
@@ -49,8 +52,6 @@ const AreaListLargeImage = ({ pageContext, location, ...restProps }) => {
                             <AreaArea />
                         </Col>
                     </Row>
-                </Section>
-            </main>
             <Footer />
         </Layout>
     )
