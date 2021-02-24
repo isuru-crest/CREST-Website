@@ -333,7 +333,7 @@ researchlink,
                 </Row>
                 <Row {...headTeamRowStyle}>
                     {headMembers && headMembers.map(headMember => (
-                        <Col md={4} key={headMember.node.id}>
+                        <Col md={6} key={headMember.node.id}>
                             <TeamMember
                                 {...teamStyle}
                                 {...headTeamStyle}
@@ -353,7 +353,7 @@ researchlink,
                 </Row>
                 <Row {...headTeamRowStyle}>
                     {researchfellows && researchfellows.map(headMember => (
-                        <Col md={3} key={headMember.node.id}>
+                        <Col md={4} key={headMember.node.id}>
                             <TeamMember
                                 {...teamStyle}
                                 {...headTeamStyle}
@@ -396,7 +396,7 @@ researchlink,
                 </Row>
                 <Row {...headTeamRowStyle}>
                     {assistants && assistants.map(headMember => (
-                        <Col md={4} key={headMember.node.id}>
+                        <Col md={3} key={headMember.node.id}>
                             <TeamMember
                                 {...teamStyle}
                                 {...headTeamStyle}
@@ -418,7 +418,7 @@ researchlink,
                 </Row>
                 <Row {...headTeamRowStyle}>
                     {collaborators && collaborators.map(headMember => (
-                        <Col md={12} key={headMember.node.id}>
+                        <Col md={6} key={headMember.node.id}>
                             <TeamMember
                                 {...teamStyle}
                                 {...headTeamStyle}
