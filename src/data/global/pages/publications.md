@@ -17,23 +17,41 @@ type: "resources"
 is_featured: true
 ---
 
+
+### 2021
+1. Sabir, Bushra, et al. "Machine Learning for Detecting Data Exfiltration." ACM Computing Survey 2021. [Link](https://arxiv.org/abs/2012.09344)
+2. Sabir, Bushra, M. Ali Babar, and Raj Gaire. "ReinforceBug: A Framework to Generate Adversarial Textual Examples." NAACL-HLT 2021. [Link](https://arxiv.org/abs/2103.08306)
+3. Sabir, Bushra, M. Ali Babar, and Raj Gaire. "An Evasion Attack against ML-based Phishing URL Detectors." arXiv preprint arXiv:2005.08454 (Submitted to ACMTOPS). [Link](https://arxiv.org/abs/2005.08454)
+4. Yaser Mansouri, M Ali Babar, "A review of edge computing: Features and resource virtualization", Journal of Parallel and Distributed Computing, 2021.
+
 ### 2020
-1. Triet Huynh Minh Le, David Hin, Roland Croft, and M. Ali Babar, “PUMiner: Mining security posts from developer question and answer websites with PU learning,” in Proceedings of the 17th International Conference on Mining Software Repositories (MSR), Seoul, South Korea, 2020.[Pdf]
-- Mojtaba Shahin, and M. Ali Babar, “On the Role of Software Architecture in DevOps Transformation: An Industrial Case Study”, International Conference on Software and System Processes (ICSSP), Seoul, South Korea, 2020. [Pdf]
-- Triet Huynh Minh Le, Hao Chen, and M. Ali Babar, “Deep Learning for Source Code Modeling and Generation: Models, Applications and Challenges,” ACM Computing Surveys (CSUR), 2020. [Pdf]
+1. Triet Huynh Minh Le, David Hin, Roland Croft, and M. Ali Babar, “PUMiner: Mining security posts from developer question and answer websites with PU learning,” in Proceedings of the 17th International Conference on Mining Software Repositories (MSR), Seoul, South Korea, 2020.
+- Mojtaba Shahin, and M. Ali Babar, “On the Role of Software Architecture in DevOps Transformation: An Industrial Case Study”, International Conference on Software and System Processes (ICSSP), Seoul, South Korea, 2020.
+- Triet Huynh Minh Le, Hao Chen, and M. Ali Babar, “Deep Learning for Source Code Modeling and Generation: Models, Applications and Challenges,” ACM Computing Surveys (CSUR), 2020.
 - Mansooreh Zahedi, Roshan Namal Rajapakse and M Ali Babar: “Mining Questions Asked about Continuous Software Engineering: A Case Study of Stack Overflow”, The International Conference on Evaluation and Assessment in Software Engineering (EASE), 2020.
 - Nguyen Khoi Tran, and M. Ali Babar,  “Anatomy, concept, & design space of blockchain networks”, International Conference on Software Architecture (ICSA), 2020.
 - Jamal EL Hachem, Vanea Chiprianov, M Ali Babar, Tarek AL Khalil, Philippe Aniorte, “Modeling, analyzing and predicting security cascading attacks in smart buildings systems-of-systems”, Journal of Systems and Software, Volume 162, 2020. DOI: https://doi.org/10.1016/j.jss.2019.110484.
-- Victor Prokhorenko, M Ali Baba, “Architectural Resilience in Cloud, Fog and Edge Systems: A Survey”, IEEE Access, 8, 28078-28095 [Pdf]
+- Victor Prokhorenko, M Ali Baba, “Architectural Resilience in Cloud, Fog and Edge Systems: A Survey”, IEEE Access, 8, 28078-28095.
+- Nguyen Khoi Tran, M Ali Babar, Jonathan Boan, "Integrating blockchain and Internet of Things systems: A systematic review on objectives and designs", Journal of Network and Computer Applications, 2020.
+- Nguyen Khoi Tran, M Ali Babar, "Anatomy, Concept, and Design Space of Blockchain Networks", 2020 IEEE International Conference on Software Architecture (ICSA), 2020.
+- Leonardo Horn Iwaya, Aakash Ahmad, M Ali Babar, "Security and Privacy for mHealth and uHealth Systems: a Systematic Mapping Study", IEEE Access, 2020.
+- Chadni Islam, Muhammad Ali Babar, Surya Nepal, "Architecture-centric support for integrating security tools in a security orchestration platform", European Conference on Software Architecture, 2020.
+- Yaser Mansouri, Victor Prokhorenko, M Ali Babar, "An automated implementation of hybrid cloud for performance evaluation of distributed databases", Journal of Network and Computer Applications, 2020.
+- Mubin Ul Haque, Leonardo Horn Iwaya, M Ali Babar, "Challenges in Docker Development: A Large-scale Study Using Stack Overflow", Proceedings of the 14th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM), 2020.
+- Shanshan Li, He Zhang, Zijia Jia, Chenxing Zhong, Cheng Zhang, Zhihao Shan, Jinfeng Shen, Muhammad Ali Babar, "Understanding and Addressing Quality Attributes of Microservices Architecture: A Systematic Literature Review", Information and Software Technology, 2020.
+
+
+
+
 
 ### 2019
-1. Nguyen Khoi Tran, Quan Z Sheng, M Ali Babar, Lina Yao, Wei Emma Zhang, Schahram Dustdar: “Internet of things search engine”, Communications of the ACM, 62(7), pp.66-73,2019. [Pdf]
+1. Nguyen Khoi Tran, Quan Z Sheng, M Ali Babar, Lina Yao, Wei Emma Zhang, Schahram Dustdar: “Internet of things search engine”, Communications of the ACM, 62(7), pp.66-73,2019. 
 - M Ali Babar, Haifeng Shen, Stefan Biffl, Dietmar Winkler: “An Empirical Study of the Effectiveness of Software Architecture Evaluation Meetings”, IEEE Access, 7, pp.79069-79084, 2019.
-- Chadni Islam, Muhammad Ali Babar, Surya Nepal: “Automated Interpretation and Integration of Security Tools Using Semantic Knowledge.” International Conference on Advanced Information Systems Engineering. Springer, Cham, 2019. [Pdf]
+- Chadni Islam, Muhammad Ali Babar, Surya Nepal: “Automated Interpretation and Integration of Security Tools Using Semantic Knowledge.” International Conference on Advanced Information Systems Engineering. Springer, Cham, 2019.
 - Triet Minh Le., Bushra Sabir, Muhammad Ali Babar: “Automated Software Vulnerability Assessment with Concept Drift”, 16th International Conference on Mining Software Repositories (MSR), Montreal, Canada, 2019.
-- Chadni Islam, Muhammad Ali Babar, Surya Nepal: “An Ontology-Driven Approach to  Automating the Process of Integrating Security Software Systems”, International Conference on Software and Systems Process (ICSSP), Montreal, Canada, 2019.[Pdf]
+- Chadni Islam, Muhammad Ali Babar, Surya Nepal: “An Ontology-Driven Approach to  Automating the Process of Integrating Security Software Systems”, International Conference on Software and Systems Process (ICSSP), Montreal, Canada, 2019.
 - Faheem Ullah and Muhammad Ali Babar: “An Architecture-driven Adaptation Approach for Big Data Cyber Security Analytics”, International Conference on Software Architecture (ICSA), Hamburg, Germany, 2019.
-- Chadni Islam, Muhammad Ali Babar, Surya Nepal: “A Multi-Vocal Review of Security Orchestration.” ACM Computing Surveys (CSUR) 52.2 (2019): 37. [Pdf]
+- Chadni Islam, Muhammad Ali Babar, Surya Nepal: “A Multi-Vocal Review of Security Orchestration.” ACM Computing Surveys (CSUR) 52.2 (2019): 37.
 - Fangchao Tian, Peng Liang and Muhammad Ali Babar: “How Developers Discuss Architecture Smells?: An Exploratory Study on Stack Overflow”, International Conference on Software Architecture (ICSA), Hamburg, Germany, 2019.
 - Faheem Ullah, Muhammad Ali Babar: “Architectural Tactics for Big Data Cybersecurity Analytics Systems: A Review”, Journal of Systems and Software, Elsevier, 2019.
 - Bedir Tekinerdogan, Uwe Zdun, M Ali Babar: “Special issue on architecting for hyper connectivity and hyper virtualization”, Journal of Systems and Software, 149, pp- 531-532, 2019
