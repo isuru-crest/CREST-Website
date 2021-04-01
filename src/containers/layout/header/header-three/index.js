@@ -106,7 +106,8 @@ const Header = ({ props, ...styles }) => {
                             <Col lg={12}>
                                 <HeaderMain top>
                                     <HeaderCol left>
-                                        <Link to="/summer-scholarship"><Text color={transparent ? '#fff' : 'textColor'} {...noticeStyle}><strong>Now Hiring: CREST Summer Internships - Nov 2020 – Feb 2021, 10-12 weeks, full time.</strong></Text></Link>
+                                        <Text color={transparent ? '#fff' : 'textColor'} {...noticeStyle}><strong>Summary Project Presentation Event on 15th April!</strong></Text>
+                                        {/* <Link to="/summer-scholarship"><Text color={transparent ? '#fff' : 'textColor'} {...noticeStyle}><strong>Now Hiring: CREST Summer Internships - Nov 2020 – Feb 2021, 10-12 weeks, full time.</strong></Text></Link> */}
                                     </HeaderCol>
                                     <HeaderCol right>
                                         <Social space="8px" tooltip={true}>
@@ -249,4 +250,4 @@ Header.defaultProps = {
     }
 }
 
-export default Header; 
+export default Header;

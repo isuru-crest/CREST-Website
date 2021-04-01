@@ -48,12 +48,16 @@
                 "link": "/team/research-assistants-and-engineers"
             },
             {
-                "text": "Project Students",
-                "link": "/student-projects"
+                "text": "Master Students",
+                "link": "/team/masterstudents"
             },
             {
                 "text": "Collaborators & Associates",
                 "link": "/team/collaborators-and-associates"
+            },
+            {
+                "text": "Project Students",
+                "link": "/student-projects"
             },
             {
                 "text": "Alumni",

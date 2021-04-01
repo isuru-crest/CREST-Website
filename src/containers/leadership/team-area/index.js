@@ -239,6 +239,42 @@ researchlink,
                     }
                 }
             }
+            masterstudents: allTeamsJson(filter: {position: {eq: "masterstudents"}}) {
+                edges {
+                    node {
+                        id
+                        name
+                        designation
+                        introduction
+                        socials {
+                            facebook
+                            instagram
+                            twitter
+                        }
+                        competencies,
+researchtopic,
+researchlink,
+                        images {
+                            large {
+                                childImageSharp {
+                                    fluid(maxWidth: 546, maxHeight: 672, quality: 100) {
+                                        ...GatsbyImageSharpFluid_withWebp
+                                        presentationWidth
+                                        presentationHeight
+                                    }
+                                }
+                            }
+                        }
+                        image {
+                            childImageSharp {
+                                fixed(width:150) {
+                                    ...GatsbyImageSharpFixed
+                                  }
+                            }
+                        }
+                    }
+                }
+            }
             collaborators: allTeamsJson(filter: {position: {eq: "collaborators"}}) {
                 edges {
                     node {
@@ -328,7 +364,11 @@ researchlink,
         headMembers = teamData.collaborators.edges;
     } else if (position == "alumni") {
         headMembers = teamData.alumni.edges;
-    } else if (position == "all") {
+    } else if (position == "masterstudents") {
+        headMembers = teamData.masterstudents.edges;
+    }
+
+    else if (position == "all") {
         headMembers = teamData.allTeamMember.edges;
     }
 
@@ -351,29 +391,29 @@ researchlink,
                                         <TeamMemberImageAndName>
 
 
-                                        <TeamMemberImage>
-                                            <Img
-                                                fixed={headMember.node.image.childImageSharp.fixed}
-                                            />
-                                            {headMember.node.socials && (
-                                                <TeamMemberSocialWrap>
-                                                    <Social {...headTeamStyle}>
-                                                        {headMember.node.socials.facebook && <SocialLink title="Facebook" path={headMember.node.socials.facebook}><TiSocialFacebook /></SocialLink>}
-                                                        {headMember.node.socials.twitter && <SocialLink title="Twitter" path={headMember.node.socials.twitter}><TiSocialTwitter /></SocialLink>}
-                                                        {headMember.node.socials.instagram && <SocialLink title="Instagram" path={headMember.node.socials.instagram}><TiSocialInstagram /></SocialLink>}
-                                                    </Social>
-                                                </TeamMemberSocialWrap>
-                                            )}
-                                        </TeamMemberImage>
-                                        <br />
-                                        <JobTitle>{headMember.node.name}</JobTitle>
-                                        {headMember.node.researchtopic != "" &&
-                                            <Link to={headMember.node.researchlink}>
+                                            <TeamMemberImage>
+                                                <Img
+                                                    fixed={headMember.node.image.childImageSharp.fixed}
+                                                />
+                                                {headMember.node.socials && (
+                                                    <TeamMemberSocialWrap>
+                                                        <Social {...headTeamStyle}>
+                                                            {headMember.node.socials.facebook && <SocialLink title="Facebook" path={headMember.node.socials.facebook}><TiSocialFacebook /></SocialLink>}
+                                                            {headMember.node.socials.twitter && <SocialLink title="Twitter" path={headMember.node.socials.twitter}><TiSocialTwitter /></SocialLink>}
+                                                            {headMember.node.socials.instagram && <SocialLink title="Instagram" path={headMember.node.socials.instagram}><TiSocialInstagram /></SocialLink>}
+                                                        </Social>
+                                                    </TeamMemberSocialWrap>
+                                                )}
+                                            </TeamMemberImage>
+                                            <br />
+                                            <JobTitle>{headMember.node.name}</JobTitle>
+                                            {headMember.node.researchtopic != "" &&
+                                                <Link to={headMember.node.researchlink}>
 
-                                                <JobDesc>{headMember.node.researchtopic}</JobDesc>
-                                            </Link>
-                                        }
-                                        {/* <JobType>{headMember.node.designation}</JobType> */}
+                                                    <JobDesc>{headMember.node.researchtopic}</JobDesc>
+                                                </Link>
+                                            }
+                                            {/* <JobType>{headMember.node.designation}</JobType> */}
                                         </TeamMemberImageAndName>
                                     </Col>
                                     <Col lg={9}>
