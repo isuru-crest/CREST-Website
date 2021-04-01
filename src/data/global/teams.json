@@ -286,6 +286,32 @@
         "is_featured": true
     },
     {
+        "id": "huaming-chen",
+        "name": "Huaming Chen",
+        "designation": "Post Doc",
+        "position": "researchfellows",
+        "introduction": "Dr. Huaming Chen is a researcher of Centre for Research on Engineering Software Technologies (CREST). Huaming received his PhD from School of Computing and Information Technology in University of Wollongong. He completed his master in Computer System Architecture and bachelor (Hons) degrees in Electronics at Lanzhou University, in 2015 and 2012 respectively. During his research training in master and PhD, he has a major focus on the computational intelligence, particularly for applied machine learning and deep learning. He has collaborated with researchers with different expertises to develop leveraging algorithms and models to make contributions to the distinct challenges in different areas, including biologist, industrial production and transportation. He has also actively served as the reviewers for renowned grants and top international journals/conferences. He is now working on the topic lying at the intersection of machine learning, software engineering and cyber security. His research interests including: applied machine learning, software engineering, computational intelligence and cyber security.",
+        "images": {
+            "large": "../images/team/HuamingChen.jpg",
+            "medium": "../images/team/HuamingChen.jpg"
+        },
+        "image": "../images/team/HuamingChen.jpg",
+        "competencies": "",
+        "socials": {
+            "facebook": "https://www.facebook.com",
+            "twitter": "https://www.twitter.com",
+            "instagram": "https://www.instagram.com",
+            "personalwebsite": "",
+            "linkedin": "",
+            "github": "",
+            "googlescholar": ""
+        },
+        "projecturl": "",
+        "researchtopic": "",
+        "researchlink": "",
+        "is_featured": true
+    },
+    {
         "id": "faheem-ullah",
         "name": "Faheem Ullah",
         "designation": "Post Doc",
@@ -374,32 +400,6 @@
             "medium": "../images/team/monica.jpg"
         },
         "image": "../images/team/monica.jpg",
-        "competencies": "",
-        "socials": {
-            "facebook": "https://www.facebook.com",
-            "twitter": "https://www.twitter.com",
-            "instagram": "https://www.instagram.com",
-            "personalwebsite": "",
-            "linkedin": "",
-            "github": "",
-            "googlescholar": ""
-        },
-        "projecturl": "",
-        "researchtopic": "",
-        "researchlink": "",
-        "is_featured": true
-    },
-    {
-        "id": "huaming-chen",
-        "name": "Huaming Chen",
-        "designation": "Post Doc",
-        "position": "researchfellows",
-        "introduction": "Dr. Huaming Chen is a researcher of Centre for Research on Engineering Software Technologies (CREST). Huaming received his PhD from School of Computing and Information Technology in University of Wollongong. He completed his master in Computer System Architecture and bachelor (Hons) degrees in Electronics at Lanzhou University, in 2015 and 2012 respectively. During his research training in master and PhD, he has a major focus on the computational intelligence, particularly for applied machine learning and deep learning. He has collaborated with researchers with different expertises to develop leveraging algorithms and models to make contributions to the distinct challenges in different areas, including biologist, industrial production and transportation. He has also actively served as the reviewers for renowned grants and top international journals/conferences. He is now working on the topic lying at the intersection of machine learning, software engineering and cyber security. His research interests including: applied machine learning, software engineering, computational intelligence and cyber security.",
-        "images": {
-            "large": "../images/team/HuamingChen.jpg",
-            "medium": "../images/team/HuamingChen.jpg"
-        },
-        "image": "../images/team/HuamingChen.jpg",
         "competencies": "",
         "socials": {
             "facebook": "https://www.facebook.com",
@@ -988,17 +988,17 @@
         "is_featured": true
     },
     {
-        "id": "fengyi-yang",
-        "name": "Fengyi Yang",
-        "designation": "Research Assistant",
+        "id": "anupam",
+        "name": "Anupam",
+        "designation": "Research Engineer",
         "position": "assistants",
-        "introduction": "Fengyi (Frances) Yang is a research assistant of the Centre for Research on Engineering Software Technology (CREST). Frances has had experience in fields of machine learning, data mining, control and robotics. Frances’ Honours Project is on Adversarial Machine Learning in Network Intrusion Detection. Frances’ research interest is in machine learning and natural language processing. The current research project Frances is working on is Defence against Adversarial Machine Learning in Sentiment Classification.",
+        "introduction": "I am currently pursuing a Master of Computer Science degree at the University of Adelaide. Before that, I worked as a Software Engineer at Ford Motor Company for four years, where I performed activities related to design, development, integration, and testing of complex Information Systems using Agile methodology. My interest lies in analyzing and solving complex problems in the field of Software Engineering and Cyber Security.",
         "images": {
-            "large": "../images/team/Fengyi.jpg",
-            "medium": "../images/team/Fengyi.jpg"
+            "large": "../images/team/anupam.jpg",
+            "medium": "../images/team/anupam.jpg"
         },
-        "image": "../images/team/Fengyi.jpg",
-        "competencies": "Machine learning, adversarial machine learning.",
+        "image": "../images/team/anupam.jpg",
+        "competencies": "",
         "socials": {
             "facebook": "https://www.facebook.com",
             "twitter": "https://www.twitter.com",
@@ -1014,17 +1014,17 @@
         "is_featured": true
     },
     {
-        "id": "anupam",
-        "name": "Anupam",
-        "designation": "Research Engineer",
-        "position": "assistants",
-        "introduction": "I am currently pursuing a Master of Computer Science degree at the University of Adelaide. Before that, I worked as a Software Engineer at Ford Motor Company for four years, where I performed activities related to design, development, integration, and testing of complex Information Systems using Agile methodology. My interest lies in analyzing and solving complex problems in the field of Software Engineering and Cyber Security.",
+        "id": "fengyi-yang",
+        "name": "Fengyi Yang",
+        "designation": "Research Assistant",
+        "position": "alumni",
+        "introduction": "Fengyi (Frances) Yang is a research assistant of the Centre for Research on Engineering Software Technology (CREST). Frances has had experience in fields of machine learning, data mining, control and robotics. Frances’ Honours Project is on Adversarial Machine Learning in Network Intrusion Detection. Frances’ research interest is in machine learning and natural language processing. The current research project Frances is working on is Defence against Adversarial Machine Learning in Sentiment Classification.",
         "images": {
-            "large": "../images/team/anupam.jpg",
-            "medium": "../images/team/anupam.jpg"
+            "large": "../images/team/Fengyi.jpg",
+            "medium": "../images/team/Fengyi.jpg"
         },
-        "image": "../images/team/anupam.jpg",
-        "competencies": "",
+        "image": "../images/team/Fengyi.jpg",
+        "competencies": "Machine learning, adversarial machine learning.",
         "socials": {
             "facebook": "https://www.facebook.com",
             "twitter": "https://www.twitter.com",

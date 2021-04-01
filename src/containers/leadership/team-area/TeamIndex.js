@@ -433,7 +433,7 @@ researchlink,
                 </Row>
                 <Row {...headTeamRowStyle}>
                     {assistants && assistants.map(headMember => (
-                        <Col md={3} key={headMember.node.id}>
+                        <Col md={4} key={headMember.node.id}>
                             <TeamMember
                                 {...teamStyle}
                                 {...headTeamStyle}
@@ -447,27 +447,6 @@ researchlink,
                     ))}
                 </Row>
 
-
-                <Row>
-                    <Col lg={12}>
-                        <Heading {...headingStyle}><span>Collaborators and Associates</span></Heading>
-                    </Col>
-                </Row>
-                <Row {...headTeamRowStyle}>
-                    {collaborators && collaborators.map(headMember => (
-                        <Col md={6} key={headMember.node.id}>
-                            <TeamMember
-                                {...teamStyle}
-                                {...headTeamStyle}
-                                imageSrc={headMember.node.image.childImageSharp}
-                                name={headMember.node.name}
-                                designation={headMember.node.designation}
-                                social={headMember.node.socials}
-                                link={"/team/collaborators-and-associates"}
-                            />
-                        </Col>
-                    ))}
-                </Row>
                 <Row>
                     <Col lg={12}>
                         <Heading {...headingStyle}><span>Master Student</span></Heading>
@@ -488,6 +467,27 @@ researchlink,
                         </Col>
                     ))}
                 </Row>
+                <Row>
+                    <Col lg={12}>
+                        <Heading {...headingStyle}><span>Collaborators and Associates</span></Heading>
+                    </Col>
+                </Row>
+                <Row {...headTeamRowStyle}>
+                    {collaborators && collaborators.map(headMember => (
+                        <Col md={6} key={headMember.node.id}>
+                            <TeamMember
+                                {...teamStyle}
+                                {...headTeamStyle}
+                                imageSrc={headMember.node.image.childImageSharp}
+                                name={headMember.node.name}
+                                designation={headMember.node.designation}
+                                social={headMember.node.socials}
+                                link={"/team/collaborators-and-associates"}
+                            />
+                        </Col>
+                    ))}
+                </Row>
+
 
                 <Row>
                     <Col lg={12}>
@@ -496,7 +496,7 @@ researchlink,
                 </Row>
                 <Row {...headTeamRowStyle}>
                     {alumni && alumni.map(headMember => (
-                        <Col md={4} key={headMember.node.id}>
+                        <Col md={3} key={headMember.node.id}>
                             <TeamMember
                                 {...teamStyle}
                                 {...headTeamStyle}
