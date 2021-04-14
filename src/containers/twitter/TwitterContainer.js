@@ -30,11 +30,7 @@ const TwitterContainer = ({ data, pageContext, location, ...restProps }) => {
             <main className="twitter-container">
                 <Section>
                 <Row>
-                        <Col md={4} sm={12}>
-                          <TwitterTweetEmbed 
-                            tweetId={'1379071952011231232'}/>
 
-                        </Col>
                         <Col md={4} sm={12}>
                           <TwitterTweetEmbed 
                             tweetId={'1377522083966590979'}/>
@@ -42,6 +38,11 @@ const TwitterContainer = ({ data, pageContext, location, ...restProps }) => {
                         <Col md={4} sm={12}>
                           <TwitterTweetEmbed 
                             tweetId={'1378858108206772227'}/>
+                        </Col>
+                        <Col md={4} sm={12}>
+                          <TwitterTweetEmbed 
+                            tweetId={'1376455726135013377'}/>
+
                         </Col>
                     </Row>
                 </Section>
