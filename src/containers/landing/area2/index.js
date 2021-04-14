@@ -42,7 +42,7 @@ const Area2 = ({titleStyle, textStyle}) => {
 
     return (
         <HeaderLayoutWrap fluid={bgImage}>
-            <Container fluid>
+            <Container>
                 <Row className="align-items-center">
                     <Col lg={6}>
                         <HeaderLayoutTextWrap>

@@ -33,7 +33,7 @@ const Area1 = ({ titleStyle, textStyle }) => {
 
     return (
         <CaseStudyWrap>
-            <Container fluid>
+            <Container>
                 <Row className="align-items-center">
                     <Col lg={6}>
                         <ImageWrap>

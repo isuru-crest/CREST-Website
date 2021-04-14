@@ -34,7 +34,7 @@ const Area3 = ({titleStyle, textStyle}) => {
 
     return (
         <BlogLayoutWrap>
-            <Container fluid>
+            <Container>
                 <Row className="align-items-center">
                     <Col lg={6}>
                         <ImageWrap>
