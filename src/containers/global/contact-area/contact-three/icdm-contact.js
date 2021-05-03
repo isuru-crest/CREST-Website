@@ -50,7 +50,7 @@ const imageData = contactQueryData.sectionBg.childImageSharp.fluid;
                     <Col lg={6}>
                         <ContactInfoBox>
                             <MdEmail className="icon" />
-                            <Heading {...phoneAnchorStyle}>{"Muhanmmad Ali Babar"}</Heading>
+                            <Heading {...phoneAnchorStyle}>{"Muhammad Ali Babar"}</Heading>
                             <Heading {...titleStyle}>School of Computer Science, Faculty of Engineering, Computer and Mathematical Sciences, The University of Adelaide</Heading>
                             <Heading {...titleStyle}>Floor/Room 4 54, Ingkarni Wardli, North Terrace, Adelaide 5000, Australia</Heading>
                             <Heading {...titleStyle}>Email: <a href="mailto:ali.babar@adelaide.edu.au">ali.babar@adelaide.edu.au</a></Heading>
@@ -62,7 +62,7 @@ const imageData = contactQueryData.sectionBg.childImageSharp.fluid;
                             <MdEmail className="icon" />
                             <Heading {...phoneAnchorStyle}>{"Ranran Bian"}</Heading>
                             <Heading {...titleStyle}>School of Computer Science, Faculty of Engineering, Computer and Mathematical Sciences, The University of Adelaide</Heading>
-                            <Heading {...titleStyle}>Floor/Room 5 48, Ingkarni Wardli, North Terrace, Adelaide 5000, Australia</Heading>
+                            <Heading {...titleStyle}>Floor/Room 5 48D, Ingkarni Wardli, North Terrace, Adelaide 5000, Australia</Heading>
                             <Heading {...titleStyle}>Email: <a href="mailto:monica.bian@adelaide.edu.au">monica.bian@adelaide.edu.au</a></Heading>
                             {/* <Button {...btnStyle}>Contact Us</Button> */}
                         </ContactInfoBox>
