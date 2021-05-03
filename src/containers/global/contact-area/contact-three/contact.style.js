@@ -19,6 +19,13 @@ export const SectionWrap = styled(BackgroundImage) `
     }
 `;
 
+export const HeaderWrap = styled.div `
+    margin-right: 3rem;
+    @media ${device.medium}{
+        margin-bottom: 20px;
+    }
+`;
+
 export const ContactInfoBox = styled.div `
     text-align: center;
     @media ${device.medium}{

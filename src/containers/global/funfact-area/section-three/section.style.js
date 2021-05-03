@@ -20,3 +20,14 @@ export const HeaderWrap = styled.div `
         margin-bottom: 20px;
     }
 `;
+
+export const SectionWrap2 = styled.section `
+    padding: 150px 0;
+    background: #f6f2ed;
+    @media ${device.medium}{
+        padding: 120px 0;
+    }
+    @media ${device.small}{
+        padding: 60px 0;
+    }
+`;

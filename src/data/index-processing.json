@@ -1,0 +1,80 @@
+[
+    {
+        "id": "processing-hero-content",
+        "title": "Data Mining and Machine Learning for <span>Cybersecurity</span> Workshop",
+        "subtitle": "ICDM 2021",
+        "text": "December 7, 2021",
+        "link": "/index-processing",
+        "bg_image": "./images/hero/slider-processing-slide-01-bg.jpeg"
+    },
+    {
+        "id": "icdm-workshop",
+        "title": "Workshop",
+        "subtitle": "Data Mining and Machine Learning for Cybersecurity (DMC) workshop will be held in conjunction with The 2021 IEEE International Conference on Data Mining (ICDM2021) on December 7-10, 2021.",
+        "subtitle2": "DMS workshop is a full-day event including three invited speakers. The workshop will be held on December 7, 2021."
+    },
+    {
+        "id": "icdm-scope",
+        "title": "Scope",
+        "subtitle": "In the past decades, cybersecurity threats have been among the greatest challenges for social development resulting in financial loss, violation of privacy, damages to infrastructures, etc. Organizations, governments, and cyber practitioners tend to leverage state-of-the-art Artificial Intelligence technologies to analyse, prevent, and protect their data and services against cyber threats and attacks. Due to the complexity and heterogeneity of security systems, cybersecurity researchers and practitioners have shown increasing interest in applying data mining methods to mitigate cyber risks in a wide range of security areas, such as malware detection and key player identification in an underground forum. To protect the cyber world, we need more effective and efficient algorithms and tools that are capable of automatically and intelligently analysing and classifying the massive amount of data in cybersecurity complex scenarios. This workshop will focus on empirical findings, methodological papers, and theoretical and conceptual insights related to data mining in the field of cybersecurity."
+    },
+    {
+        "id": "icdm-topics",
+        "title": "Topics",
+        "subtitle": "The workshop aims to bring together researchers from cybersecurity, data mining, and machine learning domains. We encourage a lively exchange of ideas and perceptions through the workshop, focused on cybersecurity and data mining. Topics of interest include, but are not limited to:",
+        "item1": "1. Data mining and AI applications for cybersecurity",
+        "item2": "2. Data-driven cybersecurity innovation",
+        "item3": "3. Modelling and simulation of cyber systems and system components",
+        "item4": "4. Data mining approaches to make cyber systems secure and resilient",
+        "item5": "5. Human behaviour models with application to cybersecurity",
+        "item6": "6. AI tools and techniques, mental resilience, and cybersecurity",
+        "item7": "7. Data mining for cybersecurity software verification and validation",
+        "item8": "8. Automation of heterogeneous security tools",
+        "item9": "9. Decision making with uncertainty in cyber systems",
+        "item10": "10. Security and privacy",
+        "ps": "We are interested in the new applications of data mining and AI for cybersecurity. Submitted papers will be evaluated based on criteria such as technical originality, creativity, and applicability."
+    },
+    {
+        "id": "icdm-speaker",
+        "title": "Guest Speakers",
+        "item1": "Giovanni Russello, The University of Auckland, New Zealand",
+        "item2": "Ryan Ko, The University of Queensland, Australia",
+        "item3": "Xuyun Zhang, Macquarie University, Australia"
+    },
+    {
+        "id": "icdm-submission",
+        "title": "Submission&Publication",
+        "item1": "Paper submissions should be limited to max 8 pages plus 2 extra pages and follow the IEEE ICDM format. More detailed information is available in the IEEE ICDM 2021 Submission Guidelines.",
+        "item2": "Please submit your manuscript through the DMC 2021 submission site.",
+        "item3": "All accepted workshop papers will be published in the dedicated ICDMW proceedings published by the IEEE Computer Society Press. Therefore, papers must not have been accepted for publication elsewhere or be under review for another workshop, conferences, or journals.",
+        "ps": "We are interested in the new applications of data mining and AI for cybersecurity. Submitted papers will be evaluated based on criteria such as technical originality, creativity, and applicability."
+    },
+    {
+        "id": "icdm-important",
+        "title": "Important Date",
+        "item1": "Submissions due: September 3, 2021",
+        "item2": "Notifications of Acceptance: September 24, 2021",
+        "item3": "Camera-ready paper due: October 1, 2021",
+        "item4": "Workshop day: December 7, 2021",
+        "ps": "We are interested in the new applications of data mining and AI for cybersecurity. Submitted papers will be evaluated based on criteria such as technical originality, creativity, and applicability."
+    },
+    {
+        "id": "icdm-organisation",
+        "title": "Workshop Orangisation",
+        "subtitle": "Workshop Organiser",
+        "subtitle2": "Program Committee",
+        "item1": "Muhammad Ali Babar, The University of Adelaide, Australia",
+        "item2": "Gillian Dobbie, The University of Auckland, New Zealand",
+        "item3": "Zahid Islam, Charles Sturt University, Australia",
+        "item4": "Reza Shahamiri, The University of Auckland, New Zealand",
+        "item5": "Ranran Bian, The University of Adelaide, Australia",
+        "item6": "Muhammad Ali Babar, The University of Adelaide, Australia",
+        "item7": "Gillian Dobbie, The University of Auckland, New Zealand",
+        "item8": "Zahid Islam, Charles Sturt University, Australia",
+        "item9": "Reza Shahamiri, The University of Auckland, New Zealand",
+        "item10": "Ranran Bian, The University of Adelaide, Australia",
+        "item11": "Michael Bewong, Charles Sturt University, Australia",
+        "item12": "Rafiqul Islam, Charles Sturt University, Australia",
+        "ps": "We are interested in the new applications of data mining and AI for cybersecurity. Submitted papers will be evaluated based on criteria such as technical originality, creativity, and applicability."
+    }
+]
