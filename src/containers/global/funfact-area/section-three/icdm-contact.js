@@ -3,24 +3,32 @@ import PropTypes from 'prop-types'
 import { useStaticQuery, graphql } from "gatsby"
 import { Container, Row, Col } from '../../../../components/ui/wrapper'
 import Heading from '../../../../components/ui/heading'
-import { SectionWrap, HeaderWrap } from './section.style'
+import { SectionWrap2, HeaderWrap } from './section.style'
 
 const Section = ({ markHeading, headingStyle2 }) => {
     const HeroData = useStaticQuery(graphql`
-        query ProcessingIcdmSubmissionQuery {
-            indexProcessingJson(id: {eq: "icdm-submission"}) {
+        query ProcessingIcdmContactQuery {
+            indexProcessingJson(id: {eq: "icdm-contact"}) {
                 title
                 subtitle
+                subtitle2
                 item1
                 item2
                 item3
-                link
+                item4
+                item5
+                item6
+                item7
+                item8
+                item9
+                item10
+                ps
             }
         }
     `)
-    const { title, subtitle, item1, item2, item3, item4, item5, item6, item7, item8, item9, item10, ps, link } = HeroData.indexProcessingJson;
+    const { title, subtitle, subtitle2, item1, item2, item3, item4, item5, item6, item7, item8, item9, item10, ps } = HeroData.indexProcessingJson;
     return (
-        <SectionWrap>
+        <SectionWrap2>
             <Container>
                 <Row>
                     <Col lg={{ span: 10, offset: 1 }}>
@@ -29,14 +37,21 @@ const Section = ({ markHeading, headingStyle2 }) => {
                             <Heading  {...headingStyle2}>{title}</Heading>
                             <br />
                         </HeaderWrap>
-                        <p>{item1}<a href={link}> ({link}).</a></p>
-                        <p>{item2}</p>
-                        <p>{item3}</p>
+                        <h5>{subtitle}</h5>
                         <br />
+                        <p>{item1}</p>
+                        <p>{item2}</p>
+                        <p>{"Email: "}<a href={"mailto:"+item3}>{item3}</a></p>
+                        <br />
+                        <h5>{subtitle2}</h5>
+                        <br />
+                        <p>{item4}</p>
+                        <p>{item5}</p>
+                        <p>{"Email: "}<a href={"mailto:"+item6}>{item6}</a></p>
                     </Col>
                 </Row>
             </Container>
-        </SectionWrap>
+        </SectionWrap2>
     )
 }
 

@@ -11,7 +11,8 @@ import Speaker from '../containers/global/funfact-area/section-three/icdm-speake
 import Submission from '../containers/global/funfact-area/section-three/icdm-submission'
 import Important from '../containers/global/funfact-area/section-three/icdm-important'
 import Organisation from '../containers/global/funfact-area/section-three/icdm-organization'
-import ContactArea from '../containers/global/contact-area/contact-three/icdm-contact'
+import Contact from '../containers/global/funfact-area/section-three/icdm-contact'
+// import ContactArea from '../containers/global/contact-area/contact-three/icdm-contact'
 // import ContactArea from '../containers/global/contact-area/contact-three'
 
 const IcdmPage = ({ pageContext, location }) => (
@@ -34,7 +35,7 @@ const IcdmPage = ({ pageContext, location }) => (
             <Submission />
             <Important />
             <Organisation />
-            <ContactArea />
+            <Contact />
         </main>
         <Footer />
     </Layout>

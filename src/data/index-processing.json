@@ -11,7 +11,7 @@
         "id": "icdm-workshop",
         "title": "Workshop",
         "subtitle": "Data Mining and Machine Learning for Cybersecurity (DMC) workshop will be held in conjunction with The 2021 IEEE International Conference on Data Mining (ICDM2021) on December 7-10, 2021.",
-        "subtitle2": "DMS workshop is a full-day event including three invited speakers. The workshop will be held on December 7, 2021."
+        "subtitle2": "DMC workshop is a full-day event including three invited speakers. The workshop will be held on December 7, 2021."
     },
     {
         "id": "icdm-scope",
@@ -44,7 +44,8 @@
     {
         "id": "icdm-submission",
         "title": "Submission&Publication",
-        "item1": "Paper submissions should be limited to max 8 pages plus 2 extra pages and follow the IEEE ICDM format. More detailed information is available in the IEEE ICDM 2021 Submission Guidelines.",
+        "link": "https://www.ieee.org/conferences/publishing/templates.html",
+        "item1": "Paper submissions should be limited to max 8 pages plus 2 extra pages and follow the IEEE ICDM format. More detailed information is available in the IEEE ICDM 2021 Submission Guidelines ",
         "item2": "Please submit your manuscript through the DMC 2021 submission site.",
         "item3": "All accepted workshop papers will be published in the dedicated ICDMW proceedings published by the IEEE Computer Society Press. Therefore, papers must not have been accepted for publication elsewhere or be under review for another workshop, conferences, or journals.",
         "ps": "We are interested in the new applications of data mining and AI for cybersecurity. Submitted papers will be evaluated based on criteria such as technical originality, creativity, and applicability."
@@ -69,6 +70,25 @@
         "item4": "Reza Shahamiri, The University of Auckland, New Zealand",
         "item5": "Ranran Bian, The University of Adelaide, Australia",
         "item6": "Muhammad Ali Babar, The University of Adelaide, Australia",
+        "item7": "Gillian Dobbie, The University of Auckland, New Zealand",
+        "item8": "Zahid Islam, Charles Sturt University, Australia",
+        "item9": "Reza Shahamiri, The University of Auckland, New Zealand",
+        "item10": "Ranran Bian, The University of Adelaide, Australia",
+        "item11": "Michael Bewong, Charles Sturt University, Australia",
+        "item12": "Rafiqul Islam, Charles Sturt University, Australia",
+        "ps": "We are interested in the new applications of data mining and AI for cybersecurity. Submitted papers will be evaluated based on criteria such as technical originality, creativity, and applicability."
+    },
+    {
+        "id": "icdm-contact",
+        "title": "Contact us",
+        "subtitle": "Muhammad Ali Babar",
+        "subtitle2": "Ranran Bian",
+        "item1": "School of Computer Science, Faculty of Engineering, Computer and Mathematical Sciences, The University of Adelaide",
+        "item2": "Floor/Room 4 54, Ingkarni Wardli, North Terrace, Adelaide 5000, Australia",
+        "item3": "ali.babar@adelaide.edu.au",
+        "item4": "School of Computer Science, Faculty of Engineering, Computer and Mathematical Sciences, The University of Adelaide",
+        "item5": "Floor/Room 5 48D, Ingkarni Wardli, North Terrace, Adelaide 5000, Australia",
+        "item6": "monica.bian@adelaide.edu.au",
         "item7": "Gillian Dobbie, The University of Auckland, New Zealand",
         "item8": "Zahid Islam, Charles Sturt University, Australia",
         "item9": "Reza Shahamiri, The University of Auckland, New Zealand",
