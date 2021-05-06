@@ -5,6 +5,7 @@ import {Container, Row, Col} from '../../../../components/ui/wrapper'
 import Heading from '../../../../components/ui/heading'
 import Counter from '../../../../components/counter/layout-three'
 import {SectionWrap, HeaderWrap} from './section.style'
+import parse from 'html-react-parser'
 
 const Section = ({markHeading, headingStyle2}) => {
     const HeroData = useStaticQuery(graphql`
@@ -27,8 +28,8 @@ const Section = ({markHeading, headingStyle2}) => {
                             <Heading  {...headingStyle2}>{title}</Heading>
                             <br />
                         </HeaderWrap>
-                        <p>{subtitle}</p>
-                        <p>{subtitle2}</p>
+                        <p>{parse(subtitle)}</p>
+                        <p>{parse(subtitle2)}</p>
                     </Col>
 
                 </Row>

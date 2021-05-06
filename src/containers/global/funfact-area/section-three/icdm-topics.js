@@ -4,6 +4,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import {Container, Row, Col} from '../../../../components/ui/wrapper'
 import Heading from '../../../../components/ui/heading'
 import {SectionWrap, HeaderWrap} from './section.style'
+import parse from 'html-react-parser'
 
 const Section = ({markHeading, headingStyle2}) => {
     const HeroData = useStaticQuery(graphql`
@@ -22,10 +23,14 @@ const Section = ({markHeading, headingStyle2}) => {
                 item9
                 item10
                 ps
+                new1
+                new2
+                content1
+                content2
             }
         }
     `)
-    const { title, subtitle, item1, item2, item3, item4, item5, item6, item7, item8, item9, item10, ps} = HeroData.indexProcessingJson;
+    const { title, subtitle, item1, item2, item3, item4, item5, item6, item7, item8, item9, item10, ps, new1, new2, content1, content2} = HeroData.indexProcessingJson;
     return (
         <SectionWrap>
             <Container>
@@ -49,6 +54,11 @@ const Section = ({markHeading, headingStyle2}) => {
                         <p>{item10}</p>
                         <br />
                         <p>{ps}</p>
+                        <br />
+                        <p>{new1}</p>
+                        <p>{parse(content1)}</p>
+                        <p>{new2}</p>
+                        <p>{parse(content2)}</p>
                     </Col>
                 </Row>
             </Container>

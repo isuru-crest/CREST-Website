@@ -17,6 +17,7 @@ const HeroArea = (props) => {
             indexProcessingJson(id: {eq: "processing-hero-content"}) {
                 title
                 subtitle
+                subtitle2
                 text
                 link
                 bg_image {
@@ -40,8 +41,8 @@ const HeroArea = (props) => {
         setVideoOpen(false)
     }
 
-    const { title, subtitle, text, link, video_link, bg_image, image } = HeroData.indexProcessingJson;
-    const { subtitleStyle, titleStyle, textStyle, btnStyle, videoBtnStyle } = props;
+    const { title, subtitle, subtitle2, text, link, video_link, bg_image, image } = HeroData.indexProcessingJson;
+    const { subtitleStyle, subtitleStyle2, titleStyle, textStyle, btnStyle, videoBtnStyle } = props;
     let video_arr, video_id, video_channel;
     return (
         <Fragment>
@@ -54,6 +55,8 @@ const HeroArea = (props) => {
                                 <br />
                                 {subtitle && <Heading {...subtitleStyle}>{subtitle}</Heading>}
                                 {title && <Heading {...titleStyle}>{parse(title)}</Heading>}
+                                <br />
+                                {subtitle2 && <Heading {...subtitleStyle2}>{parse(subtitle2)}</Heading>}
                                 {text && <Text {...textStyle}>{text}</Text>}
                                 <br />
                                 <br />
@@ -88,6 +91,21 @@ HeroArea.propTypes = {
 HeroArea.defaultProps = {
     subtitleStyle: {
         as: "h6",
+        lineHeight: '36px',
+        letterspacing: '3px',
+        fontWeight: 700,
+        color: '#ffffff',
+        texttransform: 'uppercase',
+        mb: '20px',
+        responsive: {
+            xsmall: {
+                fontSize: '16px',
+                letterspacing: '1px',
+            }
+        }
+    },
+    subtitleStyle2: {
+        as: "h4",
         lineHeight: '36px',
         letterspacing: '3px',
         fontWeight: 700,

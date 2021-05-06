@@ -37,17 +37,17 @@ const Section = ({ markHeading, headingStyle2 }) => {
                             <Heading  {...headingStyle2}>{title}</Heading>
                             <br />
                         </HeaderWrap>
-                        <h5>{subtitle}</h5>
-                        <br />
-                        <p>{item1}</p>
-                        <p>{item2}</p>
-                        <p>{"Email: "}<a href={"mailto:"+item3}>{item3}</a></p>
-                        <br />
                         <h5>{subtitle2}</h5>
                         <br />
                         <p>{item4}</p>
                         <p>{item5}</p>
                         <p>{"Email: "}<a href={"mailto:"+item6}>{item6}</a></p>
+                        <br />
+                        <h5>{subtitle}</h5>
+                        <br />
+                        <p>{item1}</p>
+                        <p>{item2}</p>
+                        <p>{"Email: "}<a href={"mailto:"+item3}>{item3}</a></p>
                     </Col>
                 </Row>
             </Container>

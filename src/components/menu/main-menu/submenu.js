@@ -32,7 +32,7 @@ export const MainMenu = ({ headingStyle, menuData, ...props }) => {
                 </NavItem>
                 <NavItem key={"submission"}>
                     <NavLink path={"#submission"}>
-                        <span>Submission & Publications</span>
+                        <span>Submission & Publication</span>
                     </NavLink>
                 </NavItem>
                 <NavItem key={"important"}>
