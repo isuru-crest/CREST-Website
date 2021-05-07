@@ -43,6 +43,8 @@ const Section = ({markHeading, headingStyle2}) => {
                         <h5>{item3}</h5>
                         <br />
                         <h5>{item4}</h5>
+                        <br />
+                        <h5>{item5}</h5>
                     </Col>
                 </Row>
             </Container>
