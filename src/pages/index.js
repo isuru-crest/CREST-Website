@@ -26,10 +26,11 @@ const IndexPage = ({ location }) => (
     <Area2/>
     <Area3/>
     <Area4/>
-    <TwitterContainer/>
-    <BlogArea />
     <CaseStudyArea/>
-    <CTAArea/>
+    {/* <TwitterContainer/> */}
+    <BlogArea />
+    
+    {/* <CTAArea/> */}
     <ClientsArea />
     </main>
     <Footer />

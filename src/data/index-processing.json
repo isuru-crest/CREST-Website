@@ -51,7 +51,7 @@
         "title": "Submission & Publication",
         "link": "https://www.ieee.org/conferences/publishing/templates.html",
         "item1": "Paper submissions should be limited to max 8 pages plus 2 extra pages and follow the IEEE ICDM format. More detailed information is available in the IEEE ICDM 2021 Submission Guidelines ",
-        "item2": "Please submit your manuscript through the DMC 2021 submission site.",
+        "item2": "<a href='https://wi-lab.com/cyberchair/2021/icdm21/scripts/submit.php?subarea=S15&undisplay_detail=1&wh=/cyberchair/2021/icdm21/scripts/ws_submit.php'>Please submit your manuscript through the DMC 2021 submission site.</a>",
         "item3": "All accepted workshop papers will be published in the dedicated ICDMW proceedings published by the IEEE Computer Society Press. Therefore, papers must not have been accepted for publication elsewhere or be under review for another workshop, conferences, or journals.",
         "ps": "We are interested in the new applications of data mining and AI for cybersecurity. Submitted papers will be evaluated based on criteria such as technical originality, creativity, and applicability."
     },

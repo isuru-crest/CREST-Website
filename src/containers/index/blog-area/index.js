@@ -5,7 +5,7 @@ import SectionTitle from '../../../components/ui/section-title'
 import Blog from '../../../components/blog/layout-one'
 import RecentPostList from '../../blog/recent-post-list'
 import { BlogWrapper, LeftBox, RecentBlogWrap, FeaturedBlogWrap } from './blog-area.style'
-
+import { TwitterTimelineEmbed, TwitterTweetEmbed, TwitterOnAirButton } from "react-twitter-embed";
 const BlogArea = props => {
     const blogData = useStaticQuery(graphql`
         query InfoTechnoBlogQueryData{
@@ -71,13 +71,21 @@ const BlogArea = props => {
                     </Col>
                     <Col lg={8}>
                         <Row>
-                            {featuredBlogs && featuredBlogs.map(featuredBlog => (
+                        <Col md={6} sm={12}>
+                          <TwitterTweetEmbed 
+                            tweetId={'1390592284207448065'}/>
+                        </Col>
+                        <Col md={6} sm={12}>
+                          <TwitterTweetEmbed 
+                            tweetId={'1388360620404183040'}/>
+                        </Col>
+                            {/* {featuredBlogs && featuredBlogs.map(featuredBlog => (
                                 <Col md={6} key={featuredBlog.node.fields.slug}>
                                     <FeaturedBlogWrap>
                                         <Blog content={featuredBlog.node} />
                                     </FeaturedBlogWrap>
                                 </Col>
-                            ))}
+                            ))} */}
                         </Row>
                     </Col>
                 </Row>

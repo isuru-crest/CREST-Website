@@ -3,8 +3,9 @@ import PropTypes from 'prop-types'
 import { useStaticQuery, graphql } from "gatsby"
 import { Container, Row, Col } from '../../../../components/ui/wrapper'
 import Heading from '../../../../components/ui/heading'
-import { SectionWrap, HeaderWrap } from './section.style'
-
+import { SectionWrap, HeaderWrap, ButtonWrap } from './section.style'
+import parse from 'html-react-parser'
+import Button from '../../../../components/ui/button'
 const Section = ({ markHeading, headingStyle2 }) => {
     const HeroData = useStaticQuery(graphql`
         query ProcessingIcdmSubmissionQuery {
@@ -30,9 +31,11 @@ const Section = ({ markHeading, headingStyle2 }) => {
                             <br />
                         </HeaderWrap>
                         <p>{item1}<a href={link}> ({link}).</a></p>
-                        <p>{item2}</p>
+                        <p>{parse(item2)}</p>
                         <p>{item3}</p>
-                        <br />
+                        <ButtonWrap>
+                            <Button><a href='https://wi-lab.com/cyberchair/2021/icdm21/scripts/submit.php?subarea=S15&undisplay_detail=1&wh=/cyberchair/2021/icdm21/scripts/ws_submit.php'>Submit a Paper</a></Button>
+                        </ButtonWrap>
                     </Col>
                 </Row>
             </Container>

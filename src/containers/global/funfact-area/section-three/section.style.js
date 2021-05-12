@@ -14,6 +14,10 @@ export const SectionWrap = styled.div `
     }
 `;
 
+export const ButtonWrap = styled.div `
+    margin-top: 34px;
+`;
+
 export const HeaderWrap = styled.div `
     margin-right: 3rem;
     @media ${device.medium}{
