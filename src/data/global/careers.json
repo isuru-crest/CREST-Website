@@ -12,6 +12,13 @@
                 "type": "Full time",
                 "description": "$89,610 to $96,007 per annum plus an employer contribution of 9.5% superannuation may apply. Fixed term position for 24 months.",
                 "link": "/grant-funded-researcher-a-school-of-computer-science"
+            },
+ 	    {
+                "id": "job-4",
+                "title": "PhD opportunities",
+                "type": "Full time",
+                "description": "Several fully funded PhD positions available in the broad areas of Security of Software-intensive Systems and Services at a leading research center, Centre for Research on Engineering Software Technologies (CREST).",
+                "link": "/phd-opportunities"
             }
         ]
     },
