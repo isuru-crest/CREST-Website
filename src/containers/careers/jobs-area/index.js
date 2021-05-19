@@ -42,9 +42,9 @@ const JobsArea = () => {
                             <SectionTitle title={title} />
                         </Col>
                     </Row>
-                    {/* <Row justify="left">
-                        <SectionTitle title={"Current Positions"} />
-                    </Row> */}
+                    <Row justify="left">
+                        <SectionTitle title={"Current Recruiting"} />
+                    </Row>
                     <Row>
                         <Col lg={12}>
                             <JobList>
