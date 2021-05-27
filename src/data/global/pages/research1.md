@@ -62,7 +62,7 @@ Learn more at: [ecms.adelaide.edu.au](ecms.adelaide.edu.au)
 
 **If you want to change tomorrow, act today**
 
-Click on the 'Apply Now' button in the university website to be taken through to our online application form. Please address and upload your responses to all of the selection criteria. Applications close 11:55pm, 24 May 2021.
+Click on the 'Apply Now' button in the university website to be taken through to our online application form. Please address and upload your responses to all of the selection criteria. Applications close 11:55pm, 24 June 2021.
 
 **For further information**
 
