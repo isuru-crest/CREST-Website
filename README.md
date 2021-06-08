@@ -47,6 +47,31 @@ Open the broser
 http://localhost:8000/
 ```
 
+
+## Add or edit projects
+All the projects pages are stored in markdown format, they are in the folder:
+
+``` sh
+/src/data/global/projects/
+```
+
+Copy existing file and change based on it, please try to do not delete or any new parameters in the header of the file, just change the content.
+
+All the main content is written by markdown format. 
+
+Once you have finished the editting, commit to the GitHub, new page will show up in our website in couple of minutes.
+
+
+## Add or edit research area
+
+Similarily, if you'd like to add or edit any research area, please find the files in the folder:
+
+``` sh
+/src/data/global/areas/
+```
+
+Add or change necessary parameters in the file.
+
 ## Edit your personal information
 
 ### Personal introduction
