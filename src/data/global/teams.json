@@ -286,32 +286,6 @@
         "is_featured": true
     },
     {
-        "id": "huaming-chen",
-        "name": "Huaming Chen",
-        "designation": "Post Doc",
-        "position": "researchfellows",
-        "introduction": "Dr. Huaming Chen is a researcher of Centre for Research on Engineering Software Technologies (CREST). Huaming received his PhD from School of Computing and Information Technology in University of Wollongong. He completed his master in Computer System Architecture and bachelor (Hons) degrees in Electronics at Lanzhou University, in 2015 and 2012 respectively. During his research training in master and PhD, he has a major focus on the computational intelligence, particularly for applied machine learning and deep learning. He has collaborated with researchers with different expertises to develop leveraging algorithms and models to make contributions to the distinct challenges in different areas, including biologist, industrial production and transportation. He has also actively served as the reviewers for renowned grants and top international journals/conferences. He is now working on the topic lying at the intersection of machine learning, software engineering and cyber security. His research interests including: applied machine learning, software engineering, computational intelligence and cyber security.",
-        "images": {
-            "large": "../images/team/HuamingChen.jpg",
-            "medium": "../images/team/HuamingChen.jpg"
-        },
-        "image": "../images/team/HuamingChen.jpg",
-        "competencies": "",
-        "socials": {
-            "facebook": "https://www.facebook.com",
-            "twitter": "https://www.twitter.com",
-            "instagram": "https://www.instagram.com",
-            "personalwebsite": "",
-            "linkedin": "",
-            "github": "",
-            "googlescholar": ""
-        },
-        "projecturl": "",
-        "researchtopic": "",
-        "researchlink": "",
-        "is_featured": true
-    },
-    {
         "id": "faheem-ullah",
         "name": "Faheem Ullah",
         "designation": "Post Doc",
@@ -335,6 +309,32 @@
         "projecturl": "",
         "researchtopic": "Real-time Big Data Analytics",
         "researchlink": "/real-time-big-data-analytics",
+        "is_featured": true
+    },
+    {
+        "id": "huaming-chen",
+        "name": "Huaming Chen",
+        "designation": "Post Doc",
+        "position": "researchfellows",
+        "introduction": "Dr. Huaming Chen is a researcher of Centre for Research on Engineering Software Technologies (CREST). Huaming received his PhD from School of Computing and Information Technology in University of Wollongong. He completed his master in Computer System Architecture and bachelor (Hons) degrees in Electronics at Lanzhou University, in 2015 and 2012 respectively. During his research training in master and PhD, he has a major focus on the computational intelligence, particularly for applied machine learning and deep learning. He has collaborated with researchers with different expertises to develop leveraging algorithms and models to make contributions to the distinct challenges in different areas, including biologist, industrial production and transportation. He has also actively served as the reviewers for renowned grants and top international journals/conferences. He is now working on the topic lying at the intersection of machine learning, software engineering and cyber security. His research interests including: applied machine learning, software engineering, computational intelligence and cyber security.",
+        "images": {
+            "large": "../images/team/HuamingChen.jpg",
+            "medium": "../images/team/HuamingChen.jpg"
+        },
+        "image": "../images/team/HuamingChen.jpg",
+        "competencies": "",
+        "socials": {
+            "facebook": "https://www.facebook.com",
+            "twitter": "https://www.twitter.com",
+            "instagram": "https://www.instagram.com",
+            "personalwebsite": "",
+            "linkedin": "",
+            "github": "",
+            "googlescholar": ""
+        },
+        "projecturl": "",
+        "researchtopic": "",
+        "researchlink": "",
         "is_featured": true
     },
     {
@@ -1072,10 +1072,10 @@
         "position": "alumni",
         "introduction": "My research interest is applying deep learning algorithms to software engineering and programming language. I am a Ph.D. student of Computer Science under the Supervision of Professor Muhammad Ali Babar and Professor Chunhua Shen in Crest Centre, at University of Adelaide, Australia. My Ph.D. is focused on “Deep Learning for General Purpose Code Generation.” My goal is to devise neural network models for source code analysis and generation. Previously, I worked as a research scientist at NetEase Inc. China. I obtained my master’s and bachelor’s degree from the School of Computer Science and Engineering, Zhejiang University, China.",
         "images": {
-            "large": "../images/team/hao.jpg",
-            "medium": "../images/team/hao.jpg"
+            "large": "../images/team/chenhao.jpeg",
+            "medium": "../images/team/chenhao.jpeg"
         },
-        "image": "../images/team/hao.jpg",
+        "image": "../images/team/chenhao.jpeg",
         "competencies": " ",
         "socials": {
             "facebook": "https://www.facebook.com",
