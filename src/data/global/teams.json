@@ -416,32 +416,6 @@
         "is_featured": true
     },
     {
-        "id": "hao-chen",
-        "name": "Hao Chen",
-        "designation": "PhD",
-        "position": "phdstudents",
-        "introduction": "My research interest is applying deep learning algorithms to software engineering and programming language. I am a Ph.D. student of Computer Science under the Supervision of Professor Muhammad Ali Babar and Professor Chunhua Shen in Crest Centre, at University of Adelaide, Australia. My Ph.D. is focused on “Deep Learning for General Purpose Code Generation.” My goal is to devise neural network models for source code analysis and generation. Previously, I worked as a research scientist at NetEase Inc. China. I obtained my master’s and bachelor’s degree from the School of Computer Science and Engineering, Zhejiang University, China.",
-        "images": {
-            "large": "../images/team/hao.jpg",
-            "medium": "../images/team/hao.jpg"
-        },
-        "image": "../images/team/hao.jpg",
-        "competencies": " ",
-        "socials": {
-            "facebook": "https://www.facebook.com",
-            "twitter": "https://www.twitter.com",
-            "instagram": "https://www.instagram.com",
-            "personalwebsite": "",
-            "linkedin": "",
-            "github": "",
-            "googlescholar": ""
-        },
-        "projecturl": "",
-        "researchtopic": "",
-        "researchlink": "",
-        "is_featured": true
-    },
-    {
         "id": "triet-huynh",
         "name": "Triet Huynh Minh Le",
         "designation": "PhD",
@@ -886,15 +860,15 @@
     {
         "id": "hussain-ahmad",
         "name": "Hussain Ahmad",
-        "designation": "Research Assistant",
-        "position": "assistants",
-        "introduction": "Hussain Ahmad is a Research Engineer at the School of Computer Science, University of Adelaide. He is currently working on the cybersecurity of the Command, Control, Communication and Intelligence (C3I) Systems under the supervision of Professor Ali Babar and Dr Faheem Ullah. With the aim of providing Information Assurance and Superiority, his research focuses on the development of the efficacious countervailing measures for the potential attack vectors that could deteriorate the security characteristics of the C3I systems. Hussain is also enthusiastic about Machine Learning, Robotics and Data Security. He holds a bachelor degree in Electronic Engineering from GIK Institute, Pakistan.",
+        "designation": "PhD",
+        "position": "phdstudents",
+        "introduction": "Hussain is a PhD student at the School of Computer Science, University of Adelaide where he has also served as a Research Engineer for almost a year. He is currently working on the cybersecurity of the Command, Control, Communication, and Intelligence (C3I) Systems under the supervision of Professor Ali Babar and Dr Faheem Ullah. With the aim of providing Information Superiority and Operational Efficacy, his research focuses on the development of effective countervailing solutions for the potential attack vectors that could deteriorate the security characteristics of C3I systems. Hussain is also enthusiastic about Machine Learning, Robotics and Data Security. He holds a bachelor degree in Electronic Engineering from GIK Institute, Pakistan.",
         "images": {
-            "large": "../images/team/Hussain_Pic.jpg",
-            "medium": "../images/team/Hussain_Pic.jpg"
+            "large": "../images/team/Hussain.png",
+            "medium": "../images/team/Hussain.png"
         },
-        "image": "../images/team/Hussain_Pic.jpg",
-        "competencies": "",
+        "image": "../images/team/Hussain.png",
+        "competencies": "Cyber Security, Security/Vulnerability Analytics, Risk Assessment, Cyber Impact Analytics, Network Security",
         "socials": {
             "facebook": "https://www.facebook.com",
             "twitter": "https://www.twitter.com",
@@ -912,15 +886,15 @@
     {
         "id": "isuru-dharmadasa",
         "name": "Isuru Dharmadasa",
-        "designation": "Research Assistant",
-        "position": "assistants",
-        "introduction": "Isuru Dharmadasa graduated from the University of Colombo School of Computing with a first-class honours degree. He was able to secure three gold medals including best performance in four-year degree program and best final year undergraduate research project. During his undergraduate life and later as a junior academic member of the University of Colombo, he has contributed to multiple research projects. His research interest lies in software engineering, machine learning, data security and privacy.",
+        "designation": "PhD",
+        "position": "phdstudents",
+        "introduction": "Isuru Dharmadasa is a PhD student at the School of Computer Science, The University of Adelaide. He graduated from the University of Colombo School of Computing with a first-class honours degree. In addition, he secured the gold medal for the best academic performance in that respective year.  Isuru is currently working under the supervision of Professor Ali Babar and Dr Chadni Islam, with a focus on Software Engineering and Artificial Intelligence research domains.  During his undergraduate life and later as a junior academic member of the University of Colombo, he has contributed to multiple interdisciplinary research projects.",
         "images": {
-            "large": "../images/team/Isuru-pic.jpg",
-            "medium": "../images/team/Isuru-pic.jpg"
+            "large": "../images/team/Isuru.jpg",
+            "medium": "../images/team/Isuru.jpg"
         },
-        "image": "../images/team/Isuru-pic.jpg",
-        "competencies": "",
+        "image": "../images/team/Isuru.jpg",
+        "competencies": "Machine Learning, Human Behavior Analysis, Privacy Implication Modelling, Human Identification and Localization",
         "socials": {
             "facebook": "https://www.facebook.com",
             "twitter": "https://www.twitter.com",
@@ -932,6 +906,84 @@
         },
         "projecturl": "",
         "researchtopic": "",
+        "researchlink": "",
+        "is_featured": true
+    },
+    {
+        "id": "zahra-mousavi",
+        "name": "Zahra Mousavi",
+        "designation": "(Incoming PhD Students)",
+        "position": "phdstudents",
+        "introduction": "I have received my B.Sc. from Alzahra University, Iran in Software Engineering and my M.Sc. in Machine Intelligence from the University of Tehran, Iran and I am going to start my PhD with the Center for Research on Engineering Software Technologies (CREST) at the University of Adelaide under the supervision of Professor M. Ali Babar. My research interests include Natural language Processing and Information Extraction using Deep Learning methods and their applications in the Cyber Security domain. I have already worked on constructing a Persian wordnet and improving machine translation using this wordnet and verb sense disambiguation.",
+        "images": {
+            "large": "../images/team/Zahra.jpg",
+            "medium": "../images/team/Zahra.jpg"
+        },
+        "image": "../images/team/Zahra.jpg",
+        "competencies": "Machine Learning, Deep Learning, Natural Language Processing, Semantics, Word Sense Disambiguation, Machine Translation",
+        "socials": {
+            "facebook": "https://www.facebook.com",
+            "twitter": "https://www.twitter.com",
+            "instagram": "https://www.instagram.com",
+            "personalwebsite": "",
+            "linkedin": "",
+            "github": "",
+            "googlescholar": ""
+        },
+        "projecturl": "",
+        "researchtopic": "(Incoming PhD Students)",
+        "researchlink": "",
+        "is_featured": true
+    },
+    {
+        "id": "mehdi-kholoosi",
+        "name": "Mehdi Kholoosi",
+        "designation": "(Incoming PhD Students)",
+        "position": "phdstudents",
+        "introduction": "Mehdi Kholoosi is a Ph.D. student with the Center for Research on Engineering Software Technologies (CREST) at the University of Adelaide under the supervision of Professor M. Ali Babar. His research interests lie in Cybersecurity and Natural Language Processing, as well as their interdisciplinary applications. Previously his publications were in the areas of Machine Translation and Text Mining. He received his Master’s degree in computer software engineering from Shiraz University.",
+        "images": {
+            "large": "../images/team/mehdi.jpg",
+            "medium": "../images/team/mehdi.jpg"
+        },
+        "image": "../images/team/mehdi.jpg",
+        "competencies": "Vulnerability Analytics, Container Security, Text Mining, Machine Learning, NLP, Mining Software Repositories, Automated Vulnerability Prediction",
+        "socials": {
+            "facebook": "https://www.facebook.com",
+            "twitter": "https://www.twitter.com",
+            "instagram": "https://www.instagram.com",
+            "personalwebsite": "",
+            "linkedin": "",
+            "github": "",
+            "googlescholar": ""
+        },
+        "projecturl": "",
+        "researchtopic": "(Incoming PhD Students)",
+        "researchlink": "",
+        "is_featured": true
+    },
+    {
+        "id": "ali-kazemi",
+        "name": "Ali Kazemi Arani",
+        "designation": "(Incoming PhD Students)",
+        "position": "phdstudents",
+        "introduction": "Currently, I am a Ph.D. student with the Center for Research on Engineering Software Technologies (CREST) at the University of Adelaide under the supervision of Professor Muhammad Ali Babar and Dr. Mansooreh Zahedi. Prior to joining CREST, I was working as backend developer and data analyzer at Sciences Green Institute. My research interests lie in employing machine learning algorithms for optimizing software delivery in continuous software engineering paradigm and DevOps. I have completed my master of science (M.Sc.) at Amirkabir University of Technology (AUT), and bachelor of science (B.Sc.) at Khajeh Nasir Toosi University of Technology (KNTU), Tehran, Iran. ",
+        "images": {
+            "large": "../images/team/ali.png",
+            "medium": "../images/team/ali.png"
+        },
+        "image": "../images/team/ali.png",
+        "competencies": "Continuous Software Engineering, DevOps, Machine Learning, Data Mining",
+        "socials": {
+            "facebook": "https://www.facebook.com",
+            "twitter": "https://www.twitter.com",
+            "instagram": "https://www.instagram.com",
+            "personalwebsite": "",
+            "linkedin": "",
+            "github": "",
+            "googlescholar": ""
+        },
+        "projecturl": "",
+        "researchtopic": "(Incoming PhD Students)",
         "researchlink": "",
         "is_featured": true
     },
@@ -999,6 +1051,32 @@
         },
         "image": "../images/team/anupam.jpg",
         "competencies": "",
+        "socials": {
+            "facebook": "https://www.facebook.com",
+            "twitter": "https://www.twitter.com",
+            "instagram": "https://www.instagram.com",
+            "personalwebsite": "",
+            "linkedin": "",
+            "github": "",
+            "googlescholar": ""
+        },
+        "projecturl": "",
+        "researchtopic": "",
+        "researchlink": "",
+        "is_featured": true
+    },
+    {
+        "id": "hao-chen",
+        "name": "Hao Chen",
+        "designation": "PhD",
+        "position": "alumni",
+        "introduction": "My research interest is applying deep learning algorithms to software engineering and programming language. I am a Ph.D. student of Computer Science under the Supervision of Professor Muhammad Ali Babar and Professor Chunhua Shen in Crest Centre, at University of Adelaide, Australia. My Ph.D. is focused on “Deep Learning for General Purpose Code Generation.” My goal is to devise neural network models for source code analysis and generation. Previously, I worked as a research scientist at NetEase Inc. China. I obtained my master’s and bachelor’s degree from the School of Computer Science and Engineering, Zhejiang University, China.",
+        "images": {
+            "large": "../images/team/hao.jpg",
+            "medium": "../images/team/hao.jpg"
+        },
+        "image": "../images/team/hao.jpg",
+        "competencies": " ",
         "socials": {
             "facebook": "https://www.facebook.com",
             "twitter": "https://www.twitter.com",

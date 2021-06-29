@@ -411,7 +411,7 @@ researchlink,
                 </Row>
                 <Row {...headTeamRowStyle}>
                     {phdstudents && phdstudents.map(headMember => (
-                        <Col md={4} key={headMember.node.id}>
+                        <Col md={3} key={headMember.node.id}>
                             <TeamMember
                                 {...teamStyle}
                                 {...headTeamStyle}
