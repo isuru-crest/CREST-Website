@@ -832,6 +832,32 @@
         "is_featured": true
     },
     {
+        "id": "david-hin",
+        "name": "David Hin",
+        "designation": "PhD",
+        "position": "phdstudents",
+        "introduction": "David Hin is currently a Ph.D. student at the University of Adelaide under the supervision of Professor M. Ali Babar and Dr. Huaming Chen. His area of research focuses on machine learning-assisted secure software development, with a particular interest in software vulnerabilities. Other interests include learning from big code, natural language processing, program comprehension, graph representations, and explainable AI.",
+        "images": {
+            "large": "../images/team/david.jpg",
+            "medium": "../images/team/david.jpg"
+        },
+        "image": "../images/team/david.jpg",
+        "competencies": "Mining software repositories, natural Language processing, security/vulnerability analytics, machine learning",
+        "socials": {
+            "facebook": "https://www.facebook.com",
+            "twitter": "https://www.twitter.com",
+            "instagram": "https://www.instagram.com",
+            "personalwebsite": "https://iwill.one",
+            "linkedin": "",
+            "github": "",
+            "googlescholar": ""
+        },
+        "projecturl": "",
+        "researchtopic": "",
+        "researchlink": "",
+        "is_featured": true
+    },
+    {
         "id": "anying-xiang",
         "name": "Anying Xiang",
         "designation": "Research Engineer",
@@ -912,7 +938,7 @@
     {
         "id": "zahra-mousavi",
         "name": "Zahra Mousavi",
-        "designation": "(Incoming PhD Students)",
+        "designation": "PhD (Incoming)",
         "position": "phdstudents",
         "introduction": "I have received my B.Sc. from Alzahra University, Iran in Software Engineering and my M.Sc. in Machine Intelligence from the University of Tehran, Iran and I am going to start my PhD with the Center for Research on Engineering Software Technologies (CREST) at the University of Adelaide under the supervision of Professor M. Ali Babar. My research interests include Natural language Processing and Information Extraction using Deep Learning methods and their applications in the Cyber Security domain. I have already worked on constructing a Persian wordnet and improving machine translation using this wordnet and verb sense disambiguation.",
         "images": {
@@ -938,7 +964,7 @@
     {
         "id": "mehdi-kholoosi",
         "name": "Mehdi Kholoosi",
-        "designation": "(Incoming PhD Students)",
+        "designation": "PhD (Incoming)",
         "position": "phdstudents",
         "introduction": "Mehdi Kholoosi is a Ph.D. student with the Center for Research on Engineering Software Technologies (CREST) at the University of Adelaide under the supervision of Professor M. Ali Babar. His research interests lie in Cybersecurity and Natural Language Processing, as well as their interdisciplinary applications. Previously his publications were in the areas of Machine Translation and Text Mining. He received his Master’s degree in computer software engineering from Shiraz University.",
         "images": {
@@ -964,7 +990,7 @@
     {
         "id": "ali-kazemi",
         "name": "Ali Kazemi Arani",
-        "designation": "(Incoming PhD Students)",
+        "designation": "PhD (Incoming)",
         "position": "phdstudents",
         "introduction": "Currently, I am a Ph.D. student with the Center for Research on Engineering Software Technologies (CREST) at the University of Adelaide under the supervision of Professor Muhammad Ali Babar and Dr. Mansooreh Zahedi. Prior to joining CREST, I was working as backend developer and data analyzer at Sciences Green Institute. My research interests lie in employing machine learning algorithms for optimizing software delivery in continuous software engineering paradigm and DevOps. I have completed my master of science (M.Sc.) at Amirkabir University of Technology (AUT), and bachelor of science (B.Sc.) at Khajeh Nasir Toosi University of Technology (KNTU), Tehran, Iran. ",
         "images": {
@@ -990,7 +1016,7 @@
     {
         "id": "shagun-dhingra",
         "name": "Shagun Dhingra",
-        "designation": "Research Assistant",
+        "designation": "Research Engineer",
         "position": "assistants",
         "introduction": "I am Shagun Dhingra, final year postgraduate student, studying Master of Data Science at University of Adelaide. Currently, I am working on Research Project “The Impact of cloud models on the performance of big data frameworks” under the supervision of Prof. M. Ali Babar & Dr. Faheem Ullah. My Master’s degree and work focuses on learning different algorithmic structures, Statistical Modelling, Software Architecture, Machine learning, Big Data Analytics with Cloud Computing, Distributed Databases & Data Mining. I completed my BSc degree and Master’s in mathematics from India.",
         "images": {
@@ -1050,6 +1076,84 @@
             "medium": "../images/team/anupam.jpg"
         },
         "image": "../images/team/anupam.jpg",
+        "competencies": "",
+        "socials": {
+            "facebook": "https://www.facebook.com",
+            "twitter": "https://www.twitter.com",
+            "instagram": "https://www.instagram.com",
+            "personalwebsite": "",
+            "linkedin": "",
+            "github": "",
+            "googlescholar": ""
+        },
+        "projecturl": "",
+        "researchtopic": "",
+        "researchlink": "",
+        "is_featured": true
+    },
+    {
+        "id": "keith-moc",
+        "name": "Trung Ky (Keith) Moc",
+        "designation": "Research Engineer",
+        "position": "assistants",
+        "introduction": "TBD",
+        "images": {
+            "large": "../images/team/Keith.jpeg",
+            "medium": "../images/team/Keith.jpeg"
+        },
+        "image": "../images/team/Keith.jpeg",
+        "competencies": "",
+        "socials": {
+            "facebook": "https://www.facebook.com",
+            "twitter": "https://www.twitter.com",
+            "instagram": "https://www.instagram.com",
+            "personalwebsite": "",
+            "linkedin": "",
+            "github": "",
+            "googlescholar": ""
+        },
+        "projecturl": "",
+        "researchtopic": "",
+        "researchlink": "",
+        "is_featured": true
+    },
+    {
+        "id": "anjitha-sreekumar",
+        "name": "Anjitha Sreekumar",
+        "designation": "Research Engineer",
+        "position": "assistants",
+        "introduction": "I am pursuing a Master of Data Science degree at the University of Adelaide, currently in my final year. At CREST, I am working on the Research Project “Automated security incident response leveraging diverse security tool API” under the supervision of Zarrin Tasnim Sworna, Prof. M. Ali Babar, & Dr. Chadni Islam. Our work focusses on cyber security automation using Machine Learning and Natural language Processing. ",
+        "images": {
+            "large": "../images/team/Anjitha.png",
+            "medium": "../images/team/Anjitha.png"
+        },
+        "image": "../images/team/Anjitha.png",
+        "competencies": "",
+        "socials": {
+            "facebook": "https://www.facebook.com",
+            "twitter": "https://www.twitter.com",
+            "instagram": "https://www.instagram.com",
+            "personalwebsite": "",
+            "linkedin": "",
+            "github": "",
+            "googlescholar": ""
+        },
+        "projecturl": "",
+        "researchtopic": "",
+        "researchlink": "",
+        "is_featured": true
+    },
+    {
+        "id": "amrit-swaroop",
+        "name": "Amrit Swaroop Sinha",
+        "designation": "Research Engineer",
+        "position": "assistants",
+        "introduction": "TBD",
+        "images": {
+            "large": "../images/team/Amrit.jpeg",
+            "medium": "../images/team/Amrit.jpeg"
+        },
+        "image": "../images/team/Amrit.jpeg",
         "competencies": "",
         "socials": {
             "facebook": "https://www.facebook.com",
