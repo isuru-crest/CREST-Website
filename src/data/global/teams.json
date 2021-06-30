@@ -810,7 +810,7 @@
         "name": "Liuyue Jiang",
         "designation": "PhD",
         "position": "phdstudents",
-        "introduction": "Liuyue Jiang is a PhD student and developer under the supervision of Professor M. Ali Babar and Dr. Nguyen. Previous research area is blockchain performance analysis and optimisation. Research interest is in cyber security metric visulisation. Currently work with the CREST. He obtained his master's degree of Computer Science from the University of Adelaide, bachelor’s degree of Computer Science and bachelor's degree of Public Administration from Yunnan University.",
+        "introduction": "Liuyue Jiang is a PhD student and developer under the supervision of Professor M. Ali Babar and Dr. Nguyen Khoi Tran. Previous research area is blockchain performance analysis and optimisation. Research interest is in cyber security metric visulisation. Currently work with the CREST. He obtained his master's degree of Computer Science from the University of Adelaide, bachelor’s degree of Computer Science and bachelor's degree of Public Administration from Yunnan University.",
         "images": {
             "large": "../images/team/liuyue.png",
             "medium": "../images/team/liuyue.png"
@@ -884,17 +884,17 @@
         "is_featured": true
     },
     {
-        "id": "hussain-ahmad",
-        "name": "Hussain Ahmad",
+        "id": "isuru-dharmadasa",
+        "name": "Isuru Dharmadasa",
         "designation": "PhD",
         "position": "phdstudents",
-        "introduction": "Hussain is a PhD student at the School of Computer Science, University of Adelaide where he has also served as a Research Engineer for almost a year. He is currently working on the cybersecurity of the Command, Control, Communication, and Intelligence (C3I) Systems under the supervision of Professor Ali Babar and Dr Faheem Ullah. With the aim of providing Information Superiority and Operational Efficacy, his research focuses on the development of effective countervailing solutions for the potential attack vectors that could deteriorate the security characteristics of C3I systems. Hussain is also enthusiastic about Machine Learning, Robotics and Data Security. He holds a bachelor degree in Electronic Engineering from GIK Institute, Pakistan.",
+        "introduction": "Isuru Dharmadasa is a PhD student at the School of Computer Science, The University of Adelaide. He graduated from the University of Colombo School of Computing with a first-class honours degree. In addition, he secured the gold medal for the best academic performance in that respective year.  Isuru is currently working under the supervision of Professor Ali Babar and Dr Chadni Islam, with a focus on Software Engineering and Artificial Intelligence research domains.  During his undergraduate life and later as a junior academic member of the University of Colombo, he has contributed to multiple interdisciplinary research projects.",
         "images": {
-            "large": "../images/team/Hussain.png",
-            "medium": "../images/team/Hussain.png"
+            "large": "../images/team/Isuru.jpg",
+            "medium": "../images/team/Isuru.jpg"
         },
-        "image": "../images/team/Hussain.png",
-        "competencies": "Cyber Security, Security/Vulnerability Analytics, Risk Assessment, Cyber Impact Analytics, Network Security",
+        "image": "../images/team/Isuru.jpg",
+        "competencies": "Machine Learning, Human Behavior Analysis, Privacy Implication Modelling, Human Identification and Localization",
         "socials": {
             "facebook": "https://www.facebook.com",
             "twitter": "https://www.twitter.com",
@@ -910,17 +910,17 @@
         "is_featured": true
     },
     {
-        "id": "isuru-dharmadasa",
-        "name": "Isuru Dharmadasa",
+        "id": "hussain-ahmad",
+        "name": "Hussain Ahmad",
         "designation": "PhD",
         "position": "phdstudents",
-        "introduction": "Isuru Dharmadasa is a PhD student at the School of Computer Science, The University of Adelaide. He graduated from the University of Colombo School of Computing with a first-class honours degree. In addition, he secured the gold medal for the best academic performance in that respective year.  Isuru is currently working under the supervision of Professor Ali Babar and Dr Chadni Islam, with a focus on Software Engineering and Artificial Intelligence research domains.  During his undergraduate life and later as a junior academic member of the University of Colombo, he has contributed to multiple interdisciplinary research projects.",
+        "introduction": "Hussain is a PhD student at the School of Computer Science, University of Adelaide where he has also served as a Research Engineer for almost a year. He is currently working on the cybersecurity of the Command, Control, Communication, and Intelligence (C3I) Systems under the supervision of Professor Ali Babar and Dr Faheem Ullah. With the aim of providing Information Superiority and Operational Efficacy, his research focuses on the development of effective countervailing solutions for the potential attack vectors that could deteriorate the security characteristics of C3I systems. Hussain is also enthusiastic about Machine Learning, Robotics and Data Security. He holds a bachelor degree in Electronic Engineering from GIK Institute, Pakistan.",
         "images": {
-            "large": "../images/team/Isuru.jpg",
-            "medium": "../images/team/Isuru.jpg"
+            "large": "../images/team/Hussain.png",
+            "medium": "../images/team/Hussain.png"
         },
-        "image": "../images/team/Isuru.jpg",
-        "competencies": "Machine Learning, Human Behavior Analysis, Privacy Implication Modelling, Human Identification and Localization",
+        "image": "../images/team/Hussain.png",
+        "competencies": "Cyber Security, Security/Vulnerability Analytics, Risk Assessment, Cyber Impact Analytics, Network Security",
         "socials": {
             "facebook": "https://www.facebook.com",
             "twitter": "https://www.twitter.com",
