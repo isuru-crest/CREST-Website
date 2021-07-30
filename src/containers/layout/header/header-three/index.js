@@ -106,7 +106,7 @@ const Header = ({ props, ...styles }) => {
                             <Col lg={12}>
                                 <HeaderMain top>
                                     <HeaderCol left>
-                                        <a href="https://twitter.com/crest_uofa"><Text color={transparent ? '#fff' : 'textColor'} {...noticeStyle}><strong>Upcoming event: Cyber Security CRC and CREST Cyber Talent Showcase! Check update on our Twitter!</strong></Text></a>
+                                        <a href="https://twitter.com/crest_uofa"><Text color={transparent ? '#fff' : 'textColor'} {...noticeStyle}><strong>Upcoming event: Why do phishing emails still work? Dr Asangi Jayatilaka will present about their current findings on an empirical investigation into email response behaviors.</strong></Text></a>
                                         {/* <Link to="/summer-scholarship"><Text color={transparent ? '#fff' : 'textColor'} {...noticeStyle}><strong>Now Hiring: CREST Summer Internships - Nov 2020 – Feb 2021, 10-12 weeks, full time.</strong></Text></Link> */}
                                     </HeaderCol>
                                     <HeaderCol right>

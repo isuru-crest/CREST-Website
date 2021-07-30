@@ -275,6 +275,42 @@ researchlink,
                     }
                 }
             }
+            bachelorstudents: allTeamsJson(filter: {position: {eq: "bachelorstudents"}}) {
+                edges {
+                    node {
+                        id
+                        name
+                        designation
+                        introduction
+                        socials {
+                            facebook
+                            instagram
+                            twitter
+                        }
+                        competencies,
+researchtopic,
+researchlink,
+                        images {
+                            large {
+                                childImageSharp {
+                                    fluid(maxWidth: 546, maxHeight: 672, quality: 100) {
+                                        ...GatsbyImageSharpFluid_withWebp
+                                        presentationWidth
+                                        presentationHeight
+                                    }
+                                }
+                            }
+                        }
+                        image {
+                            childImageSharp {
+                                fixed(width:150) {
+                                    ...GatsbyImageSharpFixed
+                                  }
+                            }
+                        }
+                    }
+                }
+            }
             collaborators: allTeamsJson(filter: {position: {eq: "collaborators"}}) {
                 edges {
                     node {
@@ -367,7 +403,9 @@ researchlink,
     } else if (position == "masterstudents") {
         headMembers = teamData.masterstudents.edges;
     }
-
+    else if (position == "bachelorstudents") {
+        headMembers = teamData.bachelorstudents.edges;
+    }
     else if (position == "all") {
         headMembers = teamData.allTeamMember.edges;
     }

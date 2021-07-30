@@ -297,6 +297,42 @@ researchlink,
                     }
                 }
             }
+            bachelorstudents: allTeamsJson(filter: {position: {eq: "bachelorstudents"}}) {
+                edges {
+                    node {
+                        id
+                        name
+                        designation
+                        introduction
+                        socials {
+                            facebook
+                            instagram
+                            twitter
+                        }
+                        competencies,
+researchtopic,
+researchlink,
+                        images {
+                            large {
+                                childImageSharp {
+                                    fluid(maxWidth: 546, maxHeight: 672, quality: 100) {
+                                        ...GatsbyImageSharpFluid_withWebp
+                                        presentationWidth
+                                        presentationHeight
+                                    }
+                                }
+                            }
+                        }
+                        image {
+                            childImageSharp {
+                                fixed(width:200) {
+                                    ...GatsbyImageSharpFixed
+                                  }
+                            }
+                        }
+                    }
+                }
+            }
             alumni: allTeamsJson(filter: {position: {eq: "alumni"}}) {
                 edges {
                     node {
@@ -343,6 +379,7 @@ researchlink,
     var collaborators = teamData.collaborators.edges;
     var alumni = teamData.alumni.edges;
     var masterstudents = teamData.masterstudents.edges;
+    var bachelorstudents = teamData.bachelorstudents.edges;
     // if (position == "researchfellows") {
     //     headMembers = teamData.researchfellows.edges;
     // } else if (position == "phdstudents") {
@@ -454,7 +491,7 @@ researchlink,
                 </Row>
                 <Row {...headTeamRowStyle}>
                     {masterstudents && masterstudents.map(headMember => (
-                        <Col md={12} key={headMember.node.id}>
+                        <Col md={6} key={headMember.node.id}>
                             <TeamMember
                                 {...teamStyle}
                                 {...headTeamStyle}
@@ -463,6 +500,26 @@ researchlink,
                                 designation={headMember.node.designation}
                                 social={headMember.node.socials}
                                 link={"/team/masterstudents"}
+                            />
+                        </Col>
+                    ))}
+                </Row>
+                <Row>
+                    <Col lg={12}>
+                        <Heading {...headingStyle}><span>Bachelor Student</span></Heading>
+                    </Col>
+                </Row>
+                <Row {...headTeamRowStyle}>
+                    {bachelorstudents && bachelorstudents.map(headMember => (
+                        <Col md={12} key={headMember.node.id}>
+                            <TeamMember
+                                {...teamStyle}
+                                {...headTeamStyle}
+                                imageSrc={headMember.node.image.childImageSharp}
+                                name={headMember.node.name}
+                                designation={headMember.node.designation}
+                                social={headMember.node.socials}
+                                link={"/team/bachelorstudents"}
                             />
                         </Col>
                     ))}

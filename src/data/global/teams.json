@@ -1272,5 +1272,57 @@
         "researchtopic": "",
         "researchlink": "",
         "is_featured": true
+    },
+    {
+        "id": "bo-li",
+        "name": "Bo Li",
+        "designation": "Master Student",
+        "position": "masterstudents",
+        "introduction": "Bo Li is a Master of Cybersecurity student at University of Adelaide. He graduated from Xidian University, China with a Bachelor of Information security from the Faculty of Telecommunications Engineering. He has worked in the software industry for more than 10 years in several large companies and has extensive experience in software development, software architecture design and agile development. The research project he is currently working on is Automated analysis and recommendation of security incident response plan using Deep learning model under the supervision of Professor Ali Babar and Dr. Chadni Islam. This research project wants to analyze incident response through machine learning and artificial intelligence technology, and generate a guide book for incident response. Discover potential security threats as early as possible through the analysis of incident response data. He is passionate about research projects combining machine learning, artificial intelligence and information security. At the same time, he enjoys the opportunity to work with an excellent team.",
+        "images": {
+            "large": "../images/team/boli.png",
+            "medium": "../images/team/boli.png"
+        },
+        "image": "../images/team/boli.png",
+        "competencies": "",
+        "socials": {
+            "facebook": "https://www.facebook.com",
+            "twitter": "https://www.twitter.com",
+            "instagram": "https://www.instagram.com",
+            "personalwebsite": "",
+            "linkedin": "",
+            "github": "",
+            "googlescholar": ""
+        },
+        "projecturl": "",
+        "researchtopic": "",
+        "researchlink": "",
+        "is_featured": true
+    },
+    {
+        "id": "minhaj-ahmed",
+        "name": "Minhaj Ahmed",
+        "designation": "Bachelor Student",
+        "position": "bachelorstudents",
+        "introduction": "Minhaj Ahmed is a second year Bachelor of Computer Science (Advanced) student at The University of Adelaide. Minhaj has received a scholarship on his admission at The University of Adelaide based on academic merit. His fascination towards research has propelled Minhaj to get involved in project works, and he is working on a project which focuses on studying an existing incident response plan associated with a security attack and identifying the key features of the incident response process. The research is being supervised by Professor M. Ali Babar and Dr. Chadni Islam. The involvement of Artificial Intelligence and Cybersecurity in the topic attracted the interest of Minhaj, and he is excited to leverage on the opportunity to explore techniques related to natural language processing and data analytics.",
+        "images": {
+            "large": "../images/team/minhaj.png",
+            "medium": "../images/team/minhaj.png"
+        },
+        "image": "../images/team/minhaj.png",
+        "competencies": "",
+        "socials": {
+            "facebook": "https://www.facebook.com",
+            "twitter": "https://www.twitter.com",
+            "instagram": "https://www.instagram.com",
+            "personalwebsite": "",
+            "linkedin": "",
+            "github": "",
+            "googlescholar": ""
+        },
+        "projecturl": "",
+        "researchtopic": "",
+        "researchlink": "",
+        "is_featured": true
     }
 ]
