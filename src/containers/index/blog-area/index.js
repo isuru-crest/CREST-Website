@@ -73,11 +73,11 @@ const BlogArea = props => {
                         <Row>
                         <Col md={6} sm={12}>
                           <TwitterTweetEmbed 
-                            tweetId={'1421005552146993152'}/>
+                            tweetId={'1427183931338616838'}/>
                         </Col>
                         <Col md={6} sm={12}>
                           <TwitterTweetEmbed 
-                            tweetId={'1421000506462203905'}/>
+                            tweetId={'1426091220619579395'}/>
                         </Col>
                             {/* {featuredBlogs && featuredBlogs.map(featuredBlog => (
                                 <Col md={6} key={featuredBlog.node.fields.slug}>
