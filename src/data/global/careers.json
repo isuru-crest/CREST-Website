@@ -7,13 +7,13 @@
         "id": "our-open-jobs",
         "jobs": [
             {
-                "id": "postdoc-a",
-                "title": "Postdoc Position",
+                "id": "summer-internship-2021",
+                "title": "Summer Scholarship",
                 "type": "Full time",
-                "description": "$89,610 to $96,007 per annum plus an employer contribution of 9.5% superannuation may apply. Fixed term position for 24 months.",
-                "link": "/grant-funded-researcher-a-school-of-computer-science"
+                "description": "Timeframe and duration – Nov 2021 – Feb 2022, 10-12 weeks, full time.",
+                "link": "/summer-internship-2021"
             },
- 	    {
+            {
                 "id": "job-4",
                 "title": "PhD opportunities",
                 "type": "Full time",
@@ -25,6 +25,13 @@
     {
         "id": "our-closed-jobs",
         "closedjobs": [
+            {
+                "id": "postdoc-a",
+                "title": "Postdoc Position",
+                "type": "Full time",
+                "description": "$89,610 to $96,007 per annum plus an employer contribution of 9.5% superannuation may apply. Fixed term position for 24 months.",
+                "link": "/grant-funded-researcher-a-school-of-computer-science"
+            },
             {
                 "id": "postdoc-position",
                 "title": "Postdoc Position",
