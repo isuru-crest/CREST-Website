@@ -27,7 +27,7 @@ Despite the sophisticated phishing email detection systems, and training and awa
 
 This project aims to develop a novel just-in-time and just-in-place nudging mechanism that will be a part of an email client to raise user awareness; thereby enabling them to take email actions in a more informed and cautious way.
 
-Supervisors: Asangi, Nalin and Ali
+Supervisors: Asangi Jayatilaka , Nalin Asanka Gamagedara Arachchilage and M. Ali Babar
 
 **Project #2: Human security dashboard**
 
@@ -35,7 +35,7 @@ The exponential growth of technological advancements has led to significant grow
 
 This project aims to design a human security dashboard using the existing Cyber Common Operating Picture (CCOP) platform and infrastructure. This human security dashboard will visualise various metrics covering various aspects of human security, including phishing and security training and engagement. The human security dashboard will allow organisations to keep a close eye on how the security risk of an organisation changes due to employees in the organisation and take proactive countermeasures swiftly.
 
-Supervisors: Asangi and Ali
+Supervisors: Asangi Jayatilaka and M. Ali Babar
 
 
 **Project #3: Dynamic big data storage solution cluster scaling in hybrid cloud environments**
@@ -46,7 +46,7 @@ This project would be a continuation of previous work focused on hybrid cloud bi
 
 The expected outcomes of this project include a set of linux tools useful in dynamically scaling big data solution clusters for MongoDB, Cassandra, MySQL, Redis, Spark, Hadoop and Flink. Python, bash programming and networking knowledge would be initial prerequisites for this work. Basic database concepts knowledge woud be beneficial.
 
-Supervisors: Victor and Ali
+Supervisors: Victor Prokhorenko and M. Ali Babar
 
 **Project #4: Library- and network-level patch impact estimation**
 
@@ -56,7 +56,7 @@ This project aims to develop a set of tools to be used prior to applying Windows
 
 Knowledge of Python, bash programming and Powershell would be initial prerequisites for this work. Basic networking knowledge would be beneficial.
 
-Supervisors: Victor and Ali
+Supervisors: Victor Prokhorenko and M. Ali Babar
 
 **Project #5: An Empirical Analysis of Pre- and Post-Release Vulnerabilities**
 
@@ -66,7 +66,7 @@ This naturally poses the question as to why these vulnerabilities have been dete
 
 In this project, we will use quantitative and regression analysis to derive insights into different categories of vulnerabilities. Furthermore, we will investigate how differences in these vulnerabilities can impact downstream tasks, such as predictive modelling. 
 
-Supervisors: Roland and Ali
+Supervisors: Roland Croft and M. Ali Babar
 
 **Project #6: Information Security and Trust Management in Collaborating Robots using encrypted communication and blockchain frameworks**
 
@@ -76,7 +76,7 @@ In this project, we would incorporate Open Wisper Security Protocol in Robot Ope
 
 The student(s) would be able to have development experience with state of the art distributed security communication protocol and blockchain networks for trust management on autonomous robots and ROS.
 
-Supervisors: Aufeef and Ali
+Supervisors: Aufeef Chauhan and M. Ali Babar
 
 **Project #7: Ad-hoc network for secure and reliable communication in collaborating robots at the tactical edge**
 
@@ -84,7 +84,7 @@ Collaborating robots operating at the tactical edge are prone to network outages
 
 In this project, the students will learn how to use multiple ad-hoc network approaches to adopt on the fly on the robots operating at the tactical edge. The students will also learn how to adjust the size of communication, based upon the available network bandwidth.
 
-Supervisors: Aufeef and Ali
+Supervisors: Aufeef Chauhan and M. Ali Babar
 
 **Project #8: Evaluation of the security orchestration, analysis and reporting platform using data from heterogeneous security tools**
 
@@ -92,7 +92,7 @@ Security orchestration, analysis and reporting platform supports security operat
 
 The students will use the already developed project and customise its services to evaluate how the platform performs behaves with different types of data. The students will learn implementing and deploying web services on the cloud, and integration of the platform with a visualisation framework such as Grafana.
 
-Supervisors: Aufeef and Ali
+Supervisors: Aufeef Chauhan and M. Ali Babar
 
 **Project #9: Blockchain Consensus Protocols for Security and Trust at the Edge**
 
@@ -104,7 +104,7 @@ In this project, you will (1) learn about the theory and analysis of distributed
 
 By the end of the project, you are expected to create a dataset of benchmark and analysis results of at least 5 consensus protocols and develop extensions to NVAL to make these benchmark possible.
 
-Supervisors: Nguyen and Ali
+Supervisors: Nguyen Tran and M. Ali Babar
 
 **Project #10: What lies in the resposne plan of cybersecurity incidents? An semantic based automated analysis of cybersecurity incident resposne process**
 
@@ -114,7 +114,7 @@ This project will perform semantics analysis and reasoning of text-based inciden
 
 The expected outcome of this project includes an automation tool that will take text-based response actions as input, extract key elements/ entities from it and then map it with the cybersecurity semantic knowledge base.
 
-Supervisors: Chadni and Ali
+Supervisors: Chadni Islam and M. Ali Babar
 
 **Project #11: Evaluation of Benchmarking Dataset for Data Exfiltration**
 
@@ -122,13 +122,13 @@ Data exfiltration is the process of retrieving, copying, and/or transferring dat
 
 In this work, we aim to evaluate how good/bad is the dataset. We plan to evaluate the dataset to answer the following questions – (i) Whether or not the testbed used for generating the dataset represents a real-world scenario? (ii) How accurately ML/DL approaches classify the instances in the dataset intro respective classes? (iii) Whether or not the datasets is labelled correctly and in a reliable manner? (iv) Whether or not the data is captured in its entirety? (v) Is the dataset skewed significantly towards one particular class (e.g., benign)? (vi) Whether or not sharing the dataset publicly violates any privacy or ethical concerns? 
 
-Supervisors: Faheem and Ali
+Supervisors:  Ullah and M. Ali Babar
 
 ##### For further information
 
 For a confidential discussion regarding to the positions, contact:
 
-Professor Ali Babar
+Professor M. Ali Babar
 
 Email:<ali.babar@adelaide.edu.au> 
 
