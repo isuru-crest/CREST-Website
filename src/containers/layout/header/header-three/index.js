@@ -236,8 +236,8 @@ Header.defaultProps = {
         lineHeight: 1.78
     },
     logoStyle: {
-        pt: '8px',
-        pb: '35px'
+        pt: '16px',
+        pb: '16px'
     },
     phoneElStyle: {
         mr: '20px'
