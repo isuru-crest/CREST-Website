@@ -10,8 +10,8 @@ const Section = ({ markHeading, headingStyle2 }) => {
         <SectionWrap2>
             <Container>
                 <Row style={{ justifyContent: 'space-between', paddingLeft: 20 }}>
-                    <img style={{ height: 140 }} src="https://upload.wikimedia.org/wikipedia/en/thumb/c/ca/University-of-Adelaide-Logo.svg/220px-University-of-Adelaide-Logo.svg.png" alt="University of Adelaide"></img>
-                    <img style={{ height: 140 }} src="https://www.crest-centre.net/static/light-logo-85061522b6bbb627b9a19b56a1ba43ef.png" alt="CREST"></img>
+                    <img style={{ height: 80 }} src="https://upload.wikimedia.org/wikipedia/en/thumb/c/ca/University-of-Adelaide-Logo.svg/220px-University-of-Adelaide-Logo.svg.png" alt="University of Adelaide"></img>
+                    <img style={{ height: 80 }} src="https://www.crest-centre.net/static/light-logo-85061522b6bbb627b9a19b56a1ba43ef.png" alt="CREST"></img>
                 </Row>
                 <br />
                 <br />
@@ -61,9 +61,9 @@ const Section = ({ markHeading, headingStyle2 }) => {
                         <h5 style={{ color: "#315597", fontFamily: "lucida grande" }}>Like to see key highlights of 2020-2021 CREST summer scholarship program?</h5>
                         <br />
                         <p style={{ fontSize: 20 }}>Click on the below link to  know  details of the last year’s summer scholarship program:</p>
-                        <a href="https://bit.ly/3gMTNWr" target="_blank" style={{ fontSize: 20, paddingLeft: 10 }}>•	https://bit.ly/3gMTNWr</a>
+                        <a href="https://bit.ly/3gMTNWr" target="_blank" style={{ fontSize: 20, paddingLeft: 10 }}>•	LinkedIn</a>
                         <br />
-                        <a href="https://twitter.com/hashtag/CRESTSummerProjects2020?src=hashtag_" target="_blank" style={{ fontSize: 20, paddingLeft: 10 }}>•	https://twitter.com/hashtag/CRESTSummerProjects2020?src=hashtag_ </a>
+                        <a href="https://twitter.com/hashtag/CRESTSummerProjects2020?src=hashtag_" target="_blank" style={{ fontSize: 20, paddingLeft: 10 }}>•	Twitter</a>
                         <br />
                         <br />
                         <h5 style={{ color: "#315597", fontFamily: "lucida grande" }}>If you need any more information please contact:</h5>

@@ -106,7 +106,7 @@ const Header = ({ props, ...styles }) => {
                             <Col lg={12}>
                                 <HeaderMain top>
                                     <HeaderCol left>
-                                        <a href="https://www.crest-centre.net/summer-internship-2021"><Text color={transparent ? '#fff' : 'textColor'} {...noticeStyle}><strong>See our summer internship opportunities.</strong></Text></a>
+                                        <a href="https://www.crest-centre.net/summer-research"><Text color={transparent ? '#fff' : 'textColor'} {...noticeStyle}><strong>CREST Summer Projects 2021 are back and seeking talented students.</strong></Text></a>
                                         {/* <Link to="/summer-scholarship"><Text color={transparent ? '#fff' : 'textColor'} {...noticeStyle}><strong>Now Hiring: CREST Summer Internships - Nov 2020 – Feb 2021, 10-12 weeks, full time.</strong></Text></Link> */}
                                     </HeaderCol>
                                     <HeaderCol right>
