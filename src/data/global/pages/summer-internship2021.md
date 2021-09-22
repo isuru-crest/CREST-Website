@@ -124,6 +124,16 @@ In this work, we aim to evaluate how good/bad is the dataset. We plan to evaluat
 
 Supervisors:  Ullah and M. Ali Babar
 
+**Project #12: Metadata augmentation of Combat System Maps**
+
+Combat Management Systems are used to empower naval platforms throughout the world in the execution of their missions. An important feature of a Combat Management System is the ability to visualize a situation and the environment in which it occurs. A ""Map Server"" provides reference information to components, such as user interfaces, that support building a cohesive and consistent picture of the evolving situation for all consumers of the information.
+
+This project aims to build a Map Server of tomorrow that will provide an enhanced map to the end-users. The Map Server will be built by combining the rich contextual data, providing both a graphical picture of what things are at a location, together with more descriptive data that give a richer picture of each entity's capabilities and characteristics.
+
+The expected outcome of this project is a metadata-enabled Combat Management Systems  ""Map Server"" that incorporates the Graphical Information System (GIS). The developed Map Server should provide a deeper level of details about locations or areas, which will be used to conduct a range of analyses and experiments. The effectiveness of the Map Server will be evaluated in manipulating and visualizing the information of the Map Server over traditional maps (augmented with reference information metadata concepts).
+
+Supervisors:  M. Ali Babar and Tim Priest
+
 ##### For further information
 
 For a confidential discussion regarding to the positions, contact:
