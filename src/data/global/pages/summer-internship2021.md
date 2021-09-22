@@ -134,6 +134,24 @@ The expected outcome of this project is a metadata-enabled Combat Management Sys
 
 Supervisors:  M. Ali Babar and Tim Priest
 
+**Project #13: Police Robots: Facilitating coordination using digital rules of engagement**
+
+What if robots and human police worked together to protect and serve the communities of Australia? How would we ensure that these robotic Artificial Intelligence machines adhere to the principles that our human police learn through years of training and working in teams? When confronted with a sticky situation, our police make the best decisions they can based on what we might call "rules of engagement" (or RoE). These rules are spread throughout law and code of conduct, and are written in natural language. As such, this stratification and fuzziness of rules is not particularly suited to AI systems, that typically require precise instructions to make decisions and act accordingly.  
+ 
+This project, hosted by the Human and Autonomous Decision Systems group at DST, will investigate methods and technologies that could form part of the future teaming of robots and human police. We are open to solutions, but this project could involve natural language processing, knowledge graphs, reasoning or a combination of innovative techniques. Whatever the solution, your goal is to help robot police adhere to rules of engagement and as such become key team players in the protection and service of Australian communities.  
+
+Supervisors: Jayson Priest, Dean Philp, Fatena El-Masri and Joshua Charvetto
+
+**Project #14: Distributed Decision Making in a Crisis: How can AI help the Emergency Services**
+
+Emergency services in Australia include Police, Fire (both metropolitan and country), Coast Guard, Surf Lifesaving, Paramedics, State Emergency Service and more. These services regularly work together as heterogeneous teams to address many complex situations, utilising a wide range of capabilities and technologies across a diverse range of environments and scenarios. The individual doctrine, training, policies and governance of these services impacts the way in which the services work together and how communication is handled for human-human teams, human-machine teams and, increasingly, machine-machine teams. 
+ 
+In responding to any emergency (and potentially life-threatening situation) decisions on how to respond are made quickly and with information that ranges in content and quality; leading to potential uncertainty, ambiguity and delay in response. The varying platform capabilities, roles and operator skill levels across heterogeneous information systems of the emergency services add to the response-complexity problem and ability to optimise response planning. The underlying technologies to support emergency service operations must therefore be robust, resilient and adaptive to allow the "who, what, where and when" for agile response planning across the heterogeneous capability environment. 
+ 
+This project, hosted by the Human and Autonomous Decision Systems group at DST, will investigate methods and technologies that could be employed and harnessed to produce solutions to issues such as optimised distributed decision making faced by emergency services and other domains. We are open to solutions, but this project could involve the use of Artificial Intelligence (AI), Machine-Learning (ML), micro-service architectures and self-aware systems or a combination of innovative techniques. Whatever the solution, your goal is to optimise the application of emergency service capabilities in response to critical situations. 
+
+Supervisors: Jayson Priest, Dean Philp, Fatena El-Masri and Joshua Charvetto
+
 ##### For further information
 
 For a confidential discussion regarding to the positions, contact:
