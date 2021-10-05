@@ -25,7 +25,7 @@ const Section = ({ markHeading, headingStyle2 }) => {
                         <br />
                         <br />
                         <h5 style={{ color: "#1F3864", fontFamily: "lucida grande" }}>Location: University of Adelaide, Australia</h5>
-                        <h5 style={{ color: "#1F3864", fontFamily: "lucida grande" }}>Application deadline: 1st October 2021</h5>
+                        <h5 style={{ color: "#1F3864", fontFamily: "lucida grande" }}>Application deadline: 8th October 2021</h5>
                         <br />
                         <h5 style={{ color: "#315597", fontFamily: "lucida grande" }}>Are you ready to:</h5>
                         <br />

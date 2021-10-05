@@ -27,7 +27,7 @@ is_featured: true
 
 #### Location: University of Adelaide, Australia
 
-#### Application deadline :  1 st  October 2021
+#### Application deadline: 8th October 2021
 
 
 ### Are you ready to:
