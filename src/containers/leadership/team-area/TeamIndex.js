@@ -22,6 +22,10 @@ const TeamIndex = ({ sectionStyle, headingStyle, headTeamStyle, headTeamRowStyle
                             facebook
                             instagram
                             twitter
+                            personalwebsite
+                            linkedin
+                            github
+                            googlescholar
                         }
                         competencies,
 researchtopic,
@@ -56,6 +60,10 @@ researchlink,
                             facebook
                             instagram
                             twitter
+                            personalwebsite
+                            linkedin
+                            github
+                            googlescholar
                         }
                         competencies,
 researchtopic,
@@ -92,6 +100,10 @@ researchlink,
                             facebook
                             instagram
                             twitter
+                            personalwebsite
+                            linkedin
+                            github
+                            googlescholar
                         }
                         competencies,
 researchtopic,
@@ -128,6 +140,10 @@ researchlink,
                             facebook
                             instagram
                             twitter
+                            personalwebsite
+                            linkedin
+                            github
+                            googlescholar
                         }
                         competencies,
 researchtopic,
@@ -164,6 +180,10 @@ researchlink,
                             facebook
                             instagram
                             twitter
+                            personalwebsite
+                            linkedin
+                            github
+                            googlescholar
                         }
                         competencies,
 researchtopic,
@@ -200,6 +220,10 @@ researchlink,
                             facebook
                             instagram
                             twitter
+                            personalwebsite
+                            linkedin
+                            github
+                            googlescholar
                         }
                         competencies,
 researchtopic,
@@ -236,6 +260,10 @@ researchlink,
                             facebook
                             instagram
                             twitter
+                            personalwebsite
+                            linkedin
+                            github
+                            googlescholar
                         }
                         competencies,
 researchtopic,
@@ -272,6 +300,10 @@ researchlink,
                             facebook
                             instagram
                             twitter
+                            personalwebsite
+                            linkedin
+                            github
+                            googlescholar
                         }
                         competencies,
 researchtopic,
@@ -308,6 +340,10 @@ researchlink,
                             facebook
                             instagram
                             twitter
+                            personalwebsite
+                            linkedin
+                            github
+                            googlescholar
                         }
                         competencies,
 researchtopic,
@@ -344,6 +380,10 @@ researchlink,
                             facebook
                             instagram
                             twitter
+                            personalwebsite
+                            linkedin
+                            github
+                            googlescholar
                         }
                         competencies,
 researchtopic,
