@@ -116,3 +116,10 @@ export const TeamMemberWrap = styled.div`
         }
     }
 `;
+
+export const IconsWrap = styled.div`
+    margin-bottom: 60px;
+    @media ${device.medium}{
+        margin-bottom: 50px;
+    }
+`;

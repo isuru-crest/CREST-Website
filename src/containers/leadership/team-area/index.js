@@ -13,10 +13,13 @@ import {
     TeamMemberInfo,
     TeamMemberName,
     TeamMemberDesignation,
-    Avator
+    Avator,
+    IconsWrap
 } from './team-area.style'
 import { TiSocialFacebook, TiSocialTwitter, TiSocialInstagram } from "react-icons/ti";
 import { Link } from "gatsby"
+import { FaFacebookSquare, FaTwitter, FaInstagram, FaDribbble, FaGithub, FaLinkedin } from "react-icons/fa";
+import { SiGooglescholar } from "react-icons/si";
 
 const TeamArea = ({ sectionStyle, headingStyle, headTeamStyle, headTeamRowStyle, teamStyle, executiveStyle, position }) => {
     console.log(position)
@@ -34,6 +37,10 @@ const TeamArea = ({ sectionStyle, headingStyle, headTeamStyle, headTeamRowStyle,
                             facebook
                             instagram
                             twitter
+                            personalwebsite
+                            linkedin
+                            github
+                            googlescholar
                         }
                         competencies,
 researchtopic,
@@ -70,6 +77,10 @@ researchlink,
                             facebook
                             instagram
                             twitter
+                            personalwebsite
+                            linkedin
+                            github
+                            googlescholar
                         }
                         competencies,
 researchtopic,
@@ -106,6 +117,10 @@ researchlink,
                             facebook
                             instagram
                             twitter
+                            personalwebsite
+                            linkedin
+                            github
+                            googlescholar
                         }
                         competencies,
 researchtopic,
@@ -142,6 +157,10 @@ researchlink,
                             facebook
                             instagram
                             twitter
+                            personalwebsite
+                            linkedin
+                            github
+                            googlescholar
                         }
                         competencies,
 researchtopic,
@@ -178,6 +197,10 @@ researchlink,
                             facebook
                             instagram
                             twitter
+                            personalwebsite
+                            linkedin
+                            github
+                            googlescholar
                         }
                         competencies,
 researchtopic,
@@ -214,6 +237,10 @@ researchlink,
                             facebook
                             instagram
                             twitter
+                            personalwebsite
+                            linkedin
+                            github
+                            googlescholar
                         }
                         competencies,
 researchtopic,
@@ -250,6 +277,10 @@ researchlink,
                             facebook
                             instagram
                             twitter
+                            personalwebsite
+                            linkedin
+                            github
+                            googlescholar
                         }
                         competencies,
 researchtopic,
@@ -286,6 +317,10 @@ researchlink,
                             facebook
                             instagram
                             twitter
+                            personalwebsite
+                            linkedin
+                            github
+                            googlescholar
                         }
                         competencies,
 researchtopic,
@@ -322,6 +357,10 @@ researchlink,
                             facebook
                             instagram
                             twitter
+                            personalwebsite
+                            linkedin
+                            github
+                            googlescholar
                         }
                         competencies,
 researchtopic,
@@ -358,6 +397,10 @@ researchlink,
                             facebook
                             instagram
                             twitter
+                            personalwebsite
+                            linkedin
+                            github
+                            googlescholar
                         }
                         competencies,
 researchtopic,
@@ -433,15 +476,15 @@ researchlink,
                                                 <Img
                                                     fixed={headMember.node.image.childImageSharp.fixed}
                                                 />
-                                                {headMember.node.socials && (
-                                                    <TeamMemberSocialWrap>
-                                                        <Social {...headTeamStyle}>
-                                                            {headMember.node.socials.facebook && <SocialLink title="Facebook" path={headMember.node.socials.facebook}><TiSocialFacebook /></SocialLink>}
-                                                            {headMember.node.socials.twitter && <SocialLink title="Twitter" path={headMember.node.socials.twitter}><TiSocialTwitter /></SocialLink>}
-                                                            {headMember.node.socials.instagram && <SocialLink title="Instagram" path={headMember.node.socials.instagram}><TiSocialInstagram /></SocialLink>}
-                                                        </Social>
-                                                    </TeamMemberSocialWrap>
-                                                )}
+
+                                                {/* <TeamMemberSocialWrap>
+                                                    <Social {...headTeamStyle}>
+                                                        {headMember.node.socials.facebook && <SocialLink title="Facebook" path={headMember.node.socials.facebook}><TiSocialFacebook /></SocialLink>}
+                                                        {headMember.node.socials.twitter && <SocialLink title="Twitter" path={headMember.node.socials.twitter}><TiSocialTwitter /></SocialLink>}
+                                                        {headMember.node.socials.instagram && <SocialLink title="Instagram" path={headMember.node.socials.instagram}><TiSocialInstagram /></SocialLink>}
+                                                    </Social>
+                                                </TeamMemberSocialWrap> */}
+
                                             </TeamMemberImage>
                                             <br />
                                             <JobTitle>{headMember.node.name}</JobTitle>
@@ -451,6 +494,34 @@ researchlink,
                                                     <JobDesc>{headMember.node.researchtopic}</JobDesc>
                                                 </Link>
                                             }
+                                            <IconsWrap>
+                                                <Social size="small">
+                                                    {headMember.node.socials.googlescholar != "" && <SocialLink path={headMember.node.socials.googlescholar}>
+                                                        <SiGooglescholar />
+                                                    </SocialLink>}
+                                                    {headMember.node.socials.linkedin != "" && <SocialLink path={headMember.node.socials.linkedin}>
+                                                        <FaLinkedin />
+                                                    </SocialLink>}
+                                                    {headMember.node.socials.twitter != "" && <SocialLink path={headMember.node.socials.twitter}>
+                                                        <FaTwitter />
+                                                    </SocialLink>}
+                                                    {headMember.node.socials.personalwebsite != "" && <SocialLink path={headMember.node.socials.personalwebsite}>
+                                                        <FaDribbble />
+                                                    </SocialLink>}
+                                                    {headMember.node.socials.github != "" && <SocialLink path={headMember.node.socials.github}>
+                                                        <FaGithub />
+                                                    </SocialLink>}
+                                                    {headMember.node.socials.facebook != "" && <SocialLink path={headMember.node.socials.facebook}>
+                                                        <FaFacebookSquare />
+                                                    </SocialLink>}
+                                                    {headMember.node.socials.instagram != "" && <SocialLink path={headMember.node.socials.instagram}>
+                                                        <FaInstagram />
+                                                    </SocialLink>}
+
+
+
+                                                </Social>
+                                            </IconsWrap>
                                             {/* <JobType>{headMember.node.designation}</JobType> */}
                                         </TeamMemberImageAndName>
                                     </Col>
